@@ -1,9 +1,6 @@
 .App {
-position: relative;
+position: absolute;
 text-align: center;
 background: #FFFFFF;
-align-items: center;
-min-width: 1500;
-scale: no;
 }
 

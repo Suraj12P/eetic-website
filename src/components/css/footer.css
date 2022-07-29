@@ -1,9 +1,9 @@
 .footer{
 position: relative;
 height: 501px;
-left: 1px;
 top: 2176px;
-
+width: 100%;
+max-width: 2000px;
 background: #242731;
 }
 .whiteText{

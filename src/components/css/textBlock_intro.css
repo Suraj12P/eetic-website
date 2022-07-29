@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
 .textBlock_intro{
     background: #FFFFFF;
-    position: relative;
-    top:30px;
+    position: absolute;
+    top:90px;
     text-align: left;
     height: 353px;
     padding: 66px;
@@ -37,13 +36,13 @@
     
 }
 .showReel{
-    height: 502px;
-    width: 502px;
+    height: 592px;
+    width: 592px;
     padding: 20px;
     border-radius: 50%;
     object-fit:cover;
     position: absolute;
-    left:1155px;
+    left:1110px;
     top: 74px;
     scale: 10%;
     z-index: 1;
@@ -51,20 +50,29 @@
 }
 .arc{
     position: absolute;
-    left:1150px;
-    top: 70px;
+    height: 592px;
+    left:1110px;
+    top: 75px;
     z-index: 0;
     user-select: none;
 }
 .left{
     position: absolute;
-    top: 300px;
-    left: 1100px;
+    top: 350px;
+    left: 1050px;
     user-select: none;
+}
+.left:hover{
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 100%;
+}
+.right:hover{
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 100%;
 }
 .right{
     position: absolute;
-    top: 300px;
-    left: 1680px;
+    top: 350px;
+    left: 1725px;
     user-select: none;
 }

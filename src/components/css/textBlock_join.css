@@ -1,8 +1,62 @@
 .textBlock_join{
 position: relative;
 height: 550px;
-left: 0px;
+width: 100%;
+min-width: 1905px;
 top: 802px;
-
 background: #FFF7F4;
+font-family: 'Poppins';
+font-size: 22px;
+}
+
+.ball{
+    width: 70px;
+    height: 70px;
+}
+
+.b1{
+    position: absolute;
+    left: 90px;
+    top:139px;
+}
+.b2{
+    position: absolute;
+    left: 90px;
+    top:311px;
+}
+.b3{
+    position: absolute;
+    right: 90px;
+    top: 225px;
+}
+.b4{
+    position: absolute;
+    right: 90px;
+    top:397px;
+}
+.text_left{
+    color: #595D6B;
+    position: absolute;
+    top:30%;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 1000px;
+    text-align: left;
+}
+.text_right{
+    color: #595D6B;
+    position: absolute;
+    top:30%;
+    padding-left: 100px;
+    padding-right: 100px;
+    right: 30px;
+    width: 10000px;
+    text-align: end;
+}       
+.title{
+    position: relative;
+    top: 40px;
+    color: #242731;
+    font-size: 36px;
+    font-weight: 200;
 }
