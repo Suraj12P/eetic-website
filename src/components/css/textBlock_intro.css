@@ -1,0 +1,78 @@
+.textBlock_intro{
+    background: #FFFFFF;
+    position: absolute;
+    top:90px;
+    text-align: left;
+    height: 353px;
+    padding: 66px;
+    font-family: 'Poppins';
+}
+.p1{
+    font-size: 58px;
+    line-height: 87px;
+    width: 674px;
+}
+.p2{
+    font-size: 52px;
+    line-height: 65px;
+    width: 674px;
+    color: #FF845E;
+}
+.p3{
+    font-size: 20px;
+    line-height: 30px;
+    width: 674px;
+    color: #595D6B;
+}
+.btn.btn-outlined{
+    height: 51px;
+    width:147px;
+    position: absolute;
+    border-radius: 50px;
+    border-color: #FF845E;
+    font-size: 20px;
+    color:#595D6B;
+   
+    
+}
+.showReel{
+    height: 592px;
+    width: 592px;
+    padding: 20px;
+    border-radius: 50%;
+    object-fit:cover;
+    position: absolute;
+    left:1110px;
+    top: 74px;
+    scale: 10%;
+    z-index: 1;
+    user-select: none;
+}
+.arc{
+    position: absolute;
+    height: 592px;
+    left:1110px;
+    top: 75px;
+    z-index: 0;
+    user-select: none;
+}
+.left{
+    position: absolute;
+    top: 350px;
+    left: 1050px;
+    user-select: none;
+}
+.left:hover{
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 100%;
+}
+.right:hover{
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 100%;
+}
+.right{
+    position: absolute;
+    top: 350px;
+    left: 1725px;
+    user-select: none;
+}

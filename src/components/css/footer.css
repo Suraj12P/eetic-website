@@ -1,0 +1,52 @@
+.footer{
+position: relative;
+height: 501px;
+top: 2176px;
+width: 100%;
+max-width: 2000px;
+background: #242731;
+color: #FFFFFF;
+font-family: 'Poppins';
+align-items: center;
+}
+.whiteText{
+    font-size: 30px;
+    position: relative;
+    top: 333px;
+}
+.circle{
+    border-radius: 100%;
+    background-color: #595D6B;
+    height: 68px;
+    width: 67px;
+    align-items: center;
+    align-content: center;
+    padding: 16px;
+}
+.twitter_img{
+    position: relative;
+    left: -3px;
+    top:-2px;
+}
+.linkedin_img{
+    position: relative;
+    top:3px;
+
+}
+.whatsapp_img{
+    left:3px;
+    top: 3px;
+}
+.share_links{
+    position: absolute;
+    height: 67px;
+    width: 472px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 36px;
+    top:390px;
+    left:710px;
+}
+.circle:hover{
+    background-color: #FF845E;
+}

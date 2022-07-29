@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
+.navbar.navbar-expand.navbar-light{
+background: #FFFFFF;
+height: 100%;
+}
+.navbox{
+    box-shadow: 0px 4px 26px rgba(186, 186, 186, 0.2);
+    height: 81px;
+    width: 100%;
+    min-width: 1900px;
+    background: #FFFFFF;
+    align-items:center;
+    font-family: 'Poppins';
+}
+
+
+
+.btn.btn-primary{
+    height: 51px;
+    width:147px;
+    left: 1700px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: #FF845E;
+    border-color: #ee9276;
+    font-size: 20px;
+   
+    
+}
+.btn.btn-primary:hover{
+    background-color: #fa9c7f;
+    border-color: #FF845E;
+}
+.btn.btn-primary.btn.btn-primary:focus{
+    background-color: #FF845E;
+    border-color: #ee9276;
+    box-shadow: 0px 0px 0px 1px #e79e87;
+}
+.logo{
+    position: absolute;
+    top: 14px;
+    font-style:normal;
+    font-weight: 600;
+    font-size: 32px; 
+    line-height: 48px; 
+    user-select: none; 
+    color: #595D6B;
+}
+.l1{
+    left: 50px;
+    color: transparent; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.l2{
+    left: 50px;
+    color: #FF845E;
+    }
+.l3{
+    left: 133px;
+    color: #000000;
+    }
+
+.links{
+    position: relative;
+    top: 0px;
+    font-size: 21px; 
+    user-select: none; 
+    display: grid;
+    text-align: left;
+    left:700px;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 60px;
+}
+
+
+.signIn{
+    position: absolute;
+    font-size: 21px; 
+    user-select: none; 
+    display: grid;
+    text-align: left;
+    left: 1560px; 
+    top: 16;
+}
+
+
+
+.mouse:hover{
+    color: #FF845E;
+}

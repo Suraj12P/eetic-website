@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React from "react";
+import "@fontsource/poppins";
 import './App.css';
 
+
+import NavBar from './components/navBar';
+import CardPanel from './components/cardPanel';
+import TextIntro from './components/textBlock_intro';
+import TextJoin from './components/textBlock_join';
+import Footer from "./components/footer";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar/>
+      <TextIntro/>
+      <TextJoin/>
+      <Footer/>
     </div>
   );
 }
