@@ -48,8 +48,9 @@ function navBar() {
   return (
     <Navbar collapseOnSelect expand="lg"  variant="light" className="navbar">
       <Container>
-        <Navbar.Brand href="#home">
-          EETICommunity
+        <Navbar.Brand href="#home" className="brand">
+          <span style={{color: "#FF845E"}}>EETIC</span>
+          <span>ommunity</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
