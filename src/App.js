@@ -14,7 +14,7 @@ function App() {
       <NavBar/>
       {/* <TextIntro/> */}
       {/* <TextJoin/> */}
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }
