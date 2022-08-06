@@ -47,13 +47,13 @@ function Footer() {
             <li class="list-inline-item me-4">
             <a href={info.phone}><IoLogoWhatsapp size="1.5em" color="grey"/></a>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item me-4">
             <a href={info.facebook}><IoLogoFacebook size="1.5em" color="grey"/></a>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item me-4">
             <a href={info.instagram}><IoLogoInstagram size="1.5em" color="grey"/></a>
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item me-4">
             <a href={info.twitter}><IoLogoTwitter size="1.5em" color="grey"/></a>
             </li>
         </ul>
