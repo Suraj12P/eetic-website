@@ -43,15 +43,22 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function navBar() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+    <Navbar collapseOnSelect expand="lg"  variant="light" className="navbar">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          EETICommunity
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <NavDropdown title="Dropdown" id="collapsible-nav-dropdown">
+            <Nav.Link href="#home" className="navText" >Home</Nav.Link>
+            <Nav.Link href="#events" className="navText" >Events</Nav.Link>
+            <Nav.Link href="#about" className="navText" >About Us</Nav.Link>
+            <Nav.Link href="#team" className="navText" >Team</Nav.Link>
+            <Nav.Link href="#signIn" className="navText" >Sign In</Nav.Link>
+            <Nav.Link href="#signUp" className="navText" >Sign Ip</Nav.Link>
+            
+            {/* <NavDropdown title="Dropdown" id="collapsible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -61,14 +68,14 @@ function navBar() {
               <NavDropdown.Item href="#action/3.4">
                 Separated link
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
-          <Nav>
+          {/* <Nav>
             <Nav.Link href="#deets">More deets</Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
               Dank memes
             </Nav.Link>
-          </Nav>
+          </Nav> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>
