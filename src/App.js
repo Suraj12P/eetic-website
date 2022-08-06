@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <TextIntro/>
-      <TextJoin/>
-      <Footer/>
+      {/* <TextIntro/> */}
+      {/* <TextJoin/> */}
+      {/* <Footer/> */}
     </div>
   );
 }
