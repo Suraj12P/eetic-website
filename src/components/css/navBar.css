@@ -92,16 +92,17 @@ height: 100%;
     color: #FF845E;
 } */
 
+/* ================================================================================================ */
 
 /* constants  */
 
-:root{
-    --primary-white:#fff;
-    --primary-orange:#f9ab00;
-    --primary-grey-blue:#595d6b;
-  }
+:root {
+    --primary-white: #fff;
+    --primary-orange: #f9ab00;
+    --primary-grey-blue: #595d6b;
+}
 
- /* navbar */
+/* navbar */
 
 .navbar {
 
@@ -109,19 +110,57 @@ height: 100%;
 
 }
 
-.navText{
+.navText {
     font-family: 'Poppins';
     font-weight: medium;
-    font-size: 21px; 
-    user-select: none; 
-    color: var(--primary-grey-blue) !important;;
+    font-size: 21px;
+    user-select: none;
+    color: var(--primary-grey-blue) !important;
+    ;
 
 }
 
-.navText:hover{
+.navText:hover {
     color: var(--primary-orange) !important;
 }
 
-.active{
+.active {
     color: var(--primary-orange) !important;
-  }
+}
+
+/* nav Button  */
+
+.signInUpButton {
+    position: relative;
+    margin:  auto;
+    padding: 1.5rem;
+    /* height: 50px; */
+    border-radius: 50px !important;
+}
+
+.signUp{
+    background-color: var(--primary-orange) !important;;    
+    border-color:var(--primary-orange)   !important;
+
+}
+.signUp:hover{
+    background-color: var(--primary-white) !important;;    
+    color: var(--primary-grey-blue) !important;  
+    border-color: var(--primary-orange) !important;
+}
+
+.signIn{
+    background-color: var(--primary-white) !important;
+    color: var(--primary-grey-blue) !important;  
+    border-color: var(--primary-white) !important;
+
+}
+
+.signIn:hover{
+    background-color: var(--primary-orange) !important;;    
+    color: var(--primary-grey-blue) !important;  
+    border-color: var(--primary-orange) !important;
+}
+
+/* Brand */
+

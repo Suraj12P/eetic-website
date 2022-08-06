@@ -76,9 +76,8 @@ function navBar() {
             <Nav.Link eventKey={2} href="#memes">
               Dank memes
             </Nav.Link> */}
-            <Nav.Link href="#signIn" className="navText" >Sign In</Nav.Link>
-            <Nav.Link href="#signUp" className="navText" >Sign Up</Nav.Link>
-            
+            <Nav.Link href="#signIn" className="navText" ><Button className="signInUpButton signIn">Sign In</Button></Nav.Link>
+            <Nav.Link href="#signUp" className="navText " ><Button className=" signUp signInUpButton">Sign Up</Button></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
