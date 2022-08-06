@@ -40,6 +40,9 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import './css/navBar.css';
+import Button from "react-bootstrap/Button";
+
 
 function navBar() {
   return (
@@ -55,8 +58,6 @@ function navBar() {
             <Nav.Link href="#events" className="navText" >Events</Nav.Link>
             <Nav.Link href="#about" className="navText" >About Us</Nav.Link>
             <Nav.Link href="#team" className="navText" >Team</Nav.Link>
-            <Nav.Link href="#signIn" className="navText" >Sign In</Nav.Link>
-            <Nav.Link href="#signUp" className="navText" >Sign Ip</Nav.Link>
             
             {/* <NavDropdown title="Dropdown" id="collapsible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -70,12 +71,15 @@ function navBar() {
               </NavDropdown.Item>
             </NavDropdown> */}
           </Nav>
-          {/* <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
+          <Nav>
+            {/* <Nav.Link href="#deets">More deets</Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
               Dank memes
-            </Nav.Link>
-          </Nav> */}
+            </Nav.Link> */}
+            <Nav.Link href="#signIn" className="navText" >Sign In</Nav.Link>
+            <Nav.Link href="#signUp" className="navText" >Sign Up</Nav.Link>
+            
+          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>

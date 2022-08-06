@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
+
+/* 
 .navbar.navbar-expand.navbar-light{
 background: #FFFFFF;
 height: 100%;
@@ -88,4 +90,38 @@ height: 100%;
 
 .mouse:hover{
     color: #FF845E;
+} */
+
+
+/* constants  */
+
+:root{
+    --primary-white:#fff;
+    --primary-orange:#f9ab00;
+    --primary-grey-blue:#595d6b;
+  }
+
+ /* navbar */
+
+.navbar {
+
+    box-shadow: 0px 4px 26px rgba(186, 186, 186, 0.2);
+
 }
+
+.navText{
+    font-family: 'Poppins';
+    font-weight: medium;
+    font-size: 21px; 
+    user-select: none; 
+    color: var(--primary-grey-blue) !important;;
+
+}
+
+.navText:hover{
+    color: var(--primary-orange) !important;
+}
+
+.active{
+    color: var(--primary-orange) !important;
+  }
