@@ -1,10 +1,31 @@
-.cardPanel{
-position: relative;
-height: 542px;
-top: 1506px;
-overflow-x: scroll;
-overflow: hidden;
-display:grid;   
-grid-template-columns: repeat(7, 420px);
-grid-gap: 1rem;
+.cardPanel {
+  position: relative;
+  height: auto;
+  margin: auto;
+  /* top: 1506px; */
+  /* overflow-x: scroll;
+  overflow: hidden; */
+  
+  /* grid-template-columns: repeat(7, 420px);
+  grid-gap: 1rem; */
+}
+
+.upcoming,.closed{
+
+  padding: 80px 60px 60px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center ;
+  gap: 64px;
+}
+
+.top-0{
+  top: 10px !important;
+}
+@media(max-width:425px){
+  .upcoming,.closed{
+    padding: 20px;
+    padding-top: 80px;
+  }
 }
