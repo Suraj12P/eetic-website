@@ -1,21 +1,21 @@
 import React from "react";
 import "@fontsource/poppins";
 import "./App.css";
-
-import NavBar from "./components/navBar";
-import TextIntro from "./components/textBlock_intro";
-import TextJoin from "./components/textBlock_join";
-import Footer from "./components/footer";
+import Home from "./pages/Home";
 import Events from "./pages/Events";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      {/* <NavBar /> */}
-      {/* <TextIntro/> */}
-      {/* <TextJoin/> */}
-      <Events />
-      {/* <Footer /> */}
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/events" element={<Events />} />
+          {/* <Route exact path="/about/us" element={} /> */}
+          {/* <Route exact path="/team" element={} /> */}
+        </Routes>
+      </Router>
     </div>
   );
 }
