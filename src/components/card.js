@@ -33,7 +33,7 @@ function EventCard({ data }) {
             <span className="date">
               {`Date : ${new Date(data.start_date).getDate()}/${new Date(
                 data.start_date
-              ).getMonth()}/${new Date(data.start_date).getFullYear()}`}{" "}
+              ).getMonth()+1}/${new Date(data.start_date).getFullYear()}`}{" "}
             </span>
 
             <span className="time">{`Time : ${new Date(
@@ -67,7 +67,7 @@ function EventCard({ data }) {
           <span className="det-date">
             {`Date : ${new Date(data.start_date).getDate()}/${new Date(
               data.start_date
-            ).getMonth()}/${new Date(data.start_date).getFullYear()}`}{" "}
+            ).getMonth()+1}/${new Date(data.start_date).getFullYear()}`}{" "}
           </span>
 
           <span className="det-time">{`Time : ${new Date(
@@ -88,7 +88,7 @@ function EventCard({ data }) {
             class="register-closed btn btn-primary"
             disabled="true"
           >
-            Register Closed
+            Registration Closed
           </button>
         )}
       </div>

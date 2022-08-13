@@ -113,10 +113,9 @@ height: 100%;
 .navText {
     font-family: 'Poppins';
     font-weight: medium;
-    font-size: 21px;
+    /* font-size: 21px; */
     user-select: none;
     color: var(--primary-grey-blue) !important;
-    ;
 
 }
 
@@ -133,7 +132,7 @@ height: 100%;
 .signInUpButton {
     position: relative;
     margin: auto;
-    padding: 1.5rem;
+    padding: 6px 12px;
     /* height: 50px; */
     border-radius: 50px !important;
 }
