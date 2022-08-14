@@ -113,3 +113,16 @@
     border-color: var(--primary-orange) !important;
     color: var(--primary-white) !important;
 }
+
+.vertical-center {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .img_reel{
+    height: 25rem;
+    width: 30rem;
+  }

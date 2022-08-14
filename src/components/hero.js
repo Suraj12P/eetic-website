@@ -59,16 +59,17 @@ function Hero(options) {
         </Col>
         <Col className="">
           <Container className="container p-4">
-            <Row>
-              <Col className="flex-shrink-1 bg-info">
-                <img src={left_arrow} className="reel_nav_arrow" onClick={left} alt="prev" />
+            <Row className="justify-content-md-center">
+              <Col className=" bg-info">
+                <img src={left_arrow} className="vertical-center reel_nav_arrow" onClick={left} alt="prev" />
 
               </Col>
-              <Col className="flex-grow bg-warning">
-                2 of 3
+              <Col className=" bg-warning">
+              <img src={IMAGES[i]} alt="" className="img_reel"/>
+
                 </Col>
-              <Col className="flex-shrink-1 bg-success">
-              <img src={right_arrow} className="reel_nav_arrow" onClick={left} alt="next" />
+              <Col className=" bg-success">
+              <img src={right_arrow} className="vertical-center reel_nav_arrow" onClick={left} alt="next" />
                 
                 </Col>
             </Row>
