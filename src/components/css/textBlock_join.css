@@ -1,4 +1,4 @@
-.textBlock_join{
+/* .community_why{
 position: relative;
 height: 550px;
 width: 100%;
@@ -59,4 +59,21 @@ font-size: 22px;
     color: #242731;
     font-size: 36px;
     font-weight: 200;
+} */
+
+
+/* ----------------------------------------------------------------------*/
+
+.community_why{
+    background-color: #FFF7F4;
+}
+
+.header{
+    color: #242731;
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.txt_1{
+    /* vertical-align: middle; */
 }
