@@ -38,7 +38,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+// import NavDropdown from "react-bootstrap/NavDropdown";
 import "./css/navBar.css";
 import Button from "react-bootstrap/Button";
 
@@ -59,7 +59,7 @@ function navBar() {
             <Nav.Link href="/events" className="navText">
               Events
             </Nav.Link>
-            <Nav.Link href="/about/us" className="navText">
+            <Nav.Link href="/aboutus" className="navText">
               About Us
             </Nav.Link>
             <Nav.Link href="/team" className="navText">

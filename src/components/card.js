@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/card.css";
 import cardimg from "../images/cardimg.svg";
@@ -23,7 +21,7 @@ function EventCard({ data }) {
         <img
           //   src={data.poster_url}
           src={cardimg}
-          alt="card image/poster"
+          alt="card"
           className="position-absolute"
         />
         <div className="text">

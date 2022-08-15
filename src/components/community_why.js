@@ -1,7 +1,7 @@
 import React from "react";
 import './css/community_why.css';
 import ball from './site_images/ball.svg'
-function Community_why() {
+function CommunityWhy() {
   return (
     <div className="community_why">
       <div className="header p-4">
@@ -98,4 +98,4 @@ function Community_why() {
   );
 }
 
-export default Community_why;
+export default CommunityWhy;

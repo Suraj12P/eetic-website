@@ -56,7 +56,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import React from "react";
 import './css/carousel.css';
-import { Image, Container } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 
 
 function ImgReel() {
