@@ -1,7 +1,6 @@
 import React from "react";
 import './css/community_why.css';
 import ball from './site_images/ball.svg'
-import { Container, Row, Col } from "react-bootstrap";
 function Community_why() {
   return (
     <div className="community_why">

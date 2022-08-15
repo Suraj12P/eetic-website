@@ -3,7 +3,6 @@ import NavBar from "../components/navBar";
 import Hero from "../components/hero";
 import Community_why from "../components/community_why";
 import Footer from "../components/footer";
-import UnderDev from "../pages/UnderDev";
 const Home = () => {
   return (
     <div>
