@@ -5,7 +5,7 @@ import IMAGES from "..";
 import arc from './site_images/arc.svg'
 import left_arrow from './site_images/arrow-left.svg';
 import right_arrow from './site_images/arrow-right.svg';
-import IndividualIntervalsExample from './carousel';
+import ImgReel from './carousel';
 
 
 
@@ -32,8 +32,8 @@ function Hero(options) {
           </Container>
         </Col>
         <Col lg className="p-4 md-6">
-          <Container className="container p-4">
-            <IndividualIntervalsExample/>
+          <Container className=" p-4">
+            <ImgReel/>
           </Container>
         </Col>
       </Row>

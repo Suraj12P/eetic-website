@@ -57,7 +57,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import React from "react";
 import './css/carousel.css';
 import { Image, Container } from "react-bootstrap";
-function IndividualIntervalsExample() {
+
+
+function ImgReel() {
   return (
 
     <Carousel>
@@ -115,4 +117,4 @@ function IndividualIntervalsExample() {
   );
 }
 
-export default IndividualIntervalsExample;
+export default ImgReel;
