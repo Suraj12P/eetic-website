@@ -7,8 +7,8 @@ function Hero(options) {
   return (
     <div className="hero">
       <Row>
-        <Col lg className="p-4 md-4 column1">
-          <Container className="container p-4">
+        <Col lg className=" md-4 column1" style={{"max-width":"100vw !important"}}>
+          <Container className="container">
             <div>
               <h1 className="text-start">
                 One of the biggest Student Community
@@ -30,8 +30,10 @@ function Hero(options) {
             </div>
           </Container>
         </Col>
-        <div className="p-4 md-4 w-auto">
+        <div className="carousal-container p-4 md-4 w-auto">
           {/* <Container className="w-auto p-4"> */}
+          {/* <div className="arc"></div>
+          <div className="dashes"></div> */}
           <ImgReel />
           {/* </Container> */}
         </div>

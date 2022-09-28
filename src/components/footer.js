@@ -21,6 +21,7 @@
 
 // export default footer;
 
+import { toBeRequired } from "@testing-library/jest-dom/dist/matchers";
 import React from "react";
 import { Image } from "react-bootstrap";
 import {
@@ -30,6 +31,7 @@ import {
   IoLogoInstagram,
   IoLogoFacebook,
 } from "react-icons/io";
+import { Link } from "react-router-dom";
 import { info } from "../data/info";
 import "./css/footer.css";
 
@@ -39,8 +41,12 @@ function Footer() {
       <div className="f-container">
         <div className="f-top">
           <div className="logo">
-            <Image className="f-logo" src={require("./site_images/logo.svg")} />
-            <Image className="title" src={require("./site_images/title.svg")} />
+            <Link to="/">
+              <Image
+                className="f-logo"
+                src={require("./site_images/eeti foundation-white.svg")}
+              />
+            </Link>
           </div>
           <div className="company">
             <span>

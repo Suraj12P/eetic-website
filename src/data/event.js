@@ -2,7 +2,7 @@ export const event_data = [
   {
     event_name: "event_name 1",
     host_name: "host_name 1",
-    start_date: "2022-07-23T09:30",
+    start_date: "2022-10-23T09:30",
     end_date: 1660049177,
     category: "category 1",
     registration_fee: "registration_fee 1",
@@ -15,7 +15,7 @@ export const event_data = [
   {
     event_name: "event_name 2",
     host_name: "host_name 2",
-    start_date: "2022-08-10T09:30",
+    start_date: "2022-11-10T09:30",
     end_date: 1660049117,
     category: "category 2",
     registration_fee: "registration_fee 2",
@@ -28,7 +28,7 @@ export const event_data = [
   {
     event_name: "event_name 3",
     host_name: "host_name 3",
-    start_date: "2022-08-23T09:30",
+    start_date: "2022-12-23T09:30",
     end_date: 1660049057,
     category: "category 3",
     registration_fee: "registration_fee 3",
@@ -41,7 +41,7 @@ export const event_data = [
   {
     event_name: "event_name 4",
     host_name: "host_name 4",
-    start_date: "2022-07-20T09:30",
+    start_date: "2022-10-20T09:30",
     end_date: 1660048997,
     category: "category 4",
     registration_fee: "registration_fee 4",
@@ -80,7 +80,7 @@ export const event_data = [
   {
     event_name: "event_name 7",
     host_name: "host_name 7",
-    start_date: "2022-08-30T09:30",
+    start_date: "2022-11-30T09:30",
     end_date: 1660048817,
     category: "category 7",
     registration_fee: "registration_fee 7",

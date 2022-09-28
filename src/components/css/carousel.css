@@ -23,40 +23,13 @@
   object-fit: fill;
 }
 
-/* ======================================= */
-.arc {
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 522px;
-  height: 522px;
-  right: 0px;
-  top: 178px;
-
-  border: 6px solid rgba(89, 93, 107, 0.6);
-  border-radius: 50%;
-}
-
-.dashes {
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 522px;
-  height: 522px;
-  left: 905.11px;
-  top: 429.82px;
-
-  border: 4px dashed #ff845e;
-  border-radius: 50%;
-  /* clip-path: polygon(); */
-
-}
-/* ======================================== */
-
 @media (max-width: 768px) {
   .carousel {
-    margin-top: 20px;
-    margin-left: 125px;
+    /* max-width: calc(100% - 24px); */
+  }
+
+  .arc,.dashes{
+    display: none;
   }
 }
 
