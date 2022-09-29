@@ -7,7 +7,11 @@ function Hero(options) {
   return (
     <div className="hero">
       <Row>
-        <Col lg className=" md-4 column1" style={{"max-width":"100vw !important"}}>
+        <Col
+          lg
+          className=" md-4 column1"
+          style={{ "max-width": "100vw !important" }}
+        >
           <Container className="container">
             <div>
               <h1 className="text-start">
@@ -15,7 +19,7 @@ function Hero(options) {
               </h1>
             </div>
             <div>
-              <h1 className="brand_text text-start">EETIC Community</h1>
+              <h1 className="brand_text text-start">EETI Foundation</h1>
             </div>
             <div>
               <h5 className="text-start text_info">
