@@ -49,7 +49,7 @@
   bottom: 0;
   height: 100%;
   width: 100%;
-  object-fit:cover;
+  object-fit: cover;
 }
 .card-details {
   height: 100%;
@@ -163,7 +163,8 @@ span.company {
   border-radius: 50px;
 }
 
-.register,.register-closed{
+.register,
+.register-closed {
   position: absolute;
   bottom: 20px;
   right: 50%;
@@ -177,15 +178,44 @@ span.company {
 }
 .register-closed {
   background-color: var(--parimary-white) !important;
+}
 
+.register-closed {
+  width: 80%;
+}
+
+.yt {
+  max-width: 100%;
+}
+
+p.desc {
+  max-height: 120px;
+  overflow-y: scroll;
 }
 
 @media (max-width: 425px) {
   .det-container {
     margin-bottom: 10px;
   }
-  img {
-    bottom: -10%;
+
+  .register-closed {
+    width: 90%;
+    height: 30px !important;
+    padding: 2px 0 !important;
+  }
+  .yt {
+    height: 100%;
+    width: auto;
+  }
+
+  p.desc {
+    max-height: 100px;
+    overflow-y: scroll;
+  }
+
+  .register,
+  .register-closed {
+    bottom: 15px;
   }
 }
 
@@ -197,6 +227,19 @@ span.company {
   h2 {
     font-weight: 600;
     font-size: 25px;
+  }
+  p.desc {
+    max-height: 100px;
+    overflow-y: scroll;
+    margin: 0 !important;
+  }
+  .register,
+  .register-closed {
+    bottom: 10px;
+  }
+
+  h2.mt-4{
+    margin-top: 12px !important;
   }
 }
 
@@ -210,6 +253,17 @@ span.company {
   }
   .card-front {
     overflow: hidden;
+  }
+
+  h2.mt-4{
+    margin-top: 8px !important;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  p.desc {
+    max-height: 80px;
+    overflow-y: scroll;
+    margin: 0 !important;
   }
 }
 

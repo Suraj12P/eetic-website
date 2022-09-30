@@ -23,9 +23,10 @@
   object-fit: fill;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 650px) {
   .carousel {
-    max-width: calc(100vw - 24px);
+    width: calc(90vw - 48px) !important;
+    height: calc(90vw - 48px) !important;
   }
 
   .arc,.dashes{
@@ -34,29 +35,29 @@
 }
 
 @media (max-width: 425px) {
-  .carousel {
+  /* .carousel {
     width: 400px !important;
     height: 400px !important;
     clip-path: circle(50%);
     margin-top: 20px;
     margin-left: 5px;
-  }
+  } */
 }
 @media (max-width: 375px) {
-  .carousel {
+  /* .carousel {
     width: 270px !important;
     height: 270px !important;
     clip-path: circle(50%);
     margin-left: 45px;
     margin-top: 20px;
-  }
+  } */
 }
 @media (max-width: 320px) {
-  .carousel {
+  /* .carousel {
     width: 270px !important;
     height: 270px !important;
     clip-path: circle(50%);
     margin-left: 20px;
     margin-top: 20px;
-  }
+  } */
 }

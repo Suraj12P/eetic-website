@@ -78,7 +78,7 @@ function EventCard({ data }) {
         ) : (
           <a href={data.yt}>
             <button type="button" class="register-closed btn btn-primary">
-              <img src={yt} alt="" />
+              <img className="yt" src={yt} alt="" />
             </button>
           </a>
         )}

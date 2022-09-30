@@ -34,7 +34,7 @@ function Hero(options) {
             </div>
           </Container>
         </Col>
-        <div className="carousal-container p-4 md-4 w-auto">
+        <div className="carousel-container p-4 md-4 w-auto">
           {/* <Container className="w-auto p-4"> */}
           {/* <div className="arc"></div>
           <div className="dashes"></div> */}

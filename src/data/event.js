@@ -2,7 +2,7 @@ export const event_data = [
   {
     event_name: "NASA Space Apps Challenge",
     host_name: "Aravind Sekhar JB",
-    start_date: "2022-11-28T07:30",
+    start_date: "2022-09-28T07:30",
     end_date: 1660049177,
     category: "category 1",
     registration_fee: "",
@@ -22,7 +22,7 @@ export const event_data = [
   {
     event_name: "KICKSTART",
     host_name: "Krishnakumar M",
-    start_date: "2022-11-30T06:30",
+    start_date: "2022-07-30T06:30",
     end_date: 1660049117,
     category: "category 2",
     registration_fee: "",
@@ -41,7 +41,7 @@ export const event_data = [
   {
     event_name: "Introduction to IOT",
     host_name: "Hrishikesh H Pillai",
-    start_date: "2022-11-03T07:30",
+    start_date: "2022-06-03T07:30",
     end_date: 1660049057,
     category: "category 3",
     registration_fee: "",
@@ -61,7 +61,7 @@ export const event_data = [
   {
     event_name: "Introduction to Ethical Hacking",
     host_name: 'Sleety "WHCYBERUS" George',
-    start_date: "2022-11-22T07:30",
+    start_date: "2022-09-22T07:30",
     end_date: "2022-09-25T07:30",
     category: "category 4",
     registration_fee: "",
