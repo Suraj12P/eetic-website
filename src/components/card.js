@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/card.css";
-import cardimg from "../images/cardimg.svg";
+import yt from "./site_images/yt.svg";
 
 function EventCard({ data }) {
   // console.log(data);
@@ -19,7 +19,7 @@ function EventCard({ data }) {
       <div className={`card-front ${isOpen ? "" : "d-none"}`}>
         {/* <span className="ig-id">@eeti_community</span> */}
         <img
-            src={data.poster_url}
+          src={data.poster_url}
           // src={cardimg}
           alt="card"
           className="position-absolute"
@@ -53,16 +53,14 @@ function EventCard({ data }) {
         className={`card-details ${isOpen && "open-event"} position-absolute`}
       >
         <h2 className="mt-4">{data.event_name}</h2>
-        <p className="desc mt-3">
-        {data.description}
-        </p>
+        <p className="desc mt-3">{data.description}</p>
         <div className="det-container d-flex flex-column">
           {/* {console.log(new Date().getDate())} */}
 
           <span className="det-date">
             {`Date : ${new Date(data.start_date).getDate()}/${new Date(
               data.start_date
-            ).getMonth()+1}/${new Date(data.start_date).getFullYear()}`}{" "}
+            ).getMonth() + 1}/${new Date(data.start_date).getFullYear()}`}{" "}
           </span>
 
           <span className="det-time">{`Time : ${new Date(
@@ -78,13 +76,11 @@ function EventCard({ data }) {
             Register
           </button>
         ) : (
-          <button
-            type="button"
-            class="register-closed btn btn-primary"
-            disabled="true"
-          >
-            Registration Closed
-          </button>
+          <a href={data.yt}>
+            <button type="button" class="register-closed btn btn-primary">
+              <img src={yt} alt="" />
+            </button>
+          </a>
         )}
       </div>
     </div>

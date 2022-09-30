@@ -17,6 +17,10 @@
   gap: 20px;
 }
 
+.slick-slider{
+  width: 100% !important;
+}
+
 .slick-prev::before,
 .slick-next::before {
   color: black;
@@ -25,16 +29,19 @@
 }
 
 @media (max-width: 475px) {
+  .upcoming-events{
+    max-width: 100vw !important;
+  }
   .card {
     margin-left: 7px;
   }
 
-  .slick-slider > button,
+  .slick-slider > .button,
   .slick-arrow,
   .slick-arrow::before,
   .slick-prev::before,
   .slick-next::before {
-    display: none;
+    display: none !important;
   }
 
   .eventHeading {
@@ -48,7 +55,7 @@
 
   .upcoming-events{
     max-width: 100vw;
-    margin: 30px auto 60px auto;
+    margin: 30px 20px 60px 20px;
     width: 350px;
   }
 

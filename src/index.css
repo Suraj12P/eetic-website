@@ -1,5 +1,9 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
+
+*{
+  box-sizing: border-box !important;
+}
 body {
   margin: 20;
   font-family: Poppins;

@@ -25,7 +25,7 @@
 
 @media (max-width: 768px) {
   .carousel {
-    /* max-width: calc(100% - 24px); */
+    max-width: calc(100vw - 24px);
   }
 
   .arc,.dashes{

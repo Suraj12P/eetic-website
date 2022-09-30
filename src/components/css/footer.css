@@ -75,7 +75,7 @@ footer {
   align-items: flex-start;
 }
 
-.f-logo{
+.f-logo {
   max-width: 200px;
 }
 
@@ -103,11 +103,16 @@ span > u {
 }
 
 @media (max-width: 670px) {
+  footer {
+    margin-top: 50px !important;
+  }
   .f-top {
     flex-direction: column;
   }
 
-  .logo,.company,.other-links{
+  .logo,
+  .company,
+  .other-links {
     width: 100%;
     margin-top: 30px;
     align-items: center;
@@ -122,9 +127,9 @@ span > u {
     box-sizing: border-box;
   }
 }
-@media (max-width: 320px){
-    a>svg{
-        height: 1.5rem;
-        width: 1.5rem;
-    }
+@media (max-width: 320px) {
+  a > svg {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
 }

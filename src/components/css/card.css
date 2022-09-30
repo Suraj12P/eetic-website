@@ -49,7 +49,7 @@
   bottom: 0;
   height: 100%;
   width: 100%;
-  object-fit: fill;
+  object-fit:cover;
 }
 .card-details {
   height: 100%;
@@ -162,13 +162,22 @@ span.company {
   padding: 10px 20px;
   border-radius: 50px;
 }
+
+.register,.register-closed{
+  position: absolute;
+  bottom: 20px;
+  right: 50%;
+  transform: translateX(50%);
+}
+
 .register:hover {
   background-color: var(--parimary-white) !important;
   color: #000;
   border-color: var(--primary-orange);
 }
-.register-closed:disabled {
-  background-color: var(--primary-orange) !important;
+.register-closed {
+  background-color: var(--parimary-white) !important;
+
 }
 
 @media (max-width: 425px) {

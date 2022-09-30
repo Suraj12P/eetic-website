@@ -112,7 +112,7 @@ function Footer() {
               </a>
             </li>
           </ul>
-          <p class="text-muted mb-0">Copyright © 2022 EETICommunity</p>
+          <p class="text-muted mb-0">Copyright © 2022 EETI Foundation</p>
         </div>
       </div>
     </footer>
