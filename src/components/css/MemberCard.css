@@ -1,0 +1,40 @@
+/* css for member card */
+
+.member-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #595D6B;
+    margin: 25px;
+    padding: 12px;
+}
+
+.member-card .member-card-image{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.member-card-image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.member-card-details p{
+    color: #fff;
+    font-family:Poppins;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.member-card-details h3{
+    color: #fff;
+    font-family:Poppins;
+    font-size: 1.5rem;
+    margin: 5px 0px;
+    font-weight: 700;
+}

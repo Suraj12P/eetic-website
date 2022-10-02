@@ -1,0 +1,43 @@
+/* css for member panel */
+
+.member-panel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 50px;
+}
+
+.member-panel-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.member-panel-details {
+    width: 85%; 
+    word-wrap: break-word;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #595D6B;
+    margin: 20px 0px;
+}
+
+.member-team h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #242731;
+}
+
+.member-team{
+    margin-top: 25px;
+}
+
+.member-panel-heading {
+    margin-top: 3rem;
+}
