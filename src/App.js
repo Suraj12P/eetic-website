@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import Events from "./pages/Events";
 import UnderDev from "./pages/UnderDev";
+import Team from "./pages/Team";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/events" element={<Events />} />
           <Route exact path="/aboutus" element={<UnderDev/>} />
-          <Route exact path="/team" element={<UnderDev/>} />
+          <Route exact path="/team" element={<Team />} />
         </Routes>
       </Router>
     </div>
