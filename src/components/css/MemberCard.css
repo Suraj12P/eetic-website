@@ -1,0 +1,117 @@
+/* css for MemberCard component */
+
+.member-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #595D6B;
+    margin: 40px;
+    padding: 15px;
+}
+
+.member-card .member-card-image {
+    width: 210px;
+    height: 178px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .member-card-image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+} */
+
+.member-card-image img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.member-card-details p {
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.member-card-details h3 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    margin: 5px 0px;
+    font-weight: 700;
+}
+
+/* css for Chairperson component */
+
+.chair-member-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #595D6B;
+    margin: 50px;
+    padding: 12px;
+}
+
+.chair-member-card .chair-member-card-image {
+    width: 238px;
+    height: 195px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chair-member-card-image img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.chair-member-card-details p {
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.chair-member-card-details h3 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    margin: 5px 0px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+    .member-card {
+        margin: 40px 30px;
+    }
+
+    .chair-member-card {
+        margin: 40px 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .member-card {
+        margin: 30px 10px;
+    }
+
+    .chair-member-card {
+        margin: 40px 10px;
+    }
+
+    .member-panel-cards{
+        margin-bottom: 10px;
+    }
+}
