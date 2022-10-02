@@ -1,39 +1,92 @@
-/* css for member card */
+/* css for MemberCard component */
 
-.member-card{
+.member-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #595D6B;
+    margin: 50px;
+    padding: 12px;
+}
+
+.member-card .member-card-image {
+    width: 200px;
+    height: 178px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .member-card-image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+} */
+
+.member-card-image img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.member-card-details p {
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.member-card-details h3 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    margin: 5px 0px;
+    font-weight: 700;
+}
+
+/* css for Chairperson component */
+
+.chair-member-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
     background-color: #595D6B;
-    margin: 25px;
+    margin: 50px;
     padding: 12px;
 }
 
-.member-card .member-card-image{
-    width: 250px;
-    height: 200px;
+.chair-member-card .chair-member-card-image {
+    width: 233px;
+    height: 195px;
     object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.member-card-image img{
-    width: 200px;
-    height: 200px;
+.chair-member-card-image img {
+    width: 135px;
+    height: 135px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.member-card-details p{
+.chair-member-card-details p {
     color: #fff;
-    font-family:Poppins;
+    font-family: Poppins;
     font-weight: 400;
     margin-bottom: 0px;
 }
 
-.member-card-details h3{
+.chair-member-card-details h3 {
     color: #fff;
-    font-family:Poppins;
+    font-family: Poppins;
     font-size: 1.5rem;
     margin: 5px 0px;
     font-weight: 700;
