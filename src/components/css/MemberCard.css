@@ -7,12 +7,12 @@
     align-items: center;
     border-radius: 15px;
     background-color: #595D6B;
-    margin: 50px;
-    padding: 12px;
+    margin: 40px;
+    padding: 15px;
 }
 
 .member-card .member-card-image {
-    width: 200px;
+    width: 210px;
     height: 178px;
     object-fit: cover;
     display: flex;
@@ -27,8 +27,8 @@
 } */
 
 .member-card-image img {
-    width: 125px;
-    height: 125px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -62,7 +62,7 @@
 }
 
 .chair-member-card .chair-member-card-image {
-    width: 233px;
+    width: 238px;
     height: 195px;
     object-fit: cover;
     display: flex;
@@ -71,8 +71,8 @@
 }
 
 .chair-member-card-image img {
-    width: 135px;
-    height: 135px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -90,4 +90,28 @@
     font-size: 1.5rem;
     margin: 5px 0px;
     font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+    .member-card {
+        margin: 40px 30px;
+    }
+
+    .chair-member-card {
+        margin: 40px 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .member-card {
+        margin: 30px 10px;
+    }
+
+    .chair-member-card {
+        margin: 40px 10px;
+    }
+
+    .member-panel-cards{
+        margin-bottom: 10px;
+    }
 }

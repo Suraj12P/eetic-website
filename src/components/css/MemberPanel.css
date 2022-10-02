@@ -13,6 +13,12 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 50px;
+}
+
+.co-team {
+    margin-top: 20px;
 }
 
 .member-panel-details {
@@ -22,9 +28,10 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
+    text-align: justify;
     line-height: 36px;
     color: #595D6B;
-    margin: 20px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 .member-team h2{
@@ -40,4 +47,33 @@
 
 .member-panel-heading {
     margin-top: 3rem;
+}
+
+.end-para {
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 900px) {
+    .member-panel {
+        margin: 0px 20px;
+    }
+
+    .member-panel-details {
+        font-size: 18px;
+        line-height: 27px;
+        margin: 10px 0px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .member-panel {
+        margin: 0px 10px;
+    }
+
+    .member-panel-details {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
 }
