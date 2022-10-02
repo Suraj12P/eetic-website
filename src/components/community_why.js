@@ -12,7 +12,7 @@ function CommunityWhy() {
             <img src={ball} alt="" className="ball" />
           </div>
           
-          <div class="p-2 flex-grow-1 txt_1">
+          <div class="p-2 flex-grow-1 txt_1 left">
             <p className="text-start  p-1 fs-3">
               Lorem Ipsum is simply dummy text of the printing and typesetting
             </p>
@@ -23,8 +23,8 @@ function CommunityWhy() {
             <img src={ball} alt="" className="ball" />
 
           </div>
-          <div class="p-2 flex-grow-1">
-            <p className="text-end p-1  fs-3">
+          <div class="p-2 flex-grow-1 right">
+            <p className="text-end p-1 fs-3">
               Lorem Ipsum is simply dummy text of the printing and typesetting
             </p>
           </div>
@@ -35,7 +35,7 @@ function CommunityWhy() {
             <img src={ball} alt="" className="ball" />
           </div>
           
-          <div class="p-2 flex-grow-1 txt_1">
+          <div class="p-2 flex-grow-1 txt_1 left">
             <p className="text-start  p-1 fs-3">
               Lorem Ipsum is simply dummy text of the printing and typesetting
             </p>
@@ -46,7 +46,7 @@ function CommunityWhy() {
             <img src={ball} alt="" className="ball" />
 
           </div>
-          <div class="p-2 flex-grow-1">
+          <div class="p-2 flex-grow-1 right">
             <p className="text-end p-1  fs-3">
               Lorem Ipsum is simply dummy text of the printing and typesetting
             </p>

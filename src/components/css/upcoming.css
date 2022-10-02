@@ -1,0 +1,102 @@
+.upcoming-events {
+  max-width: 1350px !important;
+  margin: 30px auto;
+  margin-bottom: 100px;
+  width: calc(100vw - 60px);
+}
+
+.eventHeading {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.slick-slide {
+  gap: 20px;
+}
+
+.slick-slider {
+  width: 100% !important;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: black;
+  height: 30px !important;
+  width: 30px !important;
+}
+
+@media (max-width: 1350px) {
+  .upcoming-events {
+    max-width: 90vw !important;
+  }
+}
+
+@media (max-width: 475px) {
+  /* .upcoming-events{
+    max-width: 100vw !important;
+  } */
+  /* .card {
+    margin-left: 7px;
+  } */
+
+  .slick-slider > .button,
+  .slick-arrow,
+  .slick-arrow::before,
+  .slick-prev::before,
+  .slick-next::before {
+    display: none !important;
+  }
+
+  .eventHeading {
+    font-weight: bold;
+    font-size: 28px;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 24px;
+  }
+
+  .upcoming-events {
+    width: 100vw;
+    /* margin: 30px 20px 60px 20px; */
+    /* width: 350px; */
+  }
+}
+
+@media (max-width: 425px) {
+  .slick-slider,
+  .slick-list,
+  .slick-slide > div {
+    width: 90vw;
+    height: 90vw;
+  }
+  .slick-track {
+    height: 90vw;
+  }
+
+  .card {
+    width: 90vw !important;
+    height: 90vw !important;
+    min-height: 90vw;
+  }
+
+  .card-front{
+    min-height: 90vw;
+  }
+}
+
+@media (max-width: 325px) {
+  .upcoming-events {
+    /* margin: 30px auto 60px auto; */
+    max-width: 310px !important;
+  }
+}
+@media (max-width: 375px) {
+  .upcoming-events {
+    margin: 20px auto;
+    width: 350px;
+  }
+}

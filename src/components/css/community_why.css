@@ -65,7 +65,9 @@ font-size: 22px;
 /* ----------------------------------------------------------------------*/
 
 .community_why{
+    margin: 30px auto;
     background-color: #FFF7F4;
+    max-width: 1350px;
 }
 
 .header{

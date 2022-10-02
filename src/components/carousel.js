@@ -53,67 +53,67 @@
 
 // render(<ControlledCarousel />);
 
-import Carousel from 'react-bootstrap/Carousel';
+import Carousel from "react-bootstrap/Carousel";
 import React from "react";
-import './css/carousel.css';
+import "./css/carousel.css";
 import { Image } from "react-bootstrap";
-
 
 function ImgReel() {
   return (
+    <>
+      {/* <div className="arc"></div>
+      <div className="dashes"></div> */}
 
-    <Carousel>
-
-      <Carousel.Item interval={1000} className="">
-        <Image
-          className="rounded-circle "
-          width={800}
-          height={800}
-
-          src={require('../images/1.png')}
-          fluid
-          roundedCircle
-        />
-        {/* <Carousel.Caption>
+      <Carousel>
+        <Carousel.Item interval={2000} className="">
+          <Image
+            className="rounded-circle carousel-img"
+            // width={800}
+            // height={800}
+            src={require("../images/1.png")}
+            fluid
+            roundedCircle
+          />
+          {/* <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption> */}
-      </Carousel.Item>
+        </Carousel.Item>
 
-      <Carousel.Item interval={1000} className="">
-        <Image
-          className="rounded-circle "
-          width={800}
-          height={800}
+        <Carousel.Item interval={2000} className="">
+          <Image
+            className="rounded-circle carousel-img"
+            // width={800}
+            // height={800}
 
-          src={require('../images/3.png')}
-          fluid
-          roundedCircle
-        />
-        {/* <Carousel.Caption>
+            src={require("../images/3.png")}
+            fluid
+            roundedCircle
+          />
+
+          {/* <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption> */}
-      </Carousel.Item>
+        </Carousel.Item>
 
-      <Carousel.Item interval={1000} className="">
-        <Image
-          className="rounded-circle "
-          width={800}
-          height={800}
+        <Carousel.Item interval={2000} className="">
+          <Image
+            className="rounded-circle carousel-img"
+            // width={800}
+            // height={800}
 
-          src={require('../images/5.png')}
-          fluid
-          roundedCircle
-        />
-        {/* <Carousel.Caption>
+            src={require("../images/5.png")}
+            fluid
+            roundedCircle
+          />
+          {/* <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption> */}
-      </Carousel.Item>
-
-
-    </Carousel>
+        </Carousel.Item>
+      </Carousel>
+    </>
   );
 }
 

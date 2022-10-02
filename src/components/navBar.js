@@ -41,14 +41,20 @@ import Navbar from "react-bootstrap/Navbar";
 // import NavDropdown from "react-bootstrap/NavDropdown";
 import "./css/navBar.css";
 import Button from "react-bootstrap/Button";
+import { Image } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function navBar() {
   return (
     <Navbar collapseOnSelect expand="lg" variant="light" className="navbar">
       <Container>
         <Navbar.Brand href="#home" className="brand">
-          <span style={{ color: "#FF845E" }}>EETIC</span>
-          <span style={{ color: "#595d6b" }}>ommunity</span>
+          <Link to="/">
+            <Image
+              className="nav-logo"
+              src={require("./site_images/eeti foundation-black.svg")}
+            />
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

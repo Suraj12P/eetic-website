@@ -10,6 +10,7 @@ function CardPanel() {
 
   useEffect(() => {
     event_data.sort((a, b) => new Date(a.start_date) - new Date(b.start_date));
+    event_data.reverse();
     console.log(event_data); 
     setSortData(event_data);
   }, []);
