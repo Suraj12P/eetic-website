@@ -64,6 +64,10 @@
         margin: 10px 0px;
     }
 
+    .end-para {
+        margin-bottom: 100px;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -75,5 +79,9 @@
         font-size: 16px;
         line-height: 24px;
     }
+
+    /* .member-panel-cards{
+        margin-bottom: 10px;
+    } */
 
 }
