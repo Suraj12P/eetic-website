@@ -5,7 +5,6 @@ import "./css/about.css";
 import saly from "./site_images/Saly-10.svg";
 
 
-
 const AboutUs = () => {
   return (
     <Container className="about-us mb-4">
