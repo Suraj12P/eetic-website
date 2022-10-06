@@ -7,8 +7,8 @@ import saly from "./site_images/Saly-10.svg";
 
 const AboutUs = () => {
   return (
-    <Container className="about-us mb-4">
-      <div className="about-content"> 
+    <Container className="about-us mb-5">
+      <div className="about-content mx-2"> 
         < Image src={saly} className="float-md-end mb-3 ms-md-3" />
         <h1 className="mt-5">AboutUs</h1> 
         <p className="mt-5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget egestas purus viverra accumsan in nisl. Eu non diam phasellus vestibulum lorem sed risus. A iaculis at erat pellentesque adipiscing. Ultrices gravida dictum fusce ut placerat orci. Placerat in egestas erat imperdiet sed euismod nisi. Odio aenean sed adipiscing diam. Amet nulla facilisi morbi tempus iaculis urna id volutpat. Cursus turpis massa tincidunt dui ut. Sed lectus vestibulum mattis ullamcorper. Nibh praesent tristique magna sit. Quis hendrerit dolor magna eget est lorem. Ut faucibus pulvinar elementum integer enim neque volutpat ac.</p>
