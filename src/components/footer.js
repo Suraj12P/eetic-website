@@ -47,6 +47,7 @@ function Footer() {
                 src={require("./site_images/eeti foundation-white.svg")}
               />
             </Link>
+            
           </div>
           <div className="company">
             <span>
@@ -58,7 +59,7 @@ function Footer() {
             <a href="/events" className="f_links">
               Events
             </a>
-            <a href="/" className="f_links">
+            <a href="/team" className="f_links">
               Team
             </a>
             <a href="/" className="f_links">

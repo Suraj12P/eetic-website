@@ -61,21 +61,42 @@ font-size: 22px;
     font-weight: 200;
 } */
 
-
 /* ----------------------------------------------------------------------*/
 
-.community_why{
-    margin: 30px auto;
-    background-color: #FFF7F4;
-    max-width: 1350px;
+
+.community_why {
+  margin: 30px auto;
+  background-color: #fff7f4;
+  max-width: 1350px;
 }
 
-.header{
-    color: #242731;
-    font-size: 36px;
-    font-weight: 200;
+.header {
+  color: #242731;
+  font-size: 36px;
+  font-weight: 200;
+
 }
 
-.txt_1{
-    /* vertical-align: middle; */
+.point{
+  margin-top: 30px;
+}
+
+.txt_1 {
+  /* vertical-align: middle; */
+}
+
+@media (max-width: 425px) {
+
+  .point{
+    margin-top: 10px;
+  }
+
+  .ball {
+    width: 50px !important;
+    height: auto;
+  }
+
+  .dot {
+    height: 100%;
+  }
 }

@@ -50,7 +50,7 @@
 
 /* css for Chairperson component */
 
-.chair-member-card {
+.chair-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,7 +61,7 @@
     padding: 12px;
 }
 
-.chair-member-card .chair-member-card-image {
+.chair-card .chair-card-image {
     width: 238px;
     height: 195px;
     object-fit: cover;
@@ -70,21 +70,21 @@
     align-items: center;
 }
 
-.chair-member-card-image img {
-    width: 140px;
-    height: 140px;
+.chair-card-image img {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.chair-member-card-details p {
+.chair-card-details p {
     color: #fff;
     font-family: Poppins;
     font-weight: 400;
     margin-bottom: 0px;
 }
 
-.chair-member-card-details h3 {
+.chair-card-details h3 {
     color: #fff;
     font-family: Poppins;
     font-size: 1.5rem;
@@ -97,7 +97,7 @@
         margin: 40px 30px;
     }
 
-    .chair-member-card {
+    .chair-card {
         margin: 40px 20px;
     }
 }
@@ -107,11 +107,8 @@
         margin: 30px 10px;
     }
 
-    .chair-member-card {
+    .chair-card {
         margin: 40px 10px;
     }
 
-    .member-panel-cards{
-        margin-bottom: 10px;
-    }
 }

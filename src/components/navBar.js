@@ -89,6 +89,8 @@ function navBar() {
             <Nav.Link eventKey={2} href="#memes">
               Dank memes
             </Nav.Link> */}
+
+            {/*================= sign in ================= */}
             <Nav.Link href="#signIn" className="navText">
               <Button className="signInUpButton signIn">Sign In</Button>
             </Nav.Link>

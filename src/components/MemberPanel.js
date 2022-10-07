@@ -1,8 +1,7 @@
 import React from "react";
 import "./css/MemberPanel.css";
 
-import { MemberCard, Chairperson } from "./MemberCard";
-import Anirudh_A_V from "../images/team/Anirudh_A_V.png";
+import MemberCard from "./MemberCard";
 import Arjun from "../images/team/arjun.jpeg";
 import SidharthP from "../images/team/sidharth.jpeg";
 import jaidan from "../images/team/jaidan.jpg";
@@ -22,6 +21,8 @@ import surya from "../images/team/surya.png";
 import dave from "../images/team/dave.jpeg";
 import shenin from "../images/team/shenin.jpeg";
 import anjitha from "../images/team/anjitha.jpg";
+import nandana from "../images/team/nandana.jpeg";
+import niran from "../images/team/niran.jpeg";
 
 const MemberPanel = () => {
   return (
@@ -31,21 +32,22 @@ const MemberPanel = () => {
             </div> */}
       <div className="member-team">
         <h2>Team</h2>
+        <h3>Senior Board of Governers</h3>
       </div>
-      <div className="member-panel-details">
+      {/* <div className="member-panel-details">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Eget egestas purus
         viverra accumsan in nisl. Eu non diam phasellus vestibulum lorem sed
         risus. A iaculis at erat pellentesqu
-      </div>
+      </div> */}
       <div className="member-chair">
-        <Chairperson
+        <MemberCard
           name="Muhammed Bilal O P "
           position="CEO"
           image={bilal}
           linkedin="muhammed-bilal-o-p-445645201"
           github=""
-        ></Chairperson>
+        ></MemberCard>
       </div>
       <div className="member-panel-cards">
         <MemberCard
@@ -69,7 +71,7 @@ const MemberPanel = () => {
         <MemberCard
           name="Niran S Narayan"
           position="Chief Technical officer"
-          //   image={niran}
+          image={niran}
           linkedin="niran-s-narayanan"
           github=""
           size="medium"
@@ -130,7 +132,7 @@ const MemberPanel = () => {
         ></MemberCard>
 
         <MemberCard
-          name="Akhila"
+          name="Akhila Nasrin"
           position="Chief programmer officer"
           image={akhila}
           linkedin="akhila-nasrin-a81991211"
@@ -150,13 +152,11 @@ const MemberPanel = () => {
         <MemberCard
           name="Nandana J"
           position="Content head"
-          //   image={}
-          linkedin=""
+          image={nandana}
+          linkedin="nandana-j-b0a6b5220"
           github=""
           size="medium"
         ></MemberCard>
-
-        {/* ================================ */}
 
         <MemberCard
           name="Jaidan Sleeba"
@@ -166,6 +166,12 @@ const MemberPanel = () => {
           github=""
           size="medium"
         ></MemberCard>
+      </div>
+
+      {/* ================================ */}
+
+      <div className="member-team">
+        <h3>Junior Board of Governors</h3>
       </div>
 
       <div className="member-panel-cards">
@@ -197,7 +203,7 @@ const MemberPanel = () => {
         ></MemberCard>
 
         <MemberCard
-          name="Dave"
+          name="Dave Paul Joseph"
           position="Junior Chief Technical officer"
           image={dave}
           linkedin="dave-paul-joseph-157153243"
@@ -215,7 +221,7 @@ const MemberPanel = () => {
         ></MemberCard>
 
         <MemberCard
-          name="Shenin"
+          name="Muhammed Shehin"
           position="Junior Chief Creative officer"
           image={shenin}
           linkedin="muhammed-shehin-b197a9220"
@@ -233,7 +239,7 @@ const MemberPanel = () => {
         ></MemberCard>
       </div>
 
-      <div className="member-team">
+      {/* <div className="member-team">
         <h2>Co Team</h2>
       </div>
       <div className="member-panel-details">
@@ -309,7 +315,7 @@ const MemberPanel = () => {
         ultrices eros in. Pharetra sit amet aliquam id diam maecenas. Lacus
         suspendisse faucibus interdum posuere lorem ipsum dolor. Pretium quam
         vulputate dignissim suspendisse in est ante.
-      </div>
+      </div> */}
     </div>
   );
 };

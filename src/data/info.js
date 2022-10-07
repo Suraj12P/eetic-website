@@ -2,15 +2,15 @@ export const info = {
    
     college: "College of Engineering, Trivandrum, Kerala",
     address: "Calicut, Kerala, India",
-    linkedin: "www.linkedin.com/in/",
+    linkedin: "https://www.linkedin.com/company/eetic/",
     github: "https://www.github.com/",
-    email: "eeticlub@gmail.com",
-    phone: "+91 XXX XXX XXXX",
-    website: "https://",
+    email: "contact@eetifoundation.org",
+    phone: "https://wa.me/+919746577467",
+    website: "https://eetifoundation.org",
     medium: " ",
     twitter: " ",
     facebook: " ",
-    instagram: " ",
-    youtube: " ",
+    instagram: "https://www.instagram.com/eeti_foundation/",
+    youtube: "https://www.youtube.com/channel/UCN0dejvTCQ088J3Dd_Y0-Sg",
    
   };
