@@ -16,7 +16,7 @@ function EventCard({ data }) {
 
   return (
     <div className="card position-relative">
-      <div className={`card-front ${isOpen ? "" : "d-none"}`}>
+      <div className={`card-front `}>
         {/* <span className="ig-id">@eeti_community</span> */}
         <img
           src={data.poster_url}
@@ -49,9 +49,7 @@ function EventCard({ data }) {
           <span className="company">Lorem, ipsum dolor.</span>
         </div> */}
       </div>
-      <div
-        className={`card-details ${isOpen && "open-event"} position-absolute`}
-      >
+      <div className={`card-details card-rear position-absolute`}>
         <h2 className="mt-4">{data.event_name}</h2>
         <p className="desc mt-3">{data.description}</p>
         <div className="det-container d-flex flex-column">
@@ -65,7 +63,7 @@ function EventCard({ data }) {
 
           <span className="det-time">{`Time : ${new Date(
             data.start_date
-          ).getHours()}.${new Date(data.start_date).getMinutes()} ${
+          ).getHours() % 12}.${new Date(data.start_date).getMinutes()} ${
             new Date(data.start_date).getHours() < 12 ? "am" : "pm"
           }`}</span>
 
