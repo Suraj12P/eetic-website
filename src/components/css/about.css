@@ -1,0 +1,19 @@
+/* css for about us page */
+
+.about-us{
+    font-family: Poppins;
+    text-align: justify;
+}
+
+.about-content > h1{
+    font-weight: 1000;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.about-content > p {
+    color: var(--primary-grey-blue)!important;
+    line-height: 33px;
+    font-size: 22px;
+    font-weight: 400;
+}
