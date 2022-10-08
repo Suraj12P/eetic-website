@@ -23,14 +23,17 @@ function Hero(options) {
             </div>
             <div>
               <h5 className="text-start text_info">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                A community initiative from college of engineering Trivandrum,
+                EETI Foundation is a group of young innovators future
+                entrepreneurs and technology enthusiasts across Kerala, coming
+                under one platform to share ideas and explore the blazing fast
+                changes and advancements in science and technology.
               </h5>
             </div>
             <div className="readmore">
-              <Button className="btn_readmore">Read More</Button>
+              <a href="/aboutus">
+                <Button className="btn_readmore">Read More</Button>
+              </a>
             </div>
           </Container>
         </Col>

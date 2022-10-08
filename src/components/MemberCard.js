@@ -1,17 +1,17 @@
-import React from 'react'
-import './css/MemberCard.css'
-import { IoLogoLinkedin } from 'react-icons/io'
+import React from "react";
+import "./css/MemberCard.css";
+import { IoLogoLinkedin } from "react-icons/io";
 
 const MemberCard = ({ name, position, image, linkedin, type }) => {
   return (
-    <div className={`${type}-card`}>
-      <div className={`${type}-card-image`}>
+    <div className={`member-card`}>
+      <div className={`member-card-image`}>
         <img src={image} alt="member" />
       </div>
-      <div className={`${type}-card-details`}>
+      <div className={`member-card-details`}>
         <h3>{name}</h3>
         <p>{position}</p>
-        <div className={`${type}-card-socials`}>
+        <div className={`member-card-socials`}>
           <a
             href={`https://www.linkedin.com/in/${linkedin}/`}
             target="_blank"
@@ -22,7 +22,7 @@ const MemberCard = ({ name, position, image, linkedin, type }) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default MemberCard
+export default MemberCard;

@@ -1,58 +1,93 @@
 import React from "react";
-import './css/community_why.css';
-import ball from './site_images/ball.svg'
+import "./css/community_why.css";
+import ball from "./site_images/ball.svg";
 function CommunityWhy() {
   return (
     <div className="community_why">
       <div className="header p-4">
         <h1>Here is why you should join our community</h1>
-{/* set  start*/}
-        <div class="d-flex flex-row  mb-3">
-          <div class="p-4 ">
+        {/* set  start*/}
+        <div class="d-flex point flex-row  mb-3">
+          <div class="p-2 dot">
             <img src={ball} alt="" className="ball" />
           </div>
-          
+
           <div class="p-2 flex-grow-1 txt_1 left">
             <p className="text-start  p-1 fs-3">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
+            Bring together people with similar interests and offer a safe-space to work on your skills
             </p>
           </div>
         </div>
-        <div class="d-flex flex-row-reverse ">
-          <div class="p-4 ">
+        <div class="d-flex point flex-row-reverse ">
+          <div class="p-2 dot">
             <img src={ball} alt="" className="ball" />
-
           </div>
           <div class="p-2 flex-grow-1 right">
             <p className="text-end p-1 fs-3">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
+            If you join us, you will surely build delightful, growing both personally and professionally without any pressure, you can build your skills without any stress
             </p>
           </div>
         </div>
-{/* set end*/}
-        <div class="d-flex flex-row  mb-3">
-          <div class="p-4 ">
+        {/* set end*/}
+        <div class="d-flex point flex-row  mb-3">
+          <div class="p-2 dot">
             <img src={ball} alt="" className="ball" />
           </div>
-          
+
           <div class="p-2 flex-grow-1 txt_1 left">
             <p className="text-start  p-1 fs-3">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
+            It's the best opportunity to establish a curiosity about the most recent technological and scientific developments
             </p>
           </div>
         </div>
-        <div class="d-flex flex-row-reverse ">
-          <div class="p-4 ">
+        <div class="d-flex point flex-row-reverse ">
+          <div class="p-2 dot">
             <img src={ball} alt="" className="ball" />
-
           </div>
           <div class="p-2 flex-grow-1 right">
             <p className="text-end p-1  fs-3">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
+            Take advantage of the masters' talk sessions to expand your knowledge of various subjects
             </p>
           </div>
         </div>
-{/* set end*/}
+
+        <div class="d-flex point flex-row  mb-3">
+          <div class="p-2 dot">
+            <img src={ball} alt="" className="ball" />
+          </div>
+
+          <div class="p-2 flex-grow-1 txt_1 left">
+            <p className="text-start  p-1 fs-3">
+            With the assistance and support of experts, you can put the theoretical knowledge so learned into practice
+            </p>
+          </div>
+        </div>
+
+        <div class="d-flex point flex-row-reverse ">
+          <div class="p-2 dot">
+            <img src={ball} alt="" className="ball" />
+          </div>
+          <div class="p-2 flex-grow-1 right">
+            <p className="text-end p-1  fs-3">
+            You can improve your soft skills and get an awareness about the demand that society place on us
+            </p>
+          </div>
+        </div>
+
+        {/* <div class="d-flex point flex-row  mb-3">
+          <div class="p-2 dot">
+            <img src={ball} alt="" className="ball" />
+          </div>
+
+          <div class="p-2 flex-grow-1 txt_1 left">
+            <p className="text-start  p-1 fs-3">
+              It's all on meeting interesting people, working on our skills,
+              grow personally and professionally- and enjoy doing so
+            </p>
+          </div>
+        </div> */}
+
+        {/* set end*/}
 
         {/* <Row>
             <Col sm={2} className="p-4 justify-content-center" >
@@ -71,9 +106,7 @@ function CommunityWhy() {
               <img src={ball} alt="" className="ball"/>
             </Col >
           </Row> */}
-
       </div>
-
     </div>
     // <div className="community_why">
     //   <p className="title">Here is why you should join our community</p>
@@ -88,11 +121,11 @@ function CommunityWhy() {
     //   <div className="b3">
     //     <img src={ball} alt="" className="ball"/>
     //     <p className="text_right">We passages, and more recently with desktop publishing web page editors now usesearc.</p>
-    //     </div> 
+    //     </div>
     //   <div className="b4">
     //     <img src={ball} alt="" className="ball"/>
     //     <p className="text_right">We passages, and more recently with desktop publishing web page editors now usesearc.</p>
-    //     </div>  
+    //     </div>
 
     // </div>
   );

@@ -6,6 +6,7 @@ import Events from "./pages/Events";
 import UnderDev from "./pages/UnderDev";
 import Team from "./pages/Team";
 import AboutUs from "./pages/AboutUs";
+import Careers from "./pages/Careers";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/events" element={<Events />} />
           <Route exact path="/aboutus" element={<AboutUs/>} />
           <Route exact path="/team" element={<Team />} />
+          <Route exact path="/careers" element={<Careers />} />
         </Routes>
       </Router>
     </div>

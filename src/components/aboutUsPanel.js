@@ -1,21 +1,39 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container,Image } from "react-bootstrap";
+import { Container, Image } from "react-bootstrap";
 import "./css/about.css";
 import saly from "./site_images/Saly-10.svg";
-
 
 const AboutUs = () => {
   return (
     <Container className="about-us mb-5">
-      <div className="about-content mx-2"> 
-        < Image src={saly} className="float-md-end mb-3 ms-md-3" />
-        <h1 className="mt-5">AboutUs</h1> 
-        <p className="mt-5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget egestas purus viverra accumsan in nisl. Eu non diam phasellus vestibulum lorem sed risus. A iaculis at erat pellentesque adipiscing. Ultrices gravida dictum fusce ut placerat orci. Placerat in egestas erat imperdiet sed euismod nisi. Odio aenean sed adipiscing diam. Amet nulla facilisi morbi tempus iaculis urna id volutpat. Cursus turpis massa tincidunt dui ut. Sed lectus vestibulum mattis ullamcorper. Nibh praesent tristique magna sit. Quis hendrerit dolor magna eget est lorem. Ut faucibus pulvinar elementum integer enim neque volutpat ac.</p>
-        <p>Sit amet mauris commodo quis imperdiet. Arcu odio ut sem nulla pharetra. Leo duis ut diam quam nulla. Donec enim diam vulputate ut pharetra sit amet aliquam. Massa sed elementum tempus egestas sed sed risus pretium. Massa id neque aliquam vestibulum. Molestie a iaculis at erat. Et malesuada fames ac turpis. Vivamus at augue eget arcu dictum varius duis at. Molestie ac feugiat sed lectus vestibulum. Scelerisque fermentum dui faucibus in. Netus et malesuada fames ac turpis egestas. Integer feugiat scelerisque varius morbi enim nunc faucibus a pellentesque.</p>
-        <p>Porta non pulvinar neque laoreet suspendisse interdum. Eu volutpat odio facilisis mauris sit amet. Nisl purus in mollis nunc sed id semper risus. Enim diam vulputate ut pharetra. Volutpat blandit aliquam etiam erat. Tellus cras adipiscing enim eu turpis egestas. Rhoncus dolor purus non enim praesent elementum facilisis. Placerat vestibulum lectus mauris ultrices eros in. Pharetra sit amet aliquam id diam maecenas. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Pretium quam vulputate dignissim suspendisse in est ante. Pellentesque eu tincidunt tortor aliquam nulla facilisi. Viverra justo nec ultrices dui sapien. Tortor at auctor urna nunc id cursus metus. Amet tellus cras adipiscing enim eu turpis egestas pretium. Ut aliquam purus sit amet luctus venenatis. Sapien nec sagittis aliquam malesuada bibendum. Ut pharetra sit amet aliquam id diam maecenas ultricies.</p>
+      <div className="about-content mx-2">
+        <Image src={saly} className="about-img float-md-end mb-3 ms-md-3" />
+        <h1 className="mt-5">About Us</h1>
+        <p className="mt-5 ">
+          EETI Foundation is a community initiative from College of Engineering
+          Trivandrum aiming to open up a new world of technology to the young
+          minds out there. An exuberant group of young minds from Kerala, having
+          students and mentors from all facets who have build products that have
+          been game changers, and we are on a mission to spread the knowledge
+          onto a much wider group of audience helping them learn the most hyped
+          technologies and skills, to help them build the next big thing. We
+          provide all our expertise to help explore enthusiasts to explore the
+          possibility of the most hyped technologies, software etc. availing in
+          this fast growing world. Our most hyped program SUPER 10, provides a
+          platform to unleash your skills so as to present your big ideas on
+          canvas to a group of some big investors out there and thereby
+          exploring yourselves unwinding new opportunities. Besides all these we
+          also aim at self development which helps each one to face even the
+          most difficult situation professionally. With more than 1000 strong
+          members, we would love to expand our reach, help making learning tech
+          much more easier, hands on , and interesting. We hope that this will
+          be a great opportunity to connect with like minded people, industry
+          leaders and students who would have one same dream, to learn build and
+          grow with EETI
+        </p>
       </div>
     </Container>
-    
   );
-}; export default AboutUs;
+};
+export default AboutUs;
