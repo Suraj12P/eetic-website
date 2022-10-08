@@ -283,8 +283,8 @@ p.desc {
 /* =========== CARD FLIP ===========  */
 .card-front,
 .card-rear {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden !important;
+  backface-visibility: hidden !important;
   transform-style: preserve-3d;
   transition: ease-in-out 600ms;
 }
@@ -295,7 +295,9 @@ p.desc {
 
 .card-rear {
   transform: rotateY(-180deg);
+  /* visibility: hidden; */
 }
 .card:hover .card-rear {
   transform: rotateY(0deg);
+  /* visibility: visible; */
 }
