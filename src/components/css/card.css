@@ -193,7 +193,24 @@ p.desc {
   overflow-y: scroll;
 }
 
+p.desc::-webkit-scrollbar {
+  display: none;
+}
+p.desc {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 @media (max-width: 425px) {
+  h2.mt-4 {
+    margin-top: 12px !important;
+  }
+
+  .det-container > span {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
   .det-container {
     margin-bottom: 10px;
   }
@@ -237,10 +254,6 @@ p.desc {
   .register-closed {
     bottom: 10px;
   }
-
-  h2.mt-4{
-    margin-top: 12px !important;
-  }
 }
 
 @media (max-width: 320px) {
@@ -248,14 +261,14 @@ p.desc {
     right: 50%;
     transform: translateX(50%);
   }
-  img {
+  /* img.yt {
     bottom: -20%;
-  }
+  } */
   .card-front {
     overflow: hidden;
   }
 
-  h2.mt-4{
+  h2.mt-4 {
     margin-top: 8px !important;
     font-size: 20px;
     line-height: 30px;
@@ -269,7 +282,7 @@ p.desc {
 
 /* =========== CARD FLIP ===========  */
 .card-front,
-.open-event {
+.card-rear {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transform-style: preserve-3d;
@@ -280,9 +293,9 @@ p.desc {
   transform: rotateY(180deg);
 }
 
-.open-event {
+.card-rear {
   transform: rotateY(-180deg);
 }
-.card:hover .open-event {
+.card:hover .card-rear {
   transform: rotateY(0deg);
 }
