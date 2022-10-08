@@ -43,7 +43,7 @@ const MemberPanel = () => {
       <div className="member-chair">
         <MemberCard
           name="Muhammed Bilal O P "
-          position="CEO"
+          position="Founder & CEO"
           image={bilal}
           linkedin="muhammed-bilal-o-p-445645201"
           github=""
@@ -52,7 +52,7 @@ const MemberPanel = () => {
       <div className="member-panel-cards">
         <MemberCard
           name="Archa A S"
-          position="Chief Financial officer"
+          position="Chief Financial Officer"
           image={archa}
           linkedin="archa-a-s-839794221"
           github=""
@@ -61,7 +61,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="Meera J"
-          position="Technical coordinator"
+          position="Chief Operating Officer"
           image={meera}
           linkedin="meera-j-85803b201"
           github=""
@@ -70,7 +70,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="Niran S Narayan"
-          position="Chief Technical officer"
+          position="Chief Technical Officer"
           image={niran}
           linkedin="niran-s-narayanan"
           github=""
@@ -79,7 +79,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="Harish Babu"
-          position="Chief Marketing officer"
+          position="Chief Marketing Officer"
           image={harish}
           linkedin="harish-babu-666127211"
           github=""
@@ -115,7 +115,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="A R Arjun"
-          position="Chief social media officer"
+          position="Chief social media Officer"
           image={Arjun}
           linkedin="a-r-arjun-104a36200"
           github=""
@@ -124,7 +124,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="Ardra S S"
-          position="Chief programmer officer"
+          position="Chief programmer Officer"
           image={ardra}
           linkedin="ardra-s-s-980670221"
           github=""
@@ -133,7 +133,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="Akhila Nasrin"
-          position="Chief programmer officer"
+          position="Chief programmer Officer"
           image={akhila}
           linkedin="akhila-nasrin-a81991211"
           github=""
@@ -186,7 +186,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="Karthik Ajay"
-          position="Junior Chief Financial officer"
+          position="Junior Chief Financial Officer"
           image={karthik}
           linkedin="karthik-ajay-42b252225"
           github=""
@@ -195,7 +195,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="Rameesa Jahan"
-          position="Junior Chief Operating officer"
+          position="Junior Chief Operating Officer"
           image={rameesa}
           linkedin="rameesa-jahan-a3a971227"
           github=""
@@ -204,7 +204,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="Dave Paul Joseph"
-          position="Junior Chief Technical officer"
+          position="Junior Chief Technical Officer"
           image={dave}
           linkedin="dave-paul-joseph-157153243"
           github=""
@@ -213,7 +213,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="Haridathan S"
-          position="Junior Chief Technical officer"
+          position="Junior Chief Marketing Officer"
           image={haridathan}
           linkedin="haridathan-s-73b986228"
           github=""
@@ -222,7 +222,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="Muhammed Shehin"
-          position="Junior Chief Creative officer"
+          position="Junior Chief Creative Officer"
           image={shenin}
           linkedin="muhammed-shehin-b197a9220"
           github=""
@@ -231,7 +231,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="Diya Sunil"
-          position="Junior Chief Community officer"
+          position="Junior Chief Community Officer"
           image={diya}
           linkedin=""
           github=""

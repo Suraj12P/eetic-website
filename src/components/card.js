@@ -2,10 +2,13 @@ import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/card.css";
 import yt from "./site_images/yt.svg";
+import { useRef } from "react";
 
 function EventCard({ data }) {
   // console.log(data);
   const [isOpen, setIsOpen] = useState(1);
+  const frontRef = useRef();
+  const rearRef = useRef();
   let e_date = null;
 
   useEffect(() => {
@@ -14,42 +17,22 @@ function EventCard({ data }) {
     else setIsOpen(1);
   }, []);
 
+  const handleClick = () => {
+    if (rearRef.current.style.transform == "rotateY(-180deg)") {
+      frontRef.current.style.transform = "rotateY(180deg)";
+      rearRef.current.style.transform = "rotateY(0deg)";
+    } else {
+      frontRef.current.style.transform = "rotateY(0deg)";
+      rearRef.current.style.transform = "rotateY(-180deg)";
+    }
+  };
+
   return (
-    <div className="card position-relative">
-      <div className={`card-front `}>
-        {/* <span className="ig-id">@eeti_community</span> */}
-        <img
-          src={data.poster_url}
-          // src={cardimg}
-          alt="card"
-          className="position-absolute"
-        />
-        {/* <div className="text">
-          <h2>{data.event_name}</h2>
-
-          <div className="container d-flex flex-column justify-content-center">
-            <span className="date">
-              {`Date : ${new Date(data.start_date).getDate()}/${new Date(
-                data.start_date
-              ).getMonth()+1}/${new Date(data.start_date).getFullYear()}`}{" "}
-            </span>
-
-            <span className="time">{`Time : ${new Date(
-              data.start_date
-            ).getHours()}.${new Date(data.start_date).getMinutes()} ${
-              new Date(data.start_date).getHours() < 12 ? "am" : "pm"
-            }`}</span>
-
-            <span className="venue">{`Venue : ${data.venue}`} </span>
-          </div>
-        </div>
-
-        <div className="speaker">
-          <span className="name">{data.host_name}</span>
-          <span className="company">Lorem, ipsum dolor.</span>
-        </div> */}
+    <div className="card position-relative" onClick={handleClick}>
+      <div className={`card-front`} ref={frontRef}>
+        <img src={data.poster_url} alt="card" className="position-absolute" />
       </div>
-      <div className={`card-details card-rear position-absolute`}>
+      <div className={`card-details card-rear position-absolute`} ref={rearRef}>
         <h2 className="mt-4">{data.event_name}</h2>
         <p className="desc mt-3">{data.description}</p>
         <div className="det-container d-flex flex-column">
