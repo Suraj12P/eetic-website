@@ -20,6 +20,7 @@ If you have the skill to pen down your ideas then it's for you...
 Are you confident enough to precisely position video shorts to create an engaging visual?
 
 Then what are you waiting for!? Come join us to build you career, pursue your dream!"
+          link="https://bit.ly/EETI-INTERN"
         />
       </div>
     </div>
