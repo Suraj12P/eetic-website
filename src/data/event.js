@@ -100,7 +100,7 @@ export const event_data = [
   {
     event_name: "Arduino for Beginners",
     host_name: "host_name 6",
-    start_date: "2022-07-27T21:30",
+    start_date: "2021-12-29T19:00",
     end_date: 1660048877,
     category: "category 6",
     registration_fee: "",
