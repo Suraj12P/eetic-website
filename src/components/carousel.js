@@ -105,7 +105,7 @@ function ImgReel() {
         </Carousel.Caption> */}
         </Carousel.Item>
 
-        <Carousel.Item interval={2000} className="">
+        {/* <Carousel.Item interval={2000} className="">
           <Image
             className="rounded-circle carousel-img"
             // width={800}
@@ -115,11 +115,11 @@ function ImgReel() {
             fluid
             roundedCircle
           />
-          {/* <Carousel.Caption>
+          <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption> */}
-        </Carousel.Item>
+        </Carousel.Caption>
+        </Carousel.Item> */}
       </Carousel>
     </>
   );

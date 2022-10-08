@@ -1,6 +1,7 @@
 import React from "react";
 import CareersCard from "./careers-card";
 import "../components/css/careers.css";
+import p1 from "../images/2.png";
 
 const CareersPanel = () => {
   return (
@@ -21,6 +22,7 @@ Are you confident enough to precisely position video shorts to create an engagin
 
 Then what are you waiting for!? Come join us to build you career, pursue your dream!"
           link="https://bit.ly/EETI-INTERN"
+          poster={p1}
         />
       </div>
     </div>

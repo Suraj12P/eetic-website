@@ -2,11 +2,11 @@ import React from "react";
 import careers from "../images/careers.jpg";
 import "./css/careers.css";
 
-const CareersCard = ({ title, desc, link }) => {
+const CareersCard = ({ title, desc, link,poster }) => {
   return (
     <div className="careers-card">
       <div className="img">
-        <img src={careers} alt="careers" />
+        <img src={poster} alt="careers" />
       </div>
       <div className="content">
         <h3>{title}</h3>
