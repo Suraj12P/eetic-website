@@ -63,11 +63,18 @@ font-size: 22px;
 
 /* ----------------------------------------------------------------------*/
 
+.illust1{
+  position: absolute;
+  left: 50px;
+  top: -250px;
+}
 
 .community_why {
+  margin-top: 100px !important;
   margin: 30px auto;
   background-color: #fff7f4;
   max-width: 1350px;
+  position: relative;
 }
 
 .header {
@@ -83,6 +90,18 @@ font-size: 22px;
 
 .txt_1 {
   /* vertical-align: middle; */
+}
+
+@media(max-width:1350px){
+  .illust1{
+    left: 0;
+  }
+}
+
+@media(max-width:1250px){
+  .illust1{
+    display: none;
+  }
 }
 
 @media (max-width: 425px) {

@@ -63,14 +63,22 @@ function ImgReel() {
     <>
       {/* <div className="arc"></div>
       <div className="dashes"></div> */}
+      <Image
+        className="round-border"
+        // width={800}
+        // height={800}
 
+        src={require("../images/round.svg")}
+        fluid
+        roundedCircle
+      />
       <Carousel>
         <Carousel.Item interval={2000} className="">
           <Image
             className="rounded-circle carousel-img"
             // width={800}
             // height={800}
-            src={require("../images/1.png")}
+            src={require("../images/1.jpg")}
             fluid
             roundedCircle
           />
@@ -81,6 +89,23 @@ function ImgReel() {
         </Carousel.Item>
 
         <Carousel.Item interval={2000} className="">
+          <Image
+            className="rounded-circle carousel-img"
+            // width={800}
+            // height={800}
+
+            src={require("../images/2.png")}
+            fluid
+            roundedCircle
+          />
+
+          {/* <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption> */}
+        </Carousel.Item>
+
+        {/* <Carousel.Item interval={2000} className="">
           <Image
             className="rounded-circle carousel-img"
             // width={800}
@@ -90,28 +115,11 @@ function ImgReel() {
             fluid
             roundedCircle
           />
-
-          {/* <Carousel.Caption>
+          <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption> */}
-        </Carousel.Item>
-
-        <Carousel.Item interval={2000} className="">
-          <Image
-            className="rounded-circle carousel-img"
-            // width={800}
-            // height={800}
-
-            src={require("../images/5.png")}
-            fluid
-            roundedCircle
-          />
-          {/* <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption> */}
-        </Carousel.Item>
+        </Carousel.Caption>
+        </Carousel.Item> */}
       </Carousel>
     </>
   );

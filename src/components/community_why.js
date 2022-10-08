@@ -1,9 +1,18 @@
 import React from "react";
 import "./css/community_why.css";
 import ball from "./site_images/ball.svg";
+import { Image } from "react-bootstrap";
+
 function CommunityWhy() {
   return (
     <div className="community_why">
+      <Image
+        className="illust1"
+        src={require("../images/illustration1.svg")}
+        fluid
+        roundedCircle
+      />
+
       <div className="header p-4">
         <h1>Here is why you should join our community</h1>
         {/* set  start*/}
@@ -14,7 +23,8 @@ function CommunityWhy() {
 
           <div class="p-2 flex-grow-1 txt_1 left">
             <p className="text-start  p-1 fs-3">
-            Bring together people with similar interests and offer a safe-space to work on your skills
+              Bring together people with similar interests and offer a
+              safe-space to work on your skills
             </p>
           </div>
         </div>
@@ -24,7 +34,9 @@ function CommunityWhy() {
           </div>
           <div class="p-2 flex-grow-1 right">
             <p className="text-end p-1 fs-3">
-            If you join us, you will surely build delightful, growing both personally and professionally without any pressure, you can build your skills without any stress
+              If you join us, you will surely build delightful, growing both
+              personally and professionally without any pressure, you can build
+              your skills without any stress
             </p>
           </div>
         </div>
@@ -36,7 +48,8 @@ function CommunityWhy() {
 
           <div class="p-2 flex-grow-1 txt_1 left">
             <p className="text-start  p-1 fs-3">
-            It's the best opportunity to establish a curiosity about the most recent technological and scientific developments
+              It's the best opportunity to establish a curiosity about the most
+              recent technological and scientific developments
             </p>
           </div>
         </div>
@@ -46,7 +59,8 @@ function CommunityWhy() {
           </div>
           <div class="p-2 flex-grow-1 right">
             <p className="text-end p-1  fs-3">
-            Take advantage of the masters' talk sessions to expand your knowledge of various subjects
+              Take advantage of the masters' talk sessions to expand your
+              knowledge of various subjects
             </p>
           </div>
         </div>
@@ -58,7 +72,8 @@ function CommunityWhy() {
 
           <div class="p-2 flex-grow-1 txt_1 left">
             <p className="text-start  p-1 fs-3">
-            With the assistance and support of experts, you can put the theoretical knowledge so learned into practice
+              With the assistance and support of experts, you can put the
+              theoretical knowledge so learned into practice
             </p>
           </div>
         </div>
@@ -69,7 +84,8 @@ function CommunityWhy() {
           </div>
           <div class="p-2 flex-grow-1 right">
             <p className="text-end p-1  fs-3">
-            You can improve your soft skills and get an awareness about the demand that society place on us
+              You can improve your soft skills and get an awareness about the
+              demand that society place on us
             </p>
           </div>
         </div>
