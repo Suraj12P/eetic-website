@@ -13,11 +13,11 @@ function Hero(options) {
           style={{ "max-width": "100vw !important" }}
         >
           <Container className="container">
-            <div>
+            {/* <div>
               <h1 className="text-start">
                 One of the biggest Student Community
               </h1>
-            </div>
+            </div> */}
             <div>
               <h1 className="brand_text text-start">EETI Foundation</h1>
             </div>

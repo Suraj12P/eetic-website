@@ -78,10 +78,27 @@ function ImgReel() {
             className="rounded-circle carousel-img"
             // width={800}
             // height={800}
-            src={require("../images/1.png")}
+            src={require("../images/1.jpg")}
             fluid
             roundedCircle
           />
+          {/* <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption> */}
+        </Carousel.Item>
+
+        <Carousel.Item interval={2000} className="">
+          <Image
+            className="rounded-circle carousel-img"
+            // width={800}
+            // height={800}
+
+            src={require("../images/2.png")}
+            fluid
+            roundedCircle
+          />
+
           {/* <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -95,23 +112,6 @@ function ImgReel() {
             // height={800}
 
             src={require("../images/3.png")}
-            fluid
-            roundedCircle
-          />
-
-          {/* <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption> */}
-        </Carousel.Item>
-
-        <Carousel.Item interval={2000} className="">
-          <Image
-            className="rounded-circle carousel-img"
-            // width={800}
-            // height={800}
-
-            src={require("../images/5.png")}
             fluid
             roundedCircle
           />
