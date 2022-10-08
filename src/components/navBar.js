@@ -91,8 +91,8 @@ function navBar() {
             </Nav.Link> */}
 
             {/*================= sign in ================= */}
-            <Nav.Link href="#signIn" className="navText">
-              <Button className="signInUpButton signIn">Sign In</Button>
+            <Nav.Link href="/careers" className="navText">
+              <Button className="signInUpButton signIn">Careers</Button>
             </Nav.Link>
             <Nav.Link href="#signUp" className="navText ">
               <Button className=" signUp signInUpButton">Sign Up</Button>
