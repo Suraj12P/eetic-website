@@ -71,6 +71,9 @@ function navBar() {
             <Nav.Link href="/team" className="navText">
               Team
             </Nav.Link>
+            <Nav.Link href="/careers" className="navText">
+              Careers
+            </Nav.Link>
 
             {/* <NavDropdown title="Dropdown" id="collapsible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -91,8 +94,8 @@ function navBar() {
             </Nav.Link> */}
 
             {/*================= sign in ================= */}
-            <Nav.Link href="/careers" className="navText">
-              <Button className="signInUpButton signIn">Careers</Button>
+            <Nav.Link href="#signIn" className="navText">
+              <Button className="signInUpButton signIn">Sign In</Button>
             </Nav.Link>
             <Nav.Link href="#signUp" className="navText ">
               <Button className=" signUp signInUpButton">Sign Up</Button>
