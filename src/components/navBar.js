@@ -93,13 +93,21 @@ function navBar() {
               Dank memes
             </Nav.Link> */}
 
-            {/*================= sign in ================= */}
+            {/*================= sign in / sign up================= */}
+
+            {/* THIS PART OF CODE IS COMMENTED 
+                  SHOULD BE UNCOMMENTED WHEN SIGN IN AND SIGN UP PAGES ARE CREATED
+                   */}
+             
+
             <Nav.Link href="#signIn" className="navText">
               <Button className="signInUpButton signIn">Sign In</Button>
             </Nav.Link>
             <Nav.Link href="#signUp" className="navText ">
               <Button className=" signUp signInUpButton">Sign Up</Button>
             </Nav.Link>
+
+            {/* ====================================================== */}
           </Nav>
         </Navbar.Collapse>
       </Container>
