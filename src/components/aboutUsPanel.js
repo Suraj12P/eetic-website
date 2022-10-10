@@ -14,7 +14,7 @@ const AboutUs = () => {
           EETI Foundation is a community initiative from College of Engineering
           Trivandrum aiming to open up a new world of technology to the young
           minds out there. An exuberant group of young minds from Kerala, having
-          students and mentors from all facets who have build products that have
+          students and mentors from all facets who have built products that have
           been game changers, and we are on a mission to spread the knowledge
           onto a much wider group of audience helping them learn the most hyped
           technologies and skills, to help them build the next big thing. We
