@@ -79,7 +79,7 @@ font-size: 22px;
 
 .header {
   color: #242731;
-  font-size: 36px;
+  font-size: 2rem;
   font-weight: 200;
 
 }
@@ -88,9 +88,13 @@ font-size: 22px;
   margin-top: 30px;
 }
 
-.txt_1 {
-  /* vertical-align: middle; */
+.ball {
+  width: 45px;
 }
+
+/* .txt_1 {
+  vertical-align: middle;
+} */
 
 @media(max-width:1350px){
   .illust1{
@@ -105,13 +109,18 @@ font-size: 22px;
 }
 
 @media (max-width: 425px) {
+  .ball {
+    width: 40px;
+  }
+}
+@media (max-width: 425px) {
 
   .point{
     margin-top: 10px;
   }
 
   .ball {
-    width: 50px !important;
+    width: 35px !important;
     height: auto;
   }
 

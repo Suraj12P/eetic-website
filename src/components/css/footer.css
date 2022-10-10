@@ -89,20 +89,31 @@ footer {
 
 span > u {
   color: inherit;
-  font-size: 26px;
+  font-size: 20px;
 }
 .f_links {
   text-decoration: none;
   color: white;
   margin-top: 5px;
-  font-size: 22px;
+  font-size: 19px;
 }
 
 .f_links:hover {
   color: white;
 }
 
-@media (max-width: 670px) {
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px !important;
+  /* padding-left: 1rem !important; */
+}
+
+.social-media-item {
+  margin: 10px !important;
+}
+
+@media (max-width: 800px) {
   footer {
     margin-top: 50px !important;
   }
@@ -126,10 +137,18 @@ span > u {
     padding: 30px 30px 0 30px;
     box-sizing: border-box;
   }
+
+  .copyright {
+    margin: 30px;
+  }
 }
 @media (max-width: 320px) {
   a > svg {
     height: 1.5rem;
     width: 1.5rem;
+  }
+
+  .copyright {
+    margin: 30px;
   }
 }
