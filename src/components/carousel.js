@@ -63,7 +63,7 @@ function ImgReel() {
     <>
       {/* <div className="arc"></div>
       <div className="dashes"></div> */}
-      <Image
+      {/* <Image
         className="round-border"
         // width={800}
         // height={800}
@@ -71,7 +71,7 @@ function ImgReel() {
         src={require("../images/round.svg")}
         fluid
         roundedCircle
-      />
+      /> */}
       <Carousel>
         <Carousel.Item interval={2000} className="">
           <Image
