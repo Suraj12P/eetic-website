@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/MemberCard.css";
+import "../css/MemberCard.css";
 import { IoLogoLinkedin } from "react-icons/io";
 
 const MemberCard = ({ name, position, image, linkedin, type }) => {
