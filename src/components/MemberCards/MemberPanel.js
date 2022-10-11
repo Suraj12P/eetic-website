@@ -1,28 +1,28 @@
 import React from "react";
-import "./css/MemberPanel.css";
+import "../css/MemberPanel.css";
 
 import MemberCard from "./MemberCard";
-import Arjun from "../images/team/arjun.jpeg";
-import SidharthP from "../images/team/sidharth.jpeg";
-import jaidan from "../images/team/jaidan.jpg";
-import ardra from "../images/team/ardra.jpg";
-import bilal from "../images/team/bilal.JPG";
-import haridathan from "../images/team/haridathan.jpeg";
-import harish from "../images/team/harish.jpeg";
-import meera from "../images/team/meera.jpeg";
-import rameesa from "../images/team/rameesa.jpg";
-import diya from "../images/team/diya.jpg";
-import vaishnavi from "../images/team/vaishnavi.jpg";
-import archa from "../images/team/archa.jpeg";
-import gokul from "../images/team/gokul.jpeg";
-import akhila from "../images/team/akhila.jpeg";
-import karthik from "../images/team/karthik.jpeg";
-import surya from "../images/team/surya.png";
-import dave from "../images/team/dave.jpeg";
-import shenin from "../images/team/shenin.jpeg";
-import anjitha from "../images/team/anjitha.jpg";
-import nandana from "../images/team/nandana.jpeg";
-import niran from "../images/team/niran.jpeg";
+import Arjun from "../../images/team/arjun.jpeg";
+import SidharthP from "../../images/team/sidharth.jpeg";
+import jaidan from "../../images/team/jaidan.jpg";
+import ardra from "../../images/team/ardra.jpg";
+import bilal from "../../images/team/bilal.JPG";
+import haridathan from "../../images/team/haridathan.jpeg";
+import harish from "../../images/team/harish.jpeg";
+import meera from "../../images/team/meera.jpeg";
+import rameesa from "../../images/team/rameesa.jpg";
+import diya from "../../images/team/diya.jpg";
+import vaishnavi from "../../images/team/vaishnavi.jpg";
+import archa from "../../images/team/archa.jpeg";
+import gokul from "../../images/team/gokul.jpeg";
+import akhila from "../../images/team/akhila.jpeg";
+import karthik from "../../images/team/karthik.jpeg";
+import surya from "../../images/team/surya.png";
+import dave from "../../images/team/dave.jpeg";
+import shenin from "../../images/team/shenin.jpeg";
+import anjitha from "../../images/team/anjitha.jpg";
+import nandana from "../../images/team/nandana.jpeg";
+import niran from "../../images/team/niran.jpeg";
 
 const MemberPanel = () => {
   return (

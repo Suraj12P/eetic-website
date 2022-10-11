@@ -22,7 +22,7 @@ function CommunityWhy() {
           </div>
 
           <div class="p-2 flex-grow-1 txt_1 left">
-            <p className="text-start  p-1 fs-3">
+            <p className="text-start  p-1 fs-4">
               Bring together people with similar interests and offer a
               safe-space to work on your skills
             </p>
@@ -33,7 +33,7 @@ function CommunityWhy() {
             <img src={ball} alt="" className="ball" />
           </div>
           <div class="p-2 flex-grow-1 right">
-            <p className="text-end p-1 fs-3">
+            <p className="text-end p-1 fs-4">
               If you join us, you will surely build delightful, growing both
               personally and professionally without any pressure, you can build
               your skills without any stress
@@ -47,7 +47,7 @@ function CommunityWhy() {
           </div>
 
           <div class="p-2 flex-grow-1 txt_1 left">
-            <p className="text-start  p-1 fs-3">
+            <p className="text-start  p-1 fs-4">
               It's the best opportunity to establish a curiosity about the most
               recent technological and scientific developments
             </p>
@@ -58,7 +58,7 @@ function CommunityWhy() {
             <img src={ball} alt="" className="ball" />
           </div>
           <div class="p-2 flex-grow-1 right">
-            <p className="text-end p-1  fs-3">
+            <p className="text-end p-1 fs-4">
               Take advantage of the masters' talk sessions to expand your
               knowledge of various subjects
             </p>
@@ -71,7 +71,7 @@ function CommunityWhy() {
           </div>
 
           <div class="p-2 flex-grow-1 txt_1 left">
-            <p className="text-start  p-1 fs-3">
+            <p className="text-start  p-1 fs-4">
               With the assistance and support of experts, you can put the
               theoretical knowledge so learned into practice
             </p>
@@ -83,7 +83,7 @@ function CommunityWhy() {
             <img src={ball} alt="" className="ball" />
           </div>
           <div class="p-2 flex-grow-1 right">
-            <p className="text-end p-1  fs-3">
+            <p className="text-end p-1  fs-4">
               You can improve your soft skills and get an awareness about the
               demand that society place on us
             </p>

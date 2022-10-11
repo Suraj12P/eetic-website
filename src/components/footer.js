@@ -78,38 +78,38 @@ function Footer() {
             </a>
           </div>
         </div>
-        <div class="down container justify text-white py-4 py-lg-5">
-          {/* <ul class="list-inline">
-            <li class="list-inline-item me-4"><a class="link-light" href="#">Web design</a></li>
-            <li class="list-inline-item me-4"><a class="link-light" href="#">Development</a></li>
-            <li class="list-inline-item"><a class="link-light" href="#">Hosting</a></li>
-        </ul> */}
+        <div class="copyright down container justify text-white py-lg-4">
+            {/* <ul class="list-inline">
+              <li class="list-inline-item me-4"><a class="link-light" href="#">Web design</a></li>
+              <li class="list-inline-item me-4"><a class="link-light" href="#">Development</a></li>
+              <li class="list-inline-item"><a class="link-light" href="#">Hosting</a></li>
+          </ul> */}
 
           {/* <h4>Contact Us</h4> */}
-          <ul class="list-inline">
-            <li class="list-inline-item me-4 ">
+          <ul class="list-inline social-media" >
+            <li class="list-inline-item social-media-item">
               <a href={info.linkedin}>
-                <IoLogoLinkedin size="2rem" color="grey" />
+                <IoLogoLinkedin size="1.7rem" color="grey" />
               </a>
             </li>
-            <li class="list-inline-item me-4">
+            <li class="list-inline-item social-media-item">
               <a href={info.phone}>
-                <IoLogoWhatsapp size="2rem" color="grey" />
+                <IoLogoWhatsapp size="1.7rem" color="grey" />
               </a>
             </li>
-            <li class="list-inline-item me-4">
+            <li class="list-inline-item social-media-item">
               <a href={info.facebook}>
-                <IoLogoFacebook size="2rem" color="grey" />
+                <IoLogoFacebook size="1.7rem" color="grey" />
               </a>
             </li>
-            <li class="list-inline-item me-4">
+            <li class="list-inline-item social-media-item">
               <a href={info.instagram}>
-                <IoLogoInstagram size="2rem" color="grey" />
+                <IoLogoInstagram size="1.7rem" color="grey" />
               </a>
             </li>
-            <li class="list-inline-item me-4">
+            <li class="list-inline-item social-media-item">
               <a href={info.twitter}>
-                <IoLogoTwitter size="2rem" color="grey" />
+                <IoLogoTwitter size="1.7rem" color="grey" />
               </a>
             </li>
           </ul>
