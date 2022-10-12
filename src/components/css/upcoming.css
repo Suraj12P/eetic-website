@@ -5,6 +5,13 @@
   width: calc(100vw - 60px);
 }
 
+.caution {
+  display: none;
+  color: red;
+  position:absolute;
+  font-style: italic;
+}
+
 .eventHeading {
   font-weight: bold;
   font-size: 36px;
@@ -31,6 +38,12 @@
 @media (max-width: 1350px) {
   .upcoming-events {
     max-width: 90vw !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .caution {
+    display: block;
   }
 }
 
