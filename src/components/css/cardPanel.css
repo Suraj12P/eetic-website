@@ -11,6 +11,19 @@
   grid-gap: 1rem; */
 }
 
+.event-caution {
+  width: fit-content;
+  min-width: 161px;
+  position: absolute;
+  top:55px;
+  right:50%;
+  transform: translateX(50%);
+  color: red;
+  font-size: 14px;
+  font-style: italic;
+  display: none;
+}
+
 .upcoming,.closed{
 
   padding: 80px 60px 60px 60px;
@@ -24,9 +37,27 @@
 .top-0{
   top: 10px !important;
 }
+
+@media (max-width: 768px) {
+  .event-caution {
+    display: block;
+  }
+}
+
 @media(max-width:425px){
   .upcoming,.closed{
     padding: 20px;
     padding-top: 80px;
+  }
+
+  .event-caution {
+    width: fit-content;
+    position: absolute;
+    top:55px;
+    right:50%;
+    transform: translateX(50%);
+    color: red;
+    font-size: 12px;
+    font-style: italic;
   }
 }
