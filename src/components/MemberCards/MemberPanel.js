@@ -174,7 +174,7 @@ const MemberPanel = () => {
         <h3>Junior Board of Governors</h3>
       </div>
 
-      <div className="member-panel-cards">
+      <div className="member-panel-cards co-team">
         <MemberCard
           name="Suryagayatri Thangalazhi"
           position="Junior Chief Executive Officer"
