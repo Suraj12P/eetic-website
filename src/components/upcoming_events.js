@@ -80,6 +80,7 @@ const UpcomingEvents = () => {
           return e_date > date && <EventCard data={event} key={i} />;
         })}
       </Slider>
+      <p className="caution">*Click on the poster to register</p>
     </div>
   );
 };

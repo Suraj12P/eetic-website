@@ -18,8 +18,8 @@ function CardPanel() {
   return (
     <div className="cardPanel">
       <div className="upcoming position-relative">
-        <h1 className="position-absolute top-0">Upcoming Events</h1>
-
+        <p className="event-caution">*Click on the poster to register</p>
+        <h1 className="position-absolute top-0 mb-3">Upcoming Events</h1>
         {sortData.map((event, i) => {
           const e_date = new Date(`${event.start_date}`);
           return e_date > date && <EventCard data={event} key={i} />;
