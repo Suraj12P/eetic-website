@@ -264,7 +264,7 @@ export const event_data = [
     yt: "https://www.youtube.com/",
   },
   {
-    event_name: "Introduction to Front-end Design & Development",
+    event_name: "UI Design to Website",
     host_name: "Sudev Suresh Sreedevi",
     start_date: "2022-10-29T19:00",
     end_date: "2022-10-30T20:00",
@@ -273,8 +273,7 @@ export const event_data = [
     registration_link: "https://docs.google.com/forms/d/e/1FAIpQLSeg5AuD5QyeYBpLcSLHZ-Z2CADkCi_8AnYIv-CMz0g_AFXDpw/viewform",
     is_offline: "false",
     description:
-      "Have you ever wondered how websites work? Ever thought of learning about it?🧐EETI Foundation presents a session on introduction to front end design and development.\
-      🤩Basics makes a person strong so lets start from the beginning.\
+      "Have you ever wondered how websites work? Ever thought of learning about it?EETI Foundation presents a session on introduction to front end design and development.\
       🗣Speaker: Sudev Suresh Sreedevi, UI/UX designer and web developer from College of Engineering Trivandrum",
     venue: "Google Meet",
     poster_url:
