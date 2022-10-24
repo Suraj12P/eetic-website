@@ -1,3 +1,5 @@
+import ui from '../images/4.png'
+
 export const event_data = [
   {
     event_name: "NASA Space Apps Challenge",
@@ -277,7 +279,7 @@ export const event_data = [
       Speaker: Sudev Suresh Sreedevi, UI/UX designer & web developer from College of Engineering Trivandrum",
     venue: "Google Meet",
     poster_url:
-      "https://lh3.googleusercontent.com/WFjUQLQyYUfhGdoekMbH-hC6PYAG3-f2rtLQKBZaaer2yM20_EPDp37gUR51Byi4azBIvh_atP2sVbDmYtmsBeLBj2Jg0Al2ntczQEiiDiofXnKzwGKUm4UvlT0ZQ_1_0EUQ43rf4Fi_7ebYUqPNV5cCGvzXFPxaMMxzLIqIo_udFm-qmD4q2z1G_T77BTdY36lrafxzAxHTkMT1G3adotAnICBQ9mocuJL76ec92ih7EokM3jpeA9OZbCnb0AdnxDqitcLII0mX_Ehd0OMY2SRDAv6GwcaclFB6Vbt8XjbYghlOBLx5F9bAfu5pw76Gwi3KAk7ZQOcwRZcYxcSMVZlSQurwS1UCxKX6H4uDPmx65E7nO7eHjYns4BMQutjdtdMFbnbDj3JOzzXu25aA39DS9TLeLQ0hCSe7m49KEbxH6rm_c8Dy_U75rgPI5vn4Z-SXYnXsmactyshaJ4XVnfTs1eqL-FH_818FQWALc-7Xbe9p2Hhzzs6paKFRLFNzVugzTZNt2CNUvZTKn16lEtcIIxQkkJ47Sil05oaHYVsCFbEr5XKMWtsQsA-4SwmTosW6ZLfpa-Bei5P6ccqleDmL0MiiIMXBPUGWJB_hyoVh-qJwzNVwSVOd_Sj4i4irCXp4fxoDp9Hji1Oyb5Y7EML_7-cH5RI1G56tht1LHaE_jQNjAKvfNfqVCmQQveHRdrEKG2l0lH-7aOz-G1gSL1gcXhSoXop6vBCqJq3gWnxmCr1Lkt0_oHVVdoJYE7Un4G2T9jWiEU3wvmzTYfVz6CaOWS3Ut-A2QNEQzm1noxOUZm_XAOtqjarfNjXm7vXj-qwSyys2uadzBzrXGHvMhCitjGqWM50opirjj-NwSjbW0ipKU-OEUccjBD16XIsTJaS0tsIoB7hjAq_fMNW2Qg7Ox0ncQ4CAGkmhm-vRq4TX8nmHcdx3GSWCB7SB4m0mMnT27xmWGuFTBkIXEHvDyqF6QWSHWBfVGbDPMMmNOeGk-jRupsh3GiMF0733wS71SoVceVhArgnWhCQ7hTvTDd3F=s933-no?authuser=1",
+      "https://github.com/Anirudh-A-V/eetic-website/blob/main/src/images/4.png?raw=true",
     id: "14",
     yt: "https://www.youtube.com/",
   },
