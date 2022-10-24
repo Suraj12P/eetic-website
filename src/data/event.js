@@ -260,7 +260,26 @@ export const event_data = [
     venue: "Google Meet",
     poster_url:
       "https://lh3.googleusercontent.com/fife/AAbDypDDt7s989iwjiipujgcdzyTaKSg0kkRCEIEreBJYsRZAcSOa7zedRb_jdRoJFecurupEtkmSanu76_edAcZNVhAS44GYtfvFmwIbXOEHNqljBn3jFSPTKucfJ6QP5Z0hinVlp1fcZuO_-dKKLnHPFyLhS8cRCfr0oXgCOsmkHecTUjhFfVsbdcbzkA2LWlkpo-UxFV2p5fqtS_X9cbk9w5UYcTg1RewBtdp1fKd6RIaUePgbmTVG2iFoWMNuRREYpT24JfiyhtzPw3ckn5nh9W9cLtCZwOpbR6apGMKDexoLs5ZHxRT2cSLxrwayPk_btUW7xc4cQFJDZC55dCV1iZjScbJPOXu29PXYUHfoASUYqcDOIpizdqqpAKieTJC-sCEdiwIqYidLcMikPaRBIJjuUP7f0322kp8QF7Xr7MvC76tlmFt6gCdPCbwY1zJ7LdyjmZeWZGN742qxb2TvcQH-d_-eQQBceCvUeGTXTuPnes9Y0F5U1nqPff9rJOikt0zfMf3Jjqlx9GUdVMsbpVGwle2KUptYgN9wm4YCqTW3eCUDzFkckA8uFdgTga3LNVfcCFHMTJgUXGmJg4VtEF8Iim1A-yIf7bN4WFYd4jm1HXyS_65SOWmkrrgV23JCRYqij9rSfN-XWPMSxMpZGP4RB5qN69IzZZ2YtuC8aOXM1G_7X1beOzV46Wr6OqdZlhkBqIzF-oguXO-GRC0e2AKKsL2tmxwmu4yBqolKlLHpIlXldY6CmKIVU83LRGLbnhWgwVy4eceDwuytMfnZ0ZE5upTB42U9qWqhw4JvueoiOmI79qgoXZhuhlbRnLWSLFHbWJy23Hi7N_6aX6n512QajGlyl3OJB8ORo_RuoHYPkCFTaA31Lmvj9z6WCRjFlUrjtpoVXSY6EzzsA3ni2HRaZBnj5eSfaBcRdR8ThCUSZ91C073O1xPDvlaQZBe-K7zXrdNAON1ewdjY09Y1FutW3HsuMfMj_p3HPjk0IargcAPrTa-g0FJRewgwU9kuVyna9vPxVBchiFsAR0tp9wnFtUiq20VWZR48OuF-VjMu39fAYfTbV_Mt73rLydbRzr98zHvadYLmN79jJjqkxjVs3wXaSGBHP01IjPQegMD9-OYdCLkw55Y96cVd91hMERTclxpnh74cDyOCaa_VcSKHhkCTARR1hgSApH0m4BAhSukWkiawZGwymJPm3D7uUcnA7_V9ETHmkBAuJNMn22mR_BoxSs6LUst6KFgcw19fYf3efn0fwW6D5nw6SQqd0Nqu58koKIrKIsbYjtlkFnqU7fCZV2P8zP-mggYviE6WXIwNsyqNW9Gtnp2vtdV-tW0E-TCl7UOe6RmYoRvG2ZdTmCisLwoCcwWbqzqf2MetlMD5Kj2NjsKMlad5XOCPsO4tHtgvyWX6Fiu5Yii9Fnt450JxR0st0XCfzI1419nZ1G-2BApaukq3EOpd8m0W_wV1mSf95Pzs55GnUQymxWkU4dBADDcEeYFLMDIdJML7lRAs7NRs6pje94V1ZkKr-wdim0m3ZHSDn9PvgTHtC_tWCWKSkUfC6JgGVuQAlPOsX4nCtwhd_Clqbw=w2000-h1202",
-    id: "12",
+    id: "13",
+    yt: "https://www.youtube.com/",
+  },
+  {
+    event_name: "Introduction to Front-end Design & Development",
+    host_name: "Sudev Suresh Sreedevi",
+    start_date: "2022-10-29T19:00",
+    end_date: "2022-10-30T20:00",
+    category: "category 12",
+    registration_fee: "",
+    registration_link: "https://docs.google.com/forms/d/e/1FAIpQLSeg5AuD5QyeYBpLcSLHZ-Z2CADkCi_8AnYIv-CMz0g_AFXDpw/viewform",
+    is_offline: "false",
+    description:
+      "Have you ever wondered how websites work? Ever thought of learning about it?🧐EETI Foundation presents a session on introduction to front end design and development.\
+      🤩Basics makes a person strong so lets start from the beginning.\
+      🗣Speaker: Sudev Suresh Sreedevi, UI/UX designer and web developer from College of Engineering Trivandrum",
+    venue: "Google Meet",
+    poster_url:
+      "https://lh3.googleusercontent.com/QZ8Dfnsxl98nLpEvJ9DVSZJoPexkOqR5eNVDZifJGUgmmYRhLEpDA38CNv3qnBysm_9Szqj5c_wDn7ziuYM9o2FoWtPr5LVGSVgw2YC5WBJbyffVl0jKz24Qzkre6GqG0ELslBlypLao2eQaBxJi41S5GcI1QecsNZvlKMIVeBwzHr4Zk72k-0QacP-8FBAkCvbYSvJghbBS4U294IQJ78X5swyi_gTkxvdq8tdxVa1zTZ1sj8bLV7YghoULWlrCO3ENu4LsP_e7Hansp2MPznKRa8zfnvAuSA9h2AGWcRWOHbT7oQqLbOM2pzdpdcKc9OY7u5FxD4Qr1SJcFTtocuNpBO3i42_X7eLV7-C4jQ1mjtDV4VnHP3TmNWVrrQ1EFfT5qi4HRk3Hv9UXmsWPb60_sSQMOvtf1nwo0oY2gx9dgHWUY2nF_-rHohNfVxABQPwpMo5YgVFXuhvBstqSUzL4-zK4tfrb8bOHEJoxr40ou0LsXlexjmA7b2iNaOT1lnMwi7NcmMXtfbHm05MNNXmU-WLQdZsQitO2efUetLjDCGj45K9gDUQzSgA8_qbQiO4Liwi4gpLcXK_NWntGw1Jw49MnvP4HGa9k4BqAXJkHVrOr9LIqadVg8fJvuyDKh3D6NvWXEVFzhWYG8LAJMMnMrbkQStl6014jZr0OzNkx73dOKMNabufbd7l_NJ4Xh4ucZO7o6XS0KJ6MShjqcCkx_zF1Xocn3BEQf9tiHvv85l4VKQ9qnD1QYyFg6-QaP7pUv2-s8OjhdGGat-vVQOhGXHJ5Y847bLMA4xnLt7_ALo_wr0TVE9SEkC63NWQDavbL6cCBoWKHZHgf78S251iiCJ0ytGmHxV7BXrjvoKnYzyvXoBhsTXDvyMhpL-yhKDAG2IkQGce_OgnpfPrR0DUMt_n5viZtgpHz9Jt52Hgdz9ozIykyjZxyUm5s-Zb6AndQ8at6OGvyoKObACNHfn3eyiTsW32sppTYXR6P-To6ib20JcLgxr2oTlcaKJG0frOdc49mE_dLxDHSkwI2f74O=s933-no?authuser=1",
+    id: "14",
     yt: "https://www.youtube.com/",
   },
 ];
