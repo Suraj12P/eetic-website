@@ -12,13 +12,15 @@ const MemberCard = ({ name, position, image, linkedin, type }) => {
         <h3>{name}</h3>
         <p>{position}</p>
         <div className={`member-card-socials`}>
-          <a
-            href={`https://www.linkedin.com/in/${linkedin}/`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <IoLogoLinkedin size="1.5em" color="white" />
-          </a>
+          {linkedin &&
+            <a
+              href={`https://www.linkedin.com/in/${linkedin}/`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IoLogoLinkedin size="1.5em" color="white" />
+            </a>
+          }
         </div>
       </div>
     </div>
