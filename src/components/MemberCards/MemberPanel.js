@@ -117,7 +117,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="A R Arjun"
-          position="Chief social media Officer"
+          position="Chief Social Media Officer"
           image={Arjun}
           linkedin="a-r-arjun-104a36200"
           github=""
@@ -126,7 +126,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="Ardra S S"
-          position="Chief programmer Officer"
+          position="Chief Program Officer"
           image={ardra}
           linkedin="ardra-s-s-980670221"
           github=""
@@ -135,7 +135,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="Akhila Nasrin"
-          position="Chief programmer Officer"
+          position="Chief Program Officer"
           image={akhila}
           linkedin="akhila-nasrin-a81991211"
           github=""
