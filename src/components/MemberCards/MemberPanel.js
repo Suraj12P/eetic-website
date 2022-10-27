@@ -115,7 +115,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="A R Arjun"
-          position="Chief social media Officer"
+          position="Chief Social Media Officer"
           image={Arjun}
           linkedin="a-r-arjun-104a36200"
           github=""
