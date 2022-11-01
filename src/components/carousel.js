@@ -54,11 +54,22 @@
 // render(<ControlledCarousel />);
 
 import Carousel from "react-bootstrap/Carousel";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./css/carousel.css";
 import { Image } from "react-bootstrap";
+import { event_data } from "../data/event";
 
 function ImgReel() {
+  let date = new Date();
+  const [sortData, setSortData] = useState([]);
+
+  useEffect(() => {
+    event_data.sort((a, b) => new Date(a.start_date) - new Date(b.start_date));
+    event_data.reverse();
+    console.log(event_data);
+    setSortData(event_data);
+  }, []);
+
   return (
     <>
       {/* <div className="arc"></div>
@@ -73,20 +84,26 @@ function ImgReel() {
         roundedCircle
       /> */}
       <Carousel>
-        <Carousel.Item interval={2000} className="">
-          <Image
-            className="rounded-circle carousel-img"
-            // width={800}
-            // height={800}
-            src={require("../images/1.jpg")}
-            fluid
-            roundedCircle
-          />
-          {/* <Carousel.Caption>
+
+        {sortData.map((event, i) => {
+          const e_date = new Date(`${event.start_date}`);
+          return (e_date > date &&
+            <Carousel.Item interval={2000} className="">
+              <Image
+                className="rounded-circle carousel-img"
+                // width={800}
+                // height={800}
+                src={event.poster_url}
+                fluid
+                roundedCircle
+                index={i} />
+            </Carousel.Item>
+          );
+        })}
+        {/* <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption> */}
-        </Carousel.Item>
 
         <Carousel.Item interval={2000} className="">
           <Image

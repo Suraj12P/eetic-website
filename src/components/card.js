@@ -18,13 +18,10 @@ function EventCard({ data }) {
   }, []);
 
   const handleClick = () => {
-    if (rearRef.current.style.transform == "rotateY(-180deg)") {
-      frontRef.current.style.transform = "rotateY(180deg)";
-      rearRef.current.style.transform = "rotateY(0deg)";
-    } else {
-      frontRef.current.style.transform = "rotateY(0deg)";
-      rearRef.current.style.transform = "rotateY(-180deg)";
-    }
+   if(window.innerWidth<769) {
+    rearRef.current.classList.toggle("flip-rear");
+    frontRef.current.classList.toggle("flip-front");
+   }
   };
 
   return (
@@ -44,16 +41,15 @@ function EventCard({ data }) {
             ).getMonth() + 1}/${new Date(data.start_date).getFullYear()}`}{" "}
           </span>
 
-          <span className="det-time">{`Time : ${new Date(
-            data.start_date
-          ).getHours() % 12}.${new Date(data.start_date).getMinutes()} ${
-            new Date(data.start_date).getHours() < 12 ? "am" : "pm"
-          }`}</span>
+          <span className="det-time">
+            {`Time : ${new Date( data.start_date).getHours() % 12}:${new Date(data.start_date).getMinutes() == 0 ? "00" : new Date(data.start_date).getMinutes()}
+            ${new Date(data.start_date).getHours() < 12 ? "AM" : "PM"}`}
+          </span>
 
           <span className="det-venue">{`Venue : ${data.venue}`} </span>
         </div>
         {isOpen ? (
-          <a href={data.registration_link}>
+          <a href={data.registration_link} target="_blank" rel="noreferrer">
           <button type="button" class=" register btn btn-primary">
             Register
           </button></a>

@@ -2,6 +2,8 @@ import React from "react";
 import "../css/MemberPanel.css";
 
 import MemberCard from "./MemberCard";
+import ProgramTeam from "./ProgramTeam";
+
 import Arjun from "../../images/team/arjun.jpeg";
 import SidharthP from "../../images/team/sidharth.jpeg";
 import jaidan from "../../images/team/jaidan.jpg";
@@ -96,7 +98,7 @@ const MemberPanel = () => {
         ></MemberCard>
 
         <MemberCard
-          name="Gogul G Kumar"
+          name="Gokul G Kumar"
           position="Chief Community Officer"
           image={gokul}
           linkedin="gokul-g-kumar-b50877241"
@@ -115,7 +117,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="A R Arjun"
-          position="Chief social media Officer"
+          position="Chief Social Media Officer"
           image={Arjun}
           linkedin="a-r-arjun-104a36200"
           github=""
@@ -124,7 +126,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="Ardra S S"
-          position="Chief programmer Officer"
+          position="Chief Program Officer"
           image={ardra}
           linkedin="ardra-s-s-980670221"
           github=""
@@ -133,7 +135,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="Akhila Nasrin"
-          position="Chief programmer Officer"
+          position="Chief Program Officer"
           image={akhila}
           linkedin="akhila-nasrin-a81991211"
           github=""
@@ -238,6 +240,8 @@ const MemberPanel = () => {
           size="medium"
         ></MemberCard>
       </div>
+
+      <ProgramTeam />
 
       {/* <div className="member-team">
         <h2>Co Team</h2>

@@ -289,15 +289,29 @@ p.desc {
   transition: ease-in-out 600ms;
 }
 
-.card:hover .card-front {
-  transform: rotateY(180deg);
-}
 
 .card-rear {
-  transform: rotateY(-180deg);
+  transform: rotateY(-180deg) !important;
   /* visibility: hidden; */
 }
-.card:hover .card-rear {
-  transform: rotateY(0deg);
-  /* visibility: visible; */
+.card-front {
+  transform: rotateY(0deg) !important;
+  /* visibility: hidden; */
+}
+
+.flip-front {
+  transform: rotateY(180deg) !important;
+}
+.flip-rear {
+  transform: rotateY(0deg) !important;
+}
+
+@media(min-width: 769px) {
+  .card:hover .card-front {
+    transform: rotateY(180deg) !important;
+  }
+  .card:hover .card-rear {
+    transform: rotateY(0deg) !important;
+    /* visibility: visible; */
+  }
 }
