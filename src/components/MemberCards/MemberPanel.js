@@ -2,6 +2,8 @@ import React from "react";
 import "../css/MemberPanel.css";
 
 import MemberCard from "./MemberCard";
+import ProgramTeam from "./ProgramTeam";
+
 import Arjun from "../../images/team/arjun.jpeg";
 import SidharthP from "../../images/team/sidharth.jpeg";
 import jaidan from "../../images/team/jaidan.jpg";
@@ -238,6 +240,8 @@ const MemberPanel = () => {
           size="medium"
         ></MemberCard>
       </div>
+
+      <ProgramTeam />
 
       {/* <div className="member-team">
         <h2>Co Team</h2>

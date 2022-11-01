@@ -78,7 +78,7 @@ function ImgReel() {
             className="rounded-circle carousel-img"
             // width={800}
             // height={800}
-            src={require("../images/1.jpg")}
+            src={require("../images/4.png")}
             fluid
             roundedCircle
           />
