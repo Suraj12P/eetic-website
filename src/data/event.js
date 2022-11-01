@@ -1,5 +1,3 @@
-import ui from '../images/4.png'
-
 export const event_data = [
   {
     event_name: "NASA Space Apps Challenge",
@@ -281,7 +279,7 @@ export const event_data = [
     poster_url:
       "https://github.com/Anirudh-A-V/eetic-website/blob/main/src/images/4.png?raw=true",
     id: "14",
-    yt: "https://www.youtube.com/",
+    yt: "https://www.youtube.com/playlist?list=PLDzCun2PksCc-1Jg02ha5EJTkmEsVlQ-Z",
   },
   {
     event_name: "Brain Computer Interface",
