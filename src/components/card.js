@@ -18,13 +18,10 @@ function EventCard({ data }) {
   }, []);
 
   const handleClick = () => {
-    if (rearRef.current.style.transform == "rotateY(-180deg)") {
-      frontRef.current.style.transform = "rotateY(180deg)";
-      rearRef.current.style.transform = "rotateY(0deg)";
-    } else {
-      frontRef.current.style.transform = "rotateY(0deg)";
-      rearRef.current.style.transform = "rotateY(-180deg)";
-    }
+   if(window.innerWidth<769) {
+    rearRef.current.classList.toggle("flip-rear");
+    frontRef.current.classList.toggle("flip-front");
+   }
   };
 
   return (

@@ -1,5 +1,3 @@
-import ui from '../images/4.png'
-
 export const event_data = [
   {
     event_name: "NASA Space Apps Challenge",
@@ -282,24 +280,6 @@ export const event_data = [
       "https://github.com/Anirudh-A-V/eetic-website/blob/main/src/images/4.png?raw=true",
     id: "14",
     yt: "https://www.youtube.com/playlist?list=PLDzCun2PksCc-1Jg02ha5EJTkmEsVlQ-Z",
-  },
-  {
-    event_name: "Brain Computer Interface",
-    host_name: "Shivam Chaudhary",
-    start_date: "2022-11-05T18:00",
-    end_date: "2022-10-05T19:00",
-    category: "category 12",
-    registration_fee: "",
-    registration_link: "https://bit.ly/EETI-BCI-Session",
-    is_offline: "false",
-    description:
-      "EETI Foundation presents to you a session on Brain interfacing and computing. BCI is an amazing automation through which you can analyse what's inside a brain....🧠 Isn't it interesting!!!😱 \
-       So are you guys excited to learn about this new technology of communication...?",
-    venue: "Google Meet",
-    poster_url:
-      "https://lh3.googleusercontent.com/drive-viewer/AJc5JmRXvo_owTPm-sF_JJysuyJV1o09bRCexmU__rGgDt9kattyZfw6HamQrrS4FVi3JvtoNblCbYA=w1920-h914",
-    id: "14",
-    yt: "https://www.youtube.com/",
   },
   {
     event_name: "Brain Computer Interface",
