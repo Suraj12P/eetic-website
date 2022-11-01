@@ -301,4 +301,21 @@ export const event_data = [
     id: "14",
     yt: "https://www.youtube.com/",
   },
+  {
+    event_name: "Brain Computer Interface",
+    host_name: "Shivam Chaudhary",
+    start_date: "2022-11-05T18:00",
+    end_date: "2022-11-05T19:00",
+    category: "category 12",
+    registration_fee: "",
+    registration_link: "https://bit.ly/EETI-BCI-Session",
+    is_offline: "false",
+    description:
+      "EETI Foundation presents to you a session on Brain interfacing and computing. BCI is an amazing automation through which you can analyse what's inside a brain....🧠 Isn't it interesting!!",
+    venue: "Google Meet",
+    poster_url:
+      "https://github.com/EETIC/eetic-website/blob/main/src/images/BCI.png?raw=true",
+    id: "15",
+    yt: "https://www.youtube.com/",
+  },
 ];
