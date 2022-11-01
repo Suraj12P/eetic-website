@@ -172,6 +172,13 @@
     max-width: 90vw;
   }
 }
+
+@media (max-width: 991px) {
+  .carousel-container {
+    margin-top: 60px !important;
+  }
+}
+
 @media (max-width: 950px) {
   .hero {
     max-width: 90vw;
@@ -222,6 +229,7 @@
     margin: 0 !important;
   }
 }
+
 
 /* ======================================= */
 

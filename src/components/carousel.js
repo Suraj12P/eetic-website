@@ -81,7 +81,6 @@ function ImgReel() {
 
         src={require("../images/round.svg")}
         fluid
-        roundedCircle
       /> */}
       <Carousel>
 
@@ -90,12 +89,12 @@ function ImgReel() {
           return (e_date > date &&
             <Carousel.Item interval={2000} className="">
               <Image
-                className="rounded-circle carousel-img"
+                className="carousel-img"
                 // width={800}
                 // height={800}
                 src={event.poster_url}
                 fluid
-                roundedCircle
+      
                 index={i} />
             </Carousel.Item>
           );
@@ -107,13 +106,13 @@ function ImgReel() {
 
         <Carousel.Item interval={2000} className="">
           <Image
-            className="rounded-circle carousel-img"
+            className="carousel-img"
             // width={800}
             // height={800}
 
             src={require("../images/2.png")}
             fluid
-            roundedCircle
+  
           />
 
           {/* <Carousel.Caption>
@@ -124,13 +123,13 @@ function ImgReel() {
 
         {/* <Carousel.Item interval={2000} className="">
           <Image
-            className="rounded-circle carousel-img"
+            className="carousel-img"
             // width={800}
             // height={800}
 
             src={require("../images/3.png")}
             fluid
-            roundedCircle
+  
           />
           <Carousel.Caption>
           <h3>First slide label</h3>
