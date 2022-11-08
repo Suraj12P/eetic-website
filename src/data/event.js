@@ -296,6 +296,6 @@ export const event_data = [
     poster_url:
       "https://github.com/EETIC/eetic-website/blob/main/src/images/BCI.png?raw=true",
     id: "15",
-    yt: "https://www.youtube.com/",
+    yt: "https://youtu.be/2DsqhXmrKhY",
   },
 ];
