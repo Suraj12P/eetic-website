@@ -299,10 +299,10 @@ export const event_data = [
     yt: "https://youtu.be/2DsqhXmrKhY",
   },
   {
-    event_name: "Higher Studies",
+    event_name: "Higher Studies in Germany",
     host_name: "Geethu Sagar",
-    start_date: "2022-11-12T19:00",
-    end_date: "2022-11-12T20:00",
+    start_date: "2022-11-19T19:00",
+    end_date: "2022-11-19T20:00",
     category: "category 12",
     registration_fee: "",
     registration_link: "https://bit.ly/EETI-Higher-Studies",
