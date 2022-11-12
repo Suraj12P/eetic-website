@@ -298,4 +298,22 @@ export const event_data = [
     id: "15",
     yt: "https://youtu.be/2DsqhXmrKhY",
   },
+  {
+    event_name: "Higher Studies",
+    host_name: "Geethu Sagar",
+    start_date: "2022-11-12T19:00",
+    end_date: "2022-11-12T20:00",
+    category: "category 12",
+    registration_fee: "",
+    registration_link: "https://bit.ly/EETI-Higher-Studies",
+    is_offline: "false",
+    description:
+      "Ever dreamt of pursuing you masters from an international University? Any plans to study abroad in your bucket list!?✈️ \
+      Here is a wonderful opportunity for you. EETI foundation is organising a program to introduce the opportunities of higher studies in Germany.😃",
+    venue: "Google Meet",
+    poster_url:
+      "https://lh3.googleusercontent.com/u/0/drive-viewer/AJc5JmTEQd-AT49Is56e2veNNGAi5miJYxOSJAaFe59h4xLVqHX_F0ajdK-LDz_YPHd2qJMMHqJO4ZUoNt7c7gc_hzFJrkozdg=w1920-h913",
+    id: "16",
+    yt: "https://youtu.be/",
+  },
 ];
