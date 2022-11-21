@@ -316,4 +316,25 @@ export const event_data = [
     id: "16",
     yt: "https://youtu.be/",
   },
+  {
+    event_name: "Introduction to Hackathon",
+    host_name: "   ",
+    start_date: "2022-11-24T18:30",
+    end_date: "2022-11-24T19:30",
+    category: "category 12",
+    registration_fee: "",
+    registration_link: "https://bit.ly/EETI-IntroToHack",
+    is_offline: "false",
+    description:
+      "𝗛𝗮𝗰𝗸𝗮𝘁𝗵𝗼𝗻! 𝗛𝗮𝗰𝗸𝗮𝘁𝗵𝗼𝗻! 𝗛𝗮𝗰𝗸𝗮𝘁𝗵𝗼𝗻! \
+      You may hear this everywhere but not know what it is!? \
+      Then don't miss this golden opportunity💫 . \
+      EETI Foundation is organising an event on : '𝐈𝐍𝐓𝐑𝐎𝐃𝐔𝐂𝐓𝐈𝐎𝐍 𝐓𝐎 𝐇𝐀𝐂𝐊𝐀𝐓𝐇𝐎𝐍' \
+      ",
+    venue: "Google Meet",
+    poster_url:
+      "https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gPfILVJo3t_OJjSputG-wGmvanAv-8LCmpMfGbhOFq-9R2TThaSBzGBpPIq6AboBvVtVUtv719pQriPNkTHWORpbxxs2g=w1920-h980",
+    id: "16",
+    yt: "https://youtu.be/",
+  },
 ];
