@@ -2,7 +2,9 @@ import React from "react";
 import careers from "../images/careers.jpg";
 import "./css/careers.css";
 
-const CareersCard = ({ title, desc, link,poster }) => {
+const CareersCard = ({ title, desc, link, poster, disabled}) => {
+
+  console.log(title, desc, link,poster ,disabled)
   return (
     <div className="careers-card">
       <div className="img">
@@ -13,13 +15,23 @@ const CareersCard = ({ title, desc, link,poster }) => {
         {/* <span className="type">
           Job Type : <b> Internship</b>
         </span> */}
-        <p style={{ "marginTop": "15px" }}>{desc}</p>
+        <p className="p-content">{desc}</p>
       </div>
-      <div className="apply-btn">
-        <a href={link} className="apply">
-          Apply Now
-        </a>
-      </div>
+      {
+        disabled ? 
+        <button disabled={disabled} className="apply-btn apply">
+            Registration Closed
+        </button >
+        :
+        <button disabled={disabled} className="apply-btn">
+          <a href={link} className="apply">
+            Apply Now
+          </a>
+        </button >
+      }
+      
+
+     
     </div>
   );
 };
