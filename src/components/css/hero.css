@@ -170,10 +170,15 @@
   left: 0;
 }
 
+#btn_ca {
+  text-decoration: none;
+}
+
 .btn_ca {
-  display: flex;
+  display: flex !important;
   justify-content: center;
   align-items: center;
+  gap: 5px;
 }
 
 .readmore_ca {

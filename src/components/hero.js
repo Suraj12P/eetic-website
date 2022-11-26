@@ -7,7 +7,7 @@ import {
 } from "react-icons/fi";
 
 function Hero(options) {
-  
+
   return (
     <div className="hero">
       <Row>
@@ -39,7 +39,7 @@ function Hero(options) {
                 <Button className="btn_readmore">Read More</Button>
               </a>
 
-              <a href="https://www.ca.eetifoundation.org/" target="_blank">
+              <a href="https://www.ca.eetifoundation.org/" target="_blank" id="btn_ca">
                 <Button className="btn_ca">Campus Ambassador <FiExternalLink /> </Button>
               </a>
             </div>
