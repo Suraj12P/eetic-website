@@ -105,15 +105,18 @@ function ImgReel() {
         </Carousel.Caption> */}
 
         <Carousel.Item interval={2000} className="">
-          <Image
-            className="carousel-img"
-            // width={800}
-            // height={800}
+          <a href="/careers">
+            <Image
+              className="carousel-img"
+              // width={800}
+              // height={800}
 
-            src={require("../images/2.png")}
-            fluid
-  
-          />
+              src={require("../images/6.png")}
+              fluid
+    
+            />
+          </a>
+
 
           {/* <Carousel.Caption>
           <h3>First slide label</h3>

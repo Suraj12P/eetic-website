@@ -2,8 +2,12 @@ import React from "react";
 import "./css/hero.css";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import ImgReel from "./carousel";
+import {
+  FiExternalLink
+} from "react-icons/fi";
 
 function Hero(options) {
+  
   return (
     <div className="hero">
       <Row>
@@ -30,9 +34,13 @@ function Hero(options) {
                 changes and advancements in science and technology.
               </h5>
             </div>
-            <div className="readmore">
+            <div className="readmore_ca">
               <a href="/aboutus">
                 <Button className="btn_readmore">Read More</Button>
+              </a>
+
+              <a href="https://www.ca.eetifoundation.org/" target="_blank">
+                <Button className="btn_ca">Campus Ambassador <FiExternalLink /> </Button>
               </a>
             </div>
           </Container>
