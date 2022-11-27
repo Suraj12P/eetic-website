@@ -337,4 +337,23 @@ export const event_data = [
     id: "16",
     yt: "https://youtu.be/",
   },
+  {
+    event_name: "Startup Career Talk Series",
+    host_name: "Harsha Puthussery",
+    start_date: "2022-11-29T19:00",
+    end_date: "2022-11-29T18:00",
+    category: "category 12",
+    registration_fee: "",
+    registration_link: "https://bit.ly/EETI-Etalks-1",
+    is_offline: "false",
+    description:
+      " EETI  foundation brings forth  a series of E-talk sessions to help you step out of your \
+\      inhibitions and come forward with brilliant ideas  for  building a successful career in enterpreneurship ." ,
+      
+    venue: "Google Meet",
+    poster_url:
+      "https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gOYENYY9kk-G5EYWpg3978yKpKkSOjafpbXXr7Pqsgve9rhjVHZ5FUHJOBA2UufhNRUUy579FgUXeZYOF62huYRW2sM5g=w1920-h980",
+    id: "16",
+    yt: "https://youtu.be/",
+  },
 ];

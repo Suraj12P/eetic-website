@@ -24,7 +24,7 @@ const CareersCard = ({ title, desc, link, poster, disabled}) => {
         </button >
         :
         <button disabled={disabled} className="apply-btn">
-          <a href="http://bit.ly/EETI-WEB-INTERNS" className="apply">
+          <a href={link} className="apply">
             Apply Now
           </a>
         </button >
