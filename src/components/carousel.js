@@ -103,7 +103,7 @@ function ImgReel() {
         })}
 
 <Carousel.Item interval={2000} className="">
-          <a href="ca.eetifoundation.org" target="_blank">
+          <a href="https://ca.eetifoundation.org" target="_blank">
             <Image
               className="carousel-img"
               src={require("../images/7.jpeg")}
