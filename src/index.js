@@ -1,7 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import { AuthContextProvider } from "./context/AuthContext";
 
 // const IMAGES=[
 //   require('./images/1.png'),
@@ -11,12 +12,13 @@ import App from './App';
 //   require('./images/5.png')
 // ]
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <AuthContextProvider>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </AuthContextProvider>
 );
 
 // export default IMAGES;
