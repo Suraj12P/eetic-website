@@ -62,6 +62,8 @@
   overflow-x: hidden !important;
   overflow-wrap: break-word !important;
   overflow-y: scroll;
+  min-height: 250px;
+
 }
 
 .p-content::-webkit-scrollbar {

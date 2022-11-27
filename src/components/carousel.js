@@ -88,6 +88,7 @@ function ImgReel() {
           const e_date = new Date(`${event.start_date}`);
           return (e_date > date &&
             <Carousel.Item interval={2000} className="">
+              <a href="/events">
               <Image
                 className="carousel-img"
                 // width={800}
@@ -96,32 +97,40 @@ function ImgReel() {
                 fluid
       
                 index={i} />
+                </a>
             </Carousel.Item>
           );
         })}
-        {/* <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption> */}
+
+<Carousel.Item interval={2000} className="">
+          <a href="ca.eetifoundation.org" target="_blank">
+            <Image
+              className="carousel-img"
+              src={require("../images/7.jpeg")}
+              fluid
+              />
+              </a>
+        </Carousel.Item>
+
 
         <Carousel.Item interval={2000} className="">
           <a href="/careers">
             <Image
               className="carousel-img"
-              // width={800}
-              // height={800}
-
               src={require("../images/6.png")}
               fluid
-    
+              />
+              </a>
+        </Carousel.Item>
+
+        <Carousel.Item interval={2000} className="">
+            <a href="/careers">
+            <Image
+              className="carousel-img"
+              src={require("../images/5.png")}
+              fluid
             />
           </a>
-
-
-          {/* <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption> */}
         </Carousel.Item>
 
         {/* <Carousel.Item interval={2000} className="">
