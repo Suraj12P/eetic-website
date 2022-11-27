@@ -2,13 +2,15 @@ import React from "react";
 import "./css/community_why.css";
 import ball from "./site_images/ball.svg";
 import { Image } from "react-bootstrap";
+import illustration from "../images/illustration1.svg";
 
 function CommunityWhy() {
   return (
     <div className="community_why">
       <Image
         className="illust1"
-        src={require("../images/illustration1.svg")}
+        // src={require("../images/illustration1.svg")}
+        src={illustration}
         fluid
         roundedCircle
       />

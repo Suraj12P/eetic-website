@@ -49,7 +49,7 @@ function EventCard({ data }) {
           <span className="det-venue">{`Venue : ${data.venue}`} </span>
         </div>
         {isOpen ? (
-          <a href={data.registration_link} target="_blank" rel="noreferrer">
+          <a href={data.registration_link} target="_blank" rel="noopener noreferrer">
           <button type="button" class=" register btn btn-primary">
             Register
           </button></a>

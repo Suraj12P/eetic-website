@@ -10,6 +10,7 @@ import "./css/navBar.css";
 import Button from "react-bootstrap/Button";
 import { Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import logo from "./site_images/eeti foundation-black.svg";
 
 function navBar() {
   return (
@@ -19,7 +20,8 @@ function navBar() {
           <Link to="/">
             <Image
               className="nav-logo"
-              src={require("./site_images/eeti foundation-black.svg")}
+              // src={require("./site_images/eeti foundation-black.svg")}
+              src={logo}
             />
           </Link>
         </Navbar.Brand>
