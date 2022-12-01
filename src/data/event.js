@@ -314,7 +314,7 @@ export const event_data = [
     poster_url:
       "https://lh3.googleusercontent.com/u/0/drive-viewer/AJc5JmTEQd-AT49Is56e2veNNGAi5miJYxOSJAaFe59h4xLVqHX_F0ajdK-LDz_YPHd2qJMMHqJO4ZUoNt7c7gc_hzFJrkozdg=w1920-h913",
     id: "16",
-    yt: "https://youtu.be/",
+    yt: "https://youtu.be/lOX0us5axqA",
   },
   {
     event_name: "Introduction to Hackathon",
@@ -335,7 +335,7 @@ export const event_data = [
     poster_url:
       "https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gPfILVJo3t_OJjSputG-wGmvanAv-8LCmpMfGbhOFq-9R2TThaSBzGBpPIq6AboBvVtVUtv719pQriPNkTHWORpbxxs2g=w1920-h980",
     id: "16",
-    yt: "https://youtu.be/",
+    yt: "https://youtu.be/n6rMDK_gg9Q",
   },
   {
     event_name: "Startup Career Talk Series",
@@ -354,6 +354,6 @@ export const event_data = [
     poster_url:
       "https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gOYENYY9kk-G5EYWpg3978yKpKkSOjafpbXXr7Pqsgve9rhjVHZ5FUHJOBA2UufhNRUUy579FgUXeZYOF62huYRW2sM5g=w1920-h980",
     id: "16",
-    yt: "https://youtu.be/",
+    yt: "https://youtu.be/WLRmWhaNXKU",
   },
 ];
