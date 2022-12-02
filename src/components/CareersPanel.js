@@ -57,7 +57,7 @@ const careersArray = [
     EETI Foundation is here, in search of people to take forth our program team. \
   \  Come join us!! 🥳',
 
-    link: "/",
+    link: "http://bit.ly/EETI-Program-team",
     poster: p3
   },
 
