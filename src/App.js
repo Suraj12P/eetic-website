@@ -48,6 +48,7 @@ function App() {
           <Route exact path="/aboutus" element={<AboutUs />} />
           <Route exact path="/team" element={<Team />} />
           <Route exact path="/careers" element={<Careers />} />
+          <Route exact path="/404" element={<UnderDev />} />
         </Routes>
       </Router>
     </div>
