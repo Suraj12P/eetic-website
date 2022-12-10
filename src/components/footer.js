@@ -34,6 +34,7 @@ import {
 import { Link } from "react-router-dom";
 import { info } from "../data/info";
 import "./css/footer.css";
+import logo from "./site_images/eeti foundation-white.svg";
 
 function Footer() {
   return (
@@ -44,7 +45,8 @@ function Footer() {
             <Link to="/">
               <Image
                 className="f-logo"
-                src={require("./site_images/eeti foundation-white.svg")}
+                // src={require("./site_images/eeti foundation-white.svg")}
+                src={logo}
               />
             </Link>
             
