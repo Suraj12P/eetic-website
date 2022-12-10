@@ -1,15 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import CareersCard from "./careers-card";
 import "../components/css/careers.css";
 import p1 from "../images/2.png";
 import p2 from "../images/6.png";
 import p3 from "../images/5.png";
-
+import { DataContext } from "../context/DataContext";
 
 const careersArray = [
   {
-    title:"Internship",
-    desc:"Are you someone who is crazy about editting and designing?\
+    title: "Internship",
+    desc:
+      "Are you someone who is crazy about editting and designing?\
 \
     Interested to put down your thoughts rather than expressing them through your speech?\
     \
@@ -20,12 +21,13 @@ const careersArray = [
     Are you confident enough to precisely position video shorts to create an engaging visual?\
     \
     Then what are you waiting for!? Come join us to build you career, pursue your dream!",
-    link:"https://bit.ly/EETI-INTERN",
-    poster:p1,
+    link: "https://bit.ly/EETI-INTERN",
+    poster: p1,
   },
   {
     title: "Web interns",
-    desc: "The secret of getting ahead is getting started. \
+    desc:
+      "The secret of getting ahead is getting started. \
           – Mark Twain \
 \
       Hey folks✨ \
@@ -44,38 +46,41 @@ const careersArray = [
       So what are you waiting for...\
       Enroll now ❗❗❗: \
       ",
-      link: "https://bit.ly/EETI-WEB-INTERNS",
-      poster: p2
+    link: "https://bit.ly/EETI-WEB-INTERNS",
+    poster: p2,
   },
   {
     title: "Program Team",
-    desc: ' "Sometimes you need to forget how you feel and think of what you deserve." \
+    desc:
+      ' "Sometimes you need to forget how you feel and think of what you deserve." \
 \
     Hey folks!!🤗\
 \
     Are you one among those who take the initiative and is upfront during the course of an event. Then here is what you have been looking for...😃 \
     EETI Foundation is here, in search of people to take forth our program team. \
-  \  Come join us!! 🥳',
+    Come join us!! 🥳',
 
     link: "/",
-    poster: p3
+    poster: p3,
   },
-
-]
+];
 
 const CareersPanel = () => {
+  const { careers } = useContext(DataContext);
+  console.log("from context api !!!!!!!!!!!!!!!!" + careers);
+
   return (
     <div className="careers-panel">
       <h2 className="careers-title">Careers</h2>
       <div className="careers-panel-cards">
-      <CareersCard
+        <CareersCard
           title={careersArray[2].title}
           desc={careersArray[2].desc}
           link={careersArray[2].link}
           poster={careersArray[2].poster}
           disabled={false}
         />
-      <CareersCard
+        <CareersCard
           title={careersArray[1].title}
           desc={careersArray[1].desc}
           link={careersArray[1].link}

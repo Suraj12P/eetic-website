@@ -10,7 +10,7 @@ import Careers from "./pages/Careers";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { DataContext } from "./context/DataContext";
 import axios from "axios";
-import { fetchStart, fetchSuccess } from "./context/DataActions";
+import { fetchCareers, fetchEvent, fetchStart } from "./context/DataActions";
 
 function App() {
   const { events, dispatch } = useContext(DataContext);
@@ -22,7 +22,16 @@ function App() {
         .get(process.env.REACT_APP_EVENT_API_URL)
         .then((res) => {
           console.log(res.data.result);
-          dispatch(fetchSuccess(res.data.result));
+          dispatch(fetchEvent(res.data.result));
+          console.log(events);
+        })
+        .catch((err) => console.log(err));
+
+      await axios
+        .get(process.env.REACT_APP_CAREERS_API_URL)
+        .then((res) => {
+          console.log(res.data.result);
+          dispatch(fetchCareers(res.data.result));
           console.log(events);
         })
         .catch((err) => console.log(err));

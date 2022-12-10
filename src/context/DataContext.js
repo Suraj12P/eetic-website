@@ -5,6 +5,7 @@ import React from "react";
 
 const INITIAL_STATE = {
   events: JSON.parse(localStorage.getItem("events")) || null,
+  careers: JSON.parse(localStorage.getItem("careers")) || null,
   isFetching: false,
   error: null,
 };
@@ -16,12 +17,14 @@ export const DataContextProvider = ({ children }) => {
 
   useEffect(() => {
     localStorage.setItem("events", JSON.stringify(state.events));
-  }, [state.events]);
+    localStorage.setItem("careers", JSON.stringify(state.careers));
+  }, [state.events, state.careers]);
 
   return (
     <DataContext.Provider
       value={{
         events: state.events,
+        careers: state.careers,
         isFetching: state.isFetching,
         error: state.error,
         dispatch,
