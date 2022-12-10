@@ -88,10 +88,12 @@
   max-width: 650px !important;
   padding: 12px;
 }
+
 .hero {
   max-width: 1350px;
   margin: 30px auto;
 }
+
 .row {
   max-width: 1350px;
   display: flex;
@@ -115,18 +117,46 @@
 .btn_readmore {
   position: relative;
   margin: auto;
-  /* padding: 6px 12px; */
-  /* height: 50px; */
+  left: 0;
   border-radius: 50px !important;
   background-color: var(--primary-white) !important;
   border-color: var(--primary-orange) !important;
   color: var(--primary-grey-blue) !important;
 }
 
+#btn_ca {
+  text-decoration: none;
+  text-align: left;
+}
+
+.btn_ca {
+  position: relative;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 50px !important;
+  background-color: var(--primary-orange) !important;
+  border-color: var(--primary-black) !important;
+  color: var(--primary-white) !important;
+}
+
+.text_info,
+.btn_readmore,
+.btn_ca {
+  margin-top: 30px;
+}
+
 .btn_readmore:hover {
   background-color: var(--primary-orange) !important;
   border-color: var(--primary-orange) !important;
   color: var(--primary-white) !important;
+}
+
+.btn_ca:hover {
+  background-color: var(--primary-white) !important;
+  border-color: var(--primary-orange) !important;
+  color: var(--primary-grey-blue) !important;
 }
 
 .vertical-center {
@@ -142,18 +172,16 @@
   width: 30rem;
 }
 
-.text_info,
-.btn_readmore {
-  margin-top: 30px;
-}
-
-.btn_readmore {
-  position: absolute;
-  left: 0;
-}
-
-.readmore {
+.readmore_ca {
   position: relative;
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+}
+
+.readmore_ca a {
+  min-width: 120px;
+  text-align: left;
 }
 
 .left {
@@ -161,6 +189,7 @@
   align-items: center;
   justify-content: left;
 }
+
 .right {
   display: flex;
   align-items: center;
@@ -199,10 +228,12 @@
     justify-content: center !important;
     max-width: 90vw !important;
   }
+
   .column1 {
     /* margin: 30px 0 0 0 ; */
     max-width: 90vw !important;
   }
+
   /* .corousal-slide {
     height: 100%;
     width: 100%;
@@ -216,19 +247,38 @@
 }
 
 @media (max-width: 390px) {
+
   .carousel,
   .slide {
     margin: 0 !important;
   }
+
   .row {
     max-width: 100vw !important;
     margin: 0 !important;
   }
+
   .column1 {
     padding: 0;
     margin: 0 !important;
   }
 }
+
+@media (max-width: 425px) {
+  .readmore_ca {
+    flex-direction: column;
+  }
+
+  .btn_ca {
+    margin-top: 10px;
+  }
+
+  .buttons {
+    width: 100%;
+    display: flex;
+  }
+}
+
 
 
 /* ======================================= */
@@ -271,4 +321,5 @@
   margin: 0;
   clip-path: circle(50% at 500px);
 }
+
 /* ======================================== */

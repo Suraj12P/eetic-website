@@ -1,26 +1,3 @@
-// import React from "react";
-// import linkedin from './site_images/Linkedin.svg';
-// import facebook from './site_images/Facebook.svg';
-// import twitter from './site_images/Twitter.svg';
-// import whatsapp from './site_images/Whatsapp.svg';
-// import instagram from './site_images/Instagram.svg'
-// function footer(){
-//     return(
-//     <div className="footer">
-//         <p className="whiteText">Contact Us</p>
-//     <div className="share_links">
-//       <div className="linkedin circle"><img src={linkedin} alt="" className="linkedin_img"/></div>
-//       <div className="twitter circle"><img src={twitter} alt=""  className="twitter_img"/></div>
-//       <div className="whatsapp circle"><img src={whatsapp} alt="" className="whatsapp_img"/></div>
-//       <div className="instagram circle"><img src={instagram} alt="" className="instagram_img"/></div>
-//       <div className="facebook circle"><img src={facebook} alt="" className="facebook_img"/></div>
-//       </div>
-//     </div>
-//     );
-// }
-
-// export default footer;
-
 import { toBeRequired } from "@testing-library/jest-dom/dist/matchers";
 import React from "react";
 import { Image } from "react-bootstrap";
@@ -34,6 +11,7 @@ import {
 import { Link } from "react-router-dom";
 import { info } from "../data/info";
 import "./css/footer.css";
+import logo from "./site_images/eeti foundation-white.svg";
 
 function Footer() {
   return (
@@ -44,7 +22,8 @@ function Footer() {
             <Link to="/">
               <Image
                 className="f-logo"
-                src={require("./site_images/eeti foundation-white.svg")}
+                // src={require("./site_images/eeti foundation-white.svg")}
+                src={logo}
               />
             </Link>
             
@@ -62,7 +41,7 @@ function Footer() {
             <a href="/team" className="f_links">
               Team
             </a>
-            <a href="/" className="f_links">
+            <a href="/404" className="f_links">
               Resources
             </a>
           </div>
@@ -70,10 +49,10 @@ function Footer() {
             <span>
               <u>OTHER LINKS</u>
             </span>
-            <a href="/" className="f_links">
+            <a href="/404" className="f_links">
               Privacy Policy
             </a>
-            <a href="/" className="f_links">
+            <a href="/404" className="f_links">
               Terms and Conditions
             </a>
           </div>
@@ -97,21 +76,21 @@ function Footer() {
                 <IoLogoWhatsapp size="1.7rem" color="grey" />
               </a>
             </li>
-            <li class="list-inline-item social-media-item">
+            {/* <li class="list-inline-item social-media-item">
               <a href={info.facebook}>
                 <IoLogoFacebook size="1.7rem" color="grey" />
               </a>
-            </li>
+            </li> */}
             <li class="list-inline-item social-media-item">
               <a href={info.instagram}>
                 <IoLogoInstagram size="1.7rem" color="grey" />
               </a>
             </li>
-            <li class="list-inline-item social-media-item">
+            {/* <li class="list-inline-item social-media-item">
               <a href={info.twitter}>
                 <IoLogoTwitter size="1.7rem" color="grey" />
               </a>
-            </li>
+            </li> */}
           </ul>
           <p class="text-muted mb-0">Copyright © 2022 EETI Foundation</p>
         </div>

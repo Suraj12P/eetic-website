@@ -56,17 +56,42 @@
   padding: 10px;
 }
 
+.p-content{
+  margin-top: 15px;
+  max-height:200px;
+  overflow-x: hidden !important;
+  overflow-wrap: break-word !important;
+  overflow-y: scroll;
+  min-height: 250px;
+
+}
+
+.p-content::-webkit-scrollbar {
+  display: none;
+}
+
+.p-content {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 span.type {
   color: black;
   font-weight: 200 !important;
 }
 .apply-btn {
+  border: none;
+  outline: none;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--primary-orange);
   padding: 7px 0;
+}
+
+.apply-btn:disabled{
+  opacity: 0.7;
 }
 .apply {
   text-decoration: none;
@@ -83,5 +108,17 @@ span.type {
 @media (max-width: 600px) {
   .careers-card {
     max-width: 80vw;
+  }
+}
+
+@media (max-width: 425px) {
+  .p-content{
+    max-height:150px;
+  }
+}
+
+@media (max-width: 425px) {
+  .p-content{
+    max-width:196px;
   }
 }
