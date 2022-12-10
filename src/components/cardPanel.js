@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import EventCard from "./card";
 import "./css/cardPanel.css";
 import "./css/card.css";
-import { AuthContext } from "../context/AuthContext";
+import { DataContext } from "../context/DataContext";
 import { useContext } from "react";
 
 function CardPanel() {
   let date = new Date();
-  const { events } = useContext(AuthContext);
+  const { events } = useContext(DataContext);
   console.log(events);
 
   return (

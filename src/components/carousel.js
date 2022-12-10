@@ -3,7 +3,7 @@ import React, { useContext, useEffect, useState } from "react";
 import "./css/carousel.css";
 import { Image } from "react-bootstrap";
 import { event_data } from "../data/event";
-import { AuthContext } from "../context/AuthContext";
+import { DataContext } from "../context/DataContext";
 import imageUrlBuilder from "@sanity/image-url";
 
 const builder = imageUrlBuilder({
@@ -18,7 +18,7 @@ const urlFor = (source) => {
 
 function ImgReel() {
   let date = new Date();
-  const { events } = useContext(AuthContext);
+  const { events } = useContext(DataContext);
   console.log(events);
 
   return (

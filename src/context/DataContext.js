@@ -1,4 +1,4 @@
-import AuthReducer from "./AuthReducer";
+import reducer from "./DataReducer";
 import { createContext, useReducer } from "react";
 import { useEffect } from "react";
 import React from "react";
@@ -9,17 +9,17 @@ const INITIAL_STATE = {
   error: null,
 };
 
-export const AuthContext = createContext(INITIAL_STATE);
+export const DataContext = createContext(INITIAL_STATE);
 
-export const AuthContextProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(AuthReducer, INITIAL_STATE);
+export const DataContextProvider = ({ children }) => {
+  const [state, dispatch] = useReducer(reducer, INITIAL_STATE);
 
   useEffect(() => {
     localStorage.setItem("events", JSON.stringify(state.events));
   }, [state.events]);
 
   return (
-    <AuthContext.Provider
+    <DataContext.Provider
       value={{
         events: state.events,
         isFetching: state.isFetching,
@@ -28,6 +28,6 @@ export const AuthContextProvider = ({ children }) => {
       }}
     >
       {children}
-    </AuthContext.Provider>
+    </DataContext.Provider>
   );
 };

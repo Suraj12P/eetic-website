@@ -8,12 +8,12 @@ import Team from "./pages/Team";
 import AboutUs from "./pages/AboutUs";
 import Careers from "./pages/Careers";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { AuthContext } from "./context/AuthContext";
+import { DataContext } from "./context/DataContext";
 import axios from "axios";
-import { fetchStart, fetchSuccess } from "./context/AuthActions";
+import { fetchStart, fetchSuccess } from "./context/DataActions";
 
 function App() {
-  const { events, dispatch } = useContext(AuthContext);
+  const { events, dispatch } = useContext(DataContext);
 
   useEffect(() => {
     const getdata = async () => {

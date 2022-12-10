@@ -4,11 +4,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import EventCard from "./card";
 import "../components/css/upcoming.css";
-import { AuthContext } from "../context/AuthContext";
+import { DataContext } from "../context/DataContext";
 
 const UpcomingEvents = () => {
   let date = new Date();
-  const { events } = useContext(AuthContext);
+  const { events } = useContext(DataContext);
 
   var settings = {
     dots: true,

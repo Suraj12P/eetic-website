@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import { AuthContextProvider } from "./context/AuthContext";
+import { DataContextProvider } from "./context/DataContext";
 
 // const IMAGES=[
 //   require('./images/1.png'),
@@ -14,11 +14,11 @@ import { AuthContextProvider } from "./context/AuthContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <AuthContextProvider>
+  <DataContextProvider>
     <React.StrictMode>
       <App />
     </React.StrictMode>
-  </AuthContextProvider>
+  </DataContextProvider>
 );
 
 // export default IMAGES;
