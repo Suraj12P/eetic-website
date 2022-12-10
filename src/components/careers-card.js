@@ -1,14 +1,24 @@
 import React from "react";
+import imageUrlBuilder from "@sanity/image-url";
 import careers from "../images/careers.jpg";
 import "./css/careers.css";
 
-const CareersCard = ({ title, desc, link, poster, disabled}) => {
+const builder = imageUrlBuilder({
+  projectId: `${process.env.REACT_APP_PROJECT_ID}`,
+  dataset: "production",
+});
 
-  console.log(title, desc, link,poster ,disabled)
+const urlFor = (source) => {
+  // console.log(builder.image(source).url());
+  return builder.image(source);
+};
+
+const CareersCard = ({ title, desc, link, poster, disabled }) => {
+  // console.log(title, desc, link,poster ,disabled)
   return (
     <div className="careers-card">
       <div className="img">
-        <img src={poster} alt="careers" />
+        <img src={urlFor(`${poster.asset._ref}`).toString()} alt="careers" />
       </div>
       <div className="content">
         <h3>{title}</h3>
@@ -17,21 +27,17 @@ const CareersCard = ({ title, desc, link, poster, disabled}) => {
         </span> */}
         <p className="p-content">{desc}</p>
       </div>
-      {
-        disabled ? 
+      {disabled ? (
         <button disabled={disabled} className="apply-btn apply">
-            Registration Closed
-        </button >
-        :
+          Registration Closed
+        </button>
+      ) : (
         <button disabled={disabled} className="apply-btn">
           <a href={link} className="apply">
             Apply Now
           </a>
-        </button >
-      }
-      
-
-     
+        </button>
+      )}
     </div>
   );
 };
