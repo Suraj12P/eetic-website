@@ -113,26 +113,6 @@ function ImgReel() {
         </Carousel.Item>
 
 
-        <Carousel.Item interval={2000} className="">
-          <a href="/careers">
-            <Image
-              className="carousel-img"
-              src={require("../images/6.png")}
-              fluid
-              />
-              </a>
-        </Carousel.Item>
-
-        <Carousel.Item interval={2000} className="">
-            <a href="/careers">
-            <Image
-              className="carousel-img"
-              src={require("../images/5.png")}
-              fluid
-            />
-          </a>
-        </Carousel.Item>
-
         {/* <Carousel.Item interval={2000} className="">
           <Image
             className="carousel-img"
