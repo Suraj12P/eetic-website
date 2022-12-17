@@ -73,14 +73,14 @@ const CareersPanel = () => {
           desc={careersArray[2].desc}
           link={careersArray[2].link}
           poster={careersArray[2].poster}
-          disabled={false}
+          disabled={true}
         />
       <CareersCard
           title={careersArray[1].title}
           desc={careersArray[1].desc}
           link={careersArray[1].link}
           poster={careersArray[1].poster}
-          disabled={false}
+          disabled={true}
         />
         <CareersCard
           title={careersArray[0].title}

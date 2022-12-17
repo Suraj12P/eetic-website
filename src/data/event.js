@@ -356,4 +356,22 @@ export const event_data = [
     id: "16",
     yt: "https://youtu.be/WLRmWhaNXKU",
   },
+  {
+    event_name: "Introduction to Django",
+    host_name: "Aswin Jayaji",
+    start_date: "2022-12-28T19:00",
+    end_date: "2022-12-28T20:00",
+    category: "category 12",
+    registration_fee: "",
+    registration_link: "http://bit.ly/EETI-Django",
+    is_offline: "false",
+    description:
+      " In collaboration with the event hosted by EETIC we have Aswin Jayaji, to walk us through the Introduction to Django program and to share his experience as a backend developer and shed some light on the same." ,
+      
+    venue: "Google Meet",
+    poster_url:
+      "https://cdn.sanity.io/images/5q771fan/production/bdd440431f455c2ff3afba610b50c1c7c3f16b84-835x835.jpg?w=2000&fit=max&auto=format",
+    id: "16",
+    yt: "https://youtu.be/",
+  },
 ];
