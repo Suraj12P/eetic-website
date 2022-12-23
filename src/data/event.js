@@ -374,4 +374,22 @@ export const event_data = [
     id: "16",
     yt: "https://youtu.be/",
   },
+  {
+    event_name: "i-Talks : EP1",
+    host_name: "Dr Valsa B",
+    start_date: "2022-12-26T19:00",
+    end_date: "2022-12-26T20:00",
+    category: "category 12",
+    registration_fee: "",
+    registration_link: "https://bit.ly/EETI-Italks-1",
+    is_offline: "false",
+    description:
+      " Are you a space enthusiast? Interested to pursue a career in space science ?  Then don't miss this golden opportunity.🎈  As part of 𝐄𝐄𝐓𝐈 𝐟𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 , we conducted an 𝐈-𝐓𝐚𝐥𝐤𝐬 series, that inspires your inner soul." ,
+      
+    venue: "Google Meet",
+    poster_url:
+      "https://cdn.sanity.io/images/5q771fan/production/e7a1c3387359bcbcafdeca421beb7fa34ab2978c-1080x1080.jpg?w=2000&fit=max&auto=format",
+    id: "16",
+    yt: "https://youtu.be/",
+  },
 ];
