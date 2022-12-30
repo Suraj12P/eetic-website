@@ -22,7 +22,7 @@ function EventCard({ data }) {
   let e_date = null;
 
   useEffect(() => {
-    console.log(data);
+    // console.log(data);
     e_date = new Date(`${data.startDate}`);
     if (e_date <= new Date()) setIsOpen(0);
     else setIsOpen(1);
@@ -40,7 +40,8 @@ function EventCard({ data }) {
       <div className={`card-front`} ref={frontRef}>
         {/* <img src={data.poster_url} alt="card" className="position-absolute" /> */}
         <img
-          src={urlFor(`${data.poster_url.asset._ref}`).toString()}
+          // src={urlFor(`${data.poster_url.asset._ref}`).toString()}
+          src={data.poster_url.asset.url}
           alt="card"
           className="position-absolute"
         />
@@ -68,12 +69,12 @@ function EventCard({ data }) {
         {isOpen ? (
 
           <a href={data.registration_link} target="_blank" rel="noopener noreferrer">
-          <button type="button" class=" register btn btn-primary">
+          <button type="button" className=" register btn btn-primary">
             Register
           </button></a>
         ) : (
           <a href={data.yt}>
-            <button type="button" class="register-closed btn btn-primary">
+            <button type="button" className="register-closed btn btn-primary">
               <img className="yt" src={yt} alt="" />
             </button>
           </a>

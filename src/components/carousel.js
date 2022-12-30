@@ -24,14 +24,15 @@ function ImgReel() {
     <>
       <Carousel>
         {events.map((event, i) => {
-          const e_date = new Date(`${event.start_date}`);
+          const e_date = new Date(`${event.startDate}`);
           return (
             e_date > date && (
               <Carousel.Item interval={2000} className="">
                 <a href="/events">
                   <Image
                     className="carousel-img"
-                    src={urlFor(`${event.poster_url.asset._ref}`).toString()}
+                    // src={urlFor(`${event.poster_url.asset._ref}`).toString()}
+                    src={event.poster_url.asset.url}
                     fluid
                     index={i}
                   />

@@ -5,7 +5,7 @@ import { DataContext } from "../context/DataContext";
 
 const CareersPanel = () => {
   const { careers } = useContext(DataContext);
-  console.log("from context api !!!!!!!!!!!!!!!!" + careers);
+  // console.log("from context api !!!!!!!!!!!!!!!!" + careers);
 
   return (
     <div className="careers-panel">
