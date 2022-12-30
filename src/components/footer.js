@@ -15,7 +15,7 @@ import logo from "./site_images/eeti foundation-white.svg";
 
 function Footer() {
   return (
-    <footer class="text-center bg-dark">
+    <footer className="text-center bg-dark">
       <div className="f-container">
         <div className="f-top">
           <div className="logo">
@@ -57,42 +57,42 @@ function Footer() {
             </a>
           </div>
         </div>
-        <div class="copyright down container justify text-white py-lg-4">
-            {/* <ul class="list-inline">
-              <li class="list-inline-item me-4"><a class="link-light" href="#">Web design</a></li>
-              <li class="list-inline-item me-4"><a class="link-light" href="#">Development</a></li>
-              <li class="list-inline-item"><a class="link-light" href="#">Hosting</a></li>
+        <div className="copyright down container justify text-white py-lg-4">
+            {/* <ul className="list-inline">
+              <li className="list-inline-item me-4"><a className="link-light" href="#">Web design</a></li>
+              <li className="list-inline-item me-4"><a className="link-light" href="#">Development</a></li>
+              <li className="list-inline-item"><a className="link-light" href="#">Hosting</a></li>
           </ul> */}
 
           {/* <h4>Contact Us</h4> */}
-          <ul class="list-inline social-media" >
-            <li class="list-inline-item social-media-item">
+          <ul className="list-inline social-media" >
+            <li className="list-inline-item social-media-item">
               <a href={info.linkedin}>
                 <IoLogoLinkedin size="1.7rem" color="grey" />
               </a>
             </li>
-            <li class="list-inline-item social-media-item">
+            <li className="list-inline-item social-media-item">
               <a href={info.phone}>
                 <IoLogoWhatsapp size="1.7rem" color="grey" />
               </a>
             </li>
-            {/* <li class="list-inline-item social-media-item">
+            {/* <li className="list-inline-item social-media-item">
               <a href={info.facebook}>
                 <IoLogoFacebook size="1.7rem" color="grey" />
               </a>
             </li> */}
-            <li class="list-inline-item social-media-item">
+            <li className="list-inline-item social-media-item">
               <a href={info.instagram}>
                 <IoLogoInstagram size="1.7rem" color="grey" />
               </a>
             </li>
-            {/* <li class="list-inline-item social-media-item">
+            {/* <li className="list-inline-item social-media-item">
               <a href={info.twitter}>
                 <IoLogoTwitter size="1.7rem" color="grey" />
               </a>
             </li> */}
           </ul>
-          <p class="text-muted mb-0">Copyright © 2022 EETI Foundation</p>
+          <p className="text-muted mb-0">Copyright © 2022 EETI Foundation</p>
         </div>
       </div>
     </footer>

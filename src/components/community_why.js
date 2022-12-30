@@ -18,23 +18,23 @@ function CommunityWhy() {
       <div className="header p-4">
         <h1>Here is why you should join our community</h1>
         {/* set  start*/}
-        <div class="d-flex point flex-row  mb-3">
-          <div class="p-2 dot">
+        <div className="d-flex point flex-row  mb-3">
+          <div className="p-2 dot">
             <img src={ball} alt="" className="ball" />
           </div>
 
-          <div class="p-2 flex-grow-1 txt_1 left">
+          <div className="p-2 flex-grow-1 txt_1 left">
             <p className="text-start  p-1 fs-4">
               Bring together people with similar interests and offer a
               safe-space to work on your skills
             </p>
           </div>
         </div>
-        <div class="d-flex point flex-row-reverse ">
-          <div class="p-2 dot">
+        <div className="d-flex point flex-row-reverse ">
+          <div className="p-2 dot">
             <img src={ball} alt="" className="ball" />
           </div>
-          <div class="p-2 flex-grow-1 right">
+          <div className="p-2 flex-grow-1 right">
             <p className="text-end p-1 fs-4">
               If you join us, you will surely build delightful, growing both
               personally and professionally without any pressure, you can build
@@ -43,23 +43,23 @@ function CommunityWhy() {
           </div>
         </div>
         {/* set end*/}
-        <div class="d-flex point flex-row  mb-3">
-          <div class="p-2 dot">
+        <div className="d-flex point flex-row  mb-3">
+          <div className="p-2 dot">
             <img src={ball} alt="" className="ball" />
           </div>
 
-          <div class="p-2 flex-grow-1 txt_1 left">
+          <div className="p-2 flex-grow-1 txt_1 left">
             <p className="text-start  p-1 fs-4">
               It's the best opportunity to establish a curiosity about the most
               recent technological and scientific developments
             </p>
           </div>
         </div>
-        <div class="d-flex point flex-row-reverse ">
-          <div class="p-2 dot">
+        <div className="d-flex point flex-row-reverse ">
+          <div className="p-2 dot">
             <img src={ball} alt="" className="ball" />
           </div>
-          <div class="p-2 flex-grow-1 right">
+          <div className="p-2 flex-grow-1 right">
             <p className="text-end p-1 fs-4">
               Take advantage of the masters' talk sessions to expand your
               knowledge of various subjects
@@ -67,12 +67,12 @@ function CommunityWhy() {
           </div>
         </div>
 
-        <div class="d-flex point flex-row  mb-3">
-          <div class="p-2 dot">
+        <div className="d-flex point flex-row  mb-3">
+          <div className="p-2 dot">
             <img src={ball} alt="" className="ball" />
           </div>
 
-          <div class="p-2 flex-grow-1 txt_1 left">
+          <div className="p-2 flex-grow-1 txt_1 left">
             <p className="text-start  p-1 fs-4">
               With the assistance and support of experts, you can put the
               theoretical knowledge so learned into practice
@@ -80,11 +80,11 @@ function CommunityWhy() {
           </div>
         </div>
 
-        <div class="d-flex point flex-row-reverse ">
-          <div class="p-2 dot">
+        <div className="d-flex point flex-row-reverse ">
+          <div className="p-2 dot">
             <img src={ball} alt="" className="ball" />
           </div>
-          <div class="p-2 flex-grow-1 right">
+          <div className="p-2 flex-grow-1 right">
             <p className="text-end p-1  fs-4">
               You can improve your soft skills and get an awareness about the
               demand that society place on us
@@ -92,12 +92,12 @@ function CommunityWhy() {
           </div>
         </div>
 
-        {/* <div class="d-flex point flex-row  mb-3">
-          <div class="p-2 dot">
+        {/* <div className="d-flex point flex-row  mb-3">
+          <div className="p-2 dot">
             <img src={ball} alt="" className="ball" />
           </div>
 
-          <div class="p-2 flex-grow-1 txt_1 left">
+          <div className="p-2 flex-grow-1 txt_1 left">
             <p className="text-start  p-1 fs-3">
               It's all on meeting interesting people, working on our skills,
               grow personally and professionally- and enjoy doing so
