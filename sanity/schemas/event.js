@@ -32,6 +32,7 @@ export default {
       name: "isOffline",
       type: "boolean",
       title: "Offline",
+      default: false,
     },
     {
       name: "registration_link",
@@ -42,6 +43,7 @@ export default {
       name: "venue",
       type: "string",
       title: "Venue",
+      default:"Google Meet"
     },
     {
       name: "poster_url",
