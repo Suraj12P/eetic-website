@@ -1,20 +1,14 @@
-import React, { useEffect, useState, Component } from "react";
+import React, { useEffect, useState, Component, useContext } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { event_data } from "../data/event";
 import EventCard from "./card";
-import "../components/css/upcoming.css"
+import "../components/css/upcoming.css";
+import { DataContext } from "../context/DataContext";
 
 const UpcomingEvents = () => {
   let date = new Date();
-  const [sortData, setSortData] = useState([]);
-
-  useEffect(() => {
-    event_data.sort((a, b) => new Date(a.start_date) - new Date(b.start_date));
-    console.log(event_data);
-    setSortData(event_data);
-  }, []);
+  const { events } = useContext(DataContext);
 
   var settings = {
     dots: true,
@@ -65,7 +59,7 @@ const UpcomingEvents = () => {
           infinite: false,
 
           slidesToScroll: 1,
-          autoplay: true
+          autoplay: true,
         },
       },
     ],
@@ -75,8 +69,8 @@ const UpcomingEvents = () => {
     <div className="upcoming-events">
       <h2 className="eventHeading">Upcoming Events</h2>
       <Slider {...settings}>
-        {sortData.map((event, i) => {
-          const e_date = new Date(`${event.start_date}`);
+        {events.map((event, i) => {
+          const e_date = new Date(`${event.startDate}`);
           return e_date > date && <EventCard data={event} key={i} />;
         })}
       </Slider>
