@@ -16,41 +16,9 @@ import { fetchCareers, fetchEvent, fetchStart } from "./context/DataActions";
 function App() {
   const { events, dispatch } = useContext(DataContext);
 
-  // useEffect(() => {
-  //   const getdata = async () => {
-  //     dispatch(fetchStart);
-  // await axios
-  //   .get(process.env.REACT_APP_EVENT_API_URL, {
-  //     headers: {
-  //       Authorization: `Bearer ${process.env.REACT_APP_API_KEY}`,
-  //     },
-  //   })
-  //   .then((res) => {
-  //     console.log(res.data.result);
-  //     dispatch(fetchEvent(res.data.result));
-  //     console.log(events);
-  //   })
-  //   .catch((err) => console.log(err));
-
-  // await axios
-  //   .get(process.env.REACT_APP_CAREERS_API_URL, {
-  //     headers: {
-  //       Authorization: `Bearer ${process.env.REACT_APP_API_KEY}`,
-  //     },
-  //   })
-  //   .then((res) => {
-  //     console.log(res.data.result);
-  //     dispatch(fetchCareers(res.data.result));
-  //     console.log(events);
-  //   })
-  //   .catch((err) => console.log(err));
-  //   };
-  //   getdata();
-  // }, []);
-
   useEffect(() => {
     dispatch(fetchStart);
-    console.log("insidde clg")
+    console.log("insidde clg");
     //event
     sanityClient
       .fetch(
@@ -91,16 +59,18 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/events" element={<Events />} />
-          <Route exact path="/aboutus" element={<AboutUs />} />
-          <Route exact path="/team" element={<Team />} />
-          <Route exact path="/careers" element={<Careers />} />
-          <Route exact path="/404" element={<UnderDev />} />
-        </Routes>
-      </Router>
+      {events && (
+        <Router>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/events" element={<Events />} />
+            <Route exact path="/aboutus" element={<AboutUs />} />
+            <Route exact path="/team" element={<Team />} />
+            <Route exact path="/careers" element={<Careers />} />
+            <Route exact path="/404" element={<UnderDev />} />
+          </Routes>
+        </Router>
+      )}
     </div>
   );
 }
