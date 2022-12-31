@@ -8,7 +8,7 @@ import { useContext } from "react";
 function CardPanel() {
   let date = new Date();
   const { events } = useContext(DataContext);
-  console.log(events);
+  // console.log(events);
 
   return (
     <div className="cardPanel">
