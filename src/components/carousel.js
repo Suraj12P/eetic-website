@@ -2,8 +2,8 @@ import Carousel from "react-bootstrap/Carousel";
 import React, { useContext, useEffect, useState } from "react";
 import "./css/carousel.css";
 import { Image } from "react-bootstrap";
-import { DataContext } from "../context/DataContext";
 import imageUrlBuilder from "@sanity/image-url";
+import { DataContext } from "../context";
 
 const builder = imageUrlBuilder({
   projectId: `${process.env.REACT_APP_PROJECT_ID}`,

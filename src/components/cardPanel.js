@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import EventCard from "./card";
 import "./css/cardPanel.css";
 import "./css/card.css";
-import { DataContext } from "../context/DataContext";
+import { DataContext } from "../context";
 import { useContext } from "react";
 
 function CardPanel() {

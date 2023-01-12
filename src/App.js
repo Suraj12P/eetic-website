@@ -8,21 +8,20 @@ import Team from "./pages/Team";
 import AboutUs from "./pages/AboutUs";
 import Careers from "./pages/Careers";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { DataContext } from "./context/DataContext";
-// import axios from "axios";
+import { DataContext } from "./context";
 import sanityClient from "./client";
-import { fetchCareers, fetchEvent, fetchStart } from "./context/DataActions";
+import { IoLogoClosedCaptioning } from "react-icons/io";
 
 function App() {
-  const { events, dispatch } = useContext(DataContext);
+  const { events, setEventData, careers, setCareersData } =
+    useContext(DataContext);
 
   useEffect(() => {
-    dispatch(fetchStart);
-    console.log("insidde clg");
     //event
-    sanityClient
-      .fetch(
-        `*[_type == "event"]{
+    const fetchData = async () => {
+      await sanityClient
+        .fetch(
+          `*[_type == "event"]{
         event_name,
         description,
         startDate,
@@ -40,26 +39,32 @@ function App() {
         isOffline,
         yt
       } | order(startDate desc)`
-      )
-      .then((data) => {
-        // console.log(data);
-        dispatch(fetchEvent(data));
-      })
-      .catch(console.error);
+        )
+        .then((data) => {
+          // console.log(data);
+          setEventData(data);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
 
-    //careers
-    sanityClient
-      .fetch(`*[_type == "careers"] | order(_createdAt desc)`)
-      .then((data) => {
-        // console.log(data);
-        dispatch(fetchCareers(data));
-      })
-      .catch(console.error);
-  }, []);
+      //careers
+      await sanityClient
+        .fetch(`*[_type == "careers"] | order(_createdAt desc)`)
+        .then((data) => {
+          // console.log(data);
+          setCareersData(data);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+    };
+    fetchData();
+  },[]);
 
   return (
     <div className="App">
-      {events && (
+      {events.length !== 0 && careers.length !== 0 ? (
         <Router>
           <Routes>
             <Route exact path="/" element={<Home />} />
@@ -70,6 +75,16 @@ function App() {
             <Route exact path="/404" element={<UnderDev />} />
           </Routes>
         </Router>
+      ) : (
+        <div className="loader">
+          <div className="ld-container">
+            <div id="loader" className="qt-loading">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );

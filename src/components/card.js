@@ -53,25 +53,29 @@ function EventCard({ data }) {
           {/* {console.log(new Date().getDate())} */}
 
           <span className="det-date">
-            {`Date : ${new Date(data.startDate).getDate()}/${new Date(
-              data.startDate
-            ).getMonth() + 1}/${new Date(data.startDate).getFullYear()}`}{" "}
+            {`Date : ${new Date(data.startDate).getDate()}/${
+              new Date(data.startDate).getMonth() + 1
+            }/${new Date(data.startDate).getFullYear()}`}{" "}
           </span>
 
-          <span className="det-time">{`Time : ${new Date(
-            data.startDate
-          ).getHours() % 12}.${new Date(data.startDate).getMinutes()} ${
+          <span className="det-time">{`Time : ${
+            new Date(data.startDate).getHours() % 12
+          }.${new Date(data.startDate).getMinutes()} ${
             new Date(data.startDate).getHours() < 12 ? "am" : "pm"
           }`}</span>
 
           <span className="det-venue">{`Venue : ${data.venue}`} </span>
         </div>
         {isOpen ? (
-
-          <a href={data.registration_link} target="_blank" rel="noopener noreferrer">
-          <button type="button" className=" register btn btn-primary">
-            Register
-          </button></a>
+          <a
+            href={data.registration_link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button type="button" className=" register btn btn-primary">
+              Register
+            </button>
+          </a>
         ) : (
           <a href={data.yt}>
             <button type="button" className="register-closed btn btn-primary">
