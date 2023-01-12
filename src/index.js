@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import { DataContextProvider } from "./context/DataContext";
+import { DataProvider } from "./context";
 
 // const IMAGES=[
 //   require('./images/1.png'),
@@ -14,11 +14,11 @@ import { DataContextProvider } from "./context/DataContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <DataContextProvider>
-    <React.StrictMode>
+  <React.StrictMode>
+    <DataProvider>
       <App />
-    </React.StrictMode>
-  </DataContextProvider>
+    </DataProvider>
+  </React.StrictMode>
 );
 
 // export default IMAGES;

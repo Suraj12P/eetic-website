@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import CareersCard from "./careers-card";
 import "../components/css/careers.css";
-import { DataContext } from "../context/DataContext";
+import { DataContext } from "../context";
 
 const CareersPanel = () => {
   const { careers } = useContext(DataContext);
