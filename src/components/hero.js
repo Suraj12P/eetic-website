@@ -14,7 +14,7 @@ function Hero(options) {
         <Col
           lg
           className=" md-4 column1"
-          style={{ "max-width": "100vw !important" }}
+          style={{ "maxWidth": "100vw !important" }}
         >
           <Container className="container">
             {/* <div>

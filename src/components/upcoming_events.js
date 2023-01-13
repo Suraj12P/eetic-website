@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import EventCard from "./card";
 import "../components/css/upcoming.css";
-import { DataContext } from "../context/DataContext";
+import { DataContext } from "../context";
 
 const UpcomingEvents = () => {
   let date = new Date();
