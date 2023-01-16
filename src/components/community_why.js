@@ -1,10 +1,17 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./css/community_why.css";
 import ball from "./site_images/ball.svg";
 import { Image } from "react-bootstrap";
 import illustration from "../images/illustration1.svg";
+import AOS from "aos";
+import "aos/dist/aos.css"
 
 function CommunityWhy() {
+  useEffect(()=>{
+    AOS.init({duration:1000,
+      easing: 'ease-out'});
+  },[])
+
   return (
     <div className="community_why">
       <Image
@@ -16,9 +23,9 @@ function CommunityWhy() {
       />
 
       <div className="header p-4">
-        <h1>Here is why you should join our community</h1>
+        <h1 data-aos="zoom-in" >Here is why you should join our community</h1>
         {/* set  start*/}
-        <div className="d-flex point flex-row  mb-3">
+        <div data-aos="fade-right" className="d-flex point flex-row  mb-3">
           <div className="p-2 dot">
             <img src={ball} alt="" className="ball" />
           </div>
@@ -30,7 +37,7 @@ function CommunityWhy() {
             </p>
           </div>
         </div>
-        <div className="d-flex point flex-row-reverse ">
+        <div data-aos="fade-left" className="d-flex point flex-row-reverse ">
           <div className="p-2 dot">
             <img src={ball} alt="" className="ball" />
           </div>
@@ -43,7 +50,7 @@ function CommunityWhy() {
           </div>
         </div>
         {/* set end*/}
-        <div className="d-flex point flex-row  mb-3">
+        <div data-aos="fade-right" className="d-flex point flex-row  mb-3">
           <div className="p-2 dot">
             <img src={ball} alt="" className="ball" />
           </div>
@@ -55,7 +62,7 @@ function CommunityWhy() {
             </p>
           </div>
         </div>
-        <div className="d-flex point flex-row-reverse ">
+        <div data-aos="fade-left" className="d-flex point flex-row-reverse ">
           <div className="p-2 dot">
             <img src={ball} alt="" className="ball" />
           </div>
@@ -67,7 +74,7 @@ function CommunityWhy() {
           </div>
         </div>
 
-        <div className="d-flex point flex-row  mb-3">
+        <div data-aos="fade-right" className="d-flex point flex-row  mb-3">
           <div className="p-2 dot">
             <img src={ball} alt="" className="ball" />
           </div>
@@ -80,7 +87,7 @@ function CommunityWhy() {
           </div>
         </div>
 
-        <div className="d-flex point flex-row-reverse ">
+        <div data-aos="fade-left" className="d-flex point flex-row-reverse ">
           <div className="p-2 dot">
             <img src={ball} alt="" className="ball" />
           </div>
