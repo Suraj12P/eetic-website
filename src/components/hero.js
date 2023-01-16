@@ -1,13 +1,18 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./css/hero.css";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import ImgReel from "./carousel";
 import {
   FiExternalLink
 } from "react-icons/fi";
+import AOS from "aos";
+import "aos/dist/aos.css"
 
 function Hero(options) {
-
+  useEffect(()=>{
+    AOS.init({duration:2000,
+      easing: 'ease-out-quart'});
+  },[])
   return (
     <div className="hero">
       <Row>
@@ -48,7 +53,7 @@ function Hero(options) {
             </div>
           </Container>
         </Col>
-        <div className="carousel-container p-4 md-4 w-auto">
+        <div data-aos="fade-up-left" className="carousel-container p-4 md-4 w-auto">
           {/* <Container className="w-auto p-4"> */}
           {/* <div className="arc"></div>
           <div className="dashes"></div> */}
