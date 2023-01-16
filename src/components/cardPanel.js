@@ -4,12 +4,16 @@ import "./css/cardPanel.css";
 import "./css/card.css";
 import { DataContext } from "../context";
 import { useContext } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"
 
 function CardPanel() {
   let date = new Date();
   const { events } = useContext(DataContext);
   // console.log(events);
-
+  useEffect(()=>{
+    AOS.init({duration:2000});
+  },[])
   return (
     <div className="cardPanel">
       <div className="upcoming position-relative">
