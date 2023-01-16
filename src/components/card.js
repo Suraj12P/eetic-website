@@ -36,7 +36,7 @@ function EventCard({ data }) {
   };
 
   return (
-    <div className="card position-relative" onClick={handleClick}>
+    <div data-aos="fade-up" className="card position-relative" onClick={handleClick}>
       <div className={`card-front`} ref={frontRef}>
         {/* <img src={data.poster_url} alt="card" className="position-absolute" /> */}
         <img
