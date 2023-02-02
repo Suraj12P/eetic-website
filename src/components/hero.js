@@ -10,7 +10,7 @@ import "aos/dist/aos.css"
 
 function Hero(options) {
   useEffect(()=>{
-    AOS.init({duration:2000,
+    AOS.init({duration:1500,
       easing: 'ease-out-quart'});
   },[])
   return (
