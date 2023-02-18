@@ -11,6 +11,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { DataContext } from "./context";
 import sanityClient from "./client";
 import { IoLogoClosedCaptioning } from "react-icons/io";
+import JoinUs from "./pages/JoinUs";
+import RegisterEvent from "./pages/RegisterEvent";
 
 function App() {
   const { events, setEventData, careers, setCareersData } =
@@ -22,6 +24,7 @@ function App() {
       await sanityClient
         .fetch(
           `*[_type == "event"]{
+        _id,
         event_name,
         description,
         startDate,
@@ -41,7 +44,7 @@ function App() {
       } | order(startDate desc)`
         )
         .then((data) => {
-          // console.log(data);
+          console.log(data);
           setEventData(data);
         })
         .catch((err) => {
@@ -60,7 +63,7 @@ function App() {
         });
     };
     fetchData();
-  },[]);
+  }, []);
 
   return (
     <div className="App">
@@ -72,6 +75,8 @@ function App() {
             <Route exact path="/aboutus" element={<AboutUs />} />
             <Route exact path="/team" element={<Team />} />
             <Route exact path="/careers" element={<Careers />} />
+            {/* <Route exact path="/join-us" element={<JoinUs />} /> */}
+            <Route exact path="/register/:id" element={<RegisterEvent />} />
             <Route exact path="/404" element={<UnderDev />} />
           </Routes>
         </Router>
