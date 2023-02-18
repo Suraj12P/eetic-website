@@ -14,6 +14,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import { useEffect } from "react";
 import { DataContext } from "../context";
 import { useNavigate } from "react-router-dom";
+import Loader from "./Loader";
 
 const RegisterEvent = (props) => {
   const { id } = useParams();
@@ -24,37 +25,41 @@ const RegisterEvent = (props) => {
   const [email, setemail] = useState("");
   const [colg, setcolg] = useState("");
   const [branch, setbranch] = useState("");
-  const [phone, setphone] = useState(0);
+  const [phone, setphone] = useState();
   const [queries, setqueries] = useState("");
   const [refcode, setrefcode] = useState("");
   const [open, setOpen] = useState(false);
   const [error, setError] = useState(false);
   const [data, setData] = useState({});
+  const [loading, setLoading] = useState(false);
+  const [disabled, setdisabled] = useState(false);
 
   const url = process.env.REACT_APP_AIRTABLE_API;
   const key = process.env.REACT_APP_AIRTABLE_TOKEN;
-  const now = new Date();
-  const body = {
-    records: [
-      {
-        fields: {
-          Name: name,
-          Email: email,
-          College: colg,
-          Branch: branch,
-          "Referral Code": refcode,
-          Phone: phone,
-          Query: queries,
-          Time: now,
-        },
-      },
-    ],
-  };
 
   const post = async () => {
-    // startloading();
+    setdisabled(true);
+    setLoading(true);
+    const now = new Date();
+    const body = {
+      records: [
+        {
+          fields: {
+            Name: name,
+            Email: email,
+            College: colg,
+            Branch: branch,
+            "Referral Code": refcode,
+            Phone: phone,
+            Query: queries,
+            Time: now,
+          },
+        },
+      ],
+    };
     axios
-      .post(`${url}/${data.registration_link}`, body, {
+      // .post(`${url}/${data.registration_link}`, body, {
+      .post(`${url}/appe7738Eu3vxE9aq/tblsbPPC02OnofLXz`, body, {
         headers: {
           Authorization: key,
         },
@@ -63,13 +68,14 @@ const RegisterEvent = (props) => {
         console.log("first");
         setError(false);
         setOpen(true);
+        setLoading(false);
       })
       .catch((err) => {
-        console.log("error");
+        console.log("error", err);
         setError(true);
         setOpen(true);
+        setLoading(false);
       });
-    // endloading();
   };
 
   const validate = () => {
@@ -88,11 +94,23 @@ const RegisterEvent = (props) => {
     return `${time} ${date}`;
   };
 
+  const clearText = () => {
+    setname("");
+    setphone();
+    setemail("");
+    setcolg("");
+    setbranch("");
+    setqueries("");
+    setrefcode("");
+  };
+
   useEffect(() => {
     const event = events.find((e) => e._id === id) || null;
     if (event) setData(event);
     else navigate("/");
   });
+
+  if (loading) return <Loader />;
 
   return (
     <div>
@@ -105,6 +123,8 @@ const RegisterEvent = (props) => {
               color="inherit"
               size="small"
               onClick={() => {
+                setdisabled(false);
+                clearText();
                 setOpen(false);
               }}
             >
@@ -113,6 +133,7 @@ const RegisterEvent = (props) => {
           }
           sx={{ mb: 2 }}
           severity={error ? "error" : "success"}
+          variant="filled"
         >
           {error ? "Registration Failed" : "Registered Successfully!"}
         </Alert>
@@ -145,6 +166,7 @@ const RegisterEvent = (props) => {
               onChange={(e) => {
                 setname(e.target.value);
               }}
+              disabled={disabled}
             />
           </Form.Group>
 
@@ -157,6 +179,7 @@ const RegisterEvent = (props) => {
               onChange={(e) => {
                 setemail(e.target.value);
               }}
+              disabled={disabled}
             />
           </Form.Group>
 
@@ -169,6 +192,7 @@ const RegisterEvent = (props) => {
               onChange={(e) => {
                 setcolg(e.target.value);
               }}
+              disabled={disabled}
             />
           </Form.Group>
 
@@ -185,6 +209,7 @@ const RegisterEvent = (props) => {
               onChange={(e) => {
                 setbranch(e.target.value);
               }}
+              disabled={disabled}
             />
           </Form.Group>
 
@@ -197,6 +222,7 @@ const RegisterEvent = (props) => {
               onChange={(e) => {
                 setrefcode(e.target.value);
               }}
+              disabled={disabled}
             />
           </Form.Group>
 
@@ -209,6 +235,7 @@ const RegisterEvent = (props) => {
               onChange={(e) => {
                 setphone(e.target.value);
               }}
+              disabled={disabled}
             />
           </Form.Group>
 
@@ -222,6 +249,7 @@ const RegisterEvent = (props) => {
               onChange={(e) => {
                 setqueries(e.target.value);
               }}
+              disabled={disabled}
             />
           </Form.Group>
 
@@ -230,6 +258,7 @@ const RegisterEvent = (props) => {
             onClick={() => {
               if (validate()) post();
             }}
+            disabled={disabled}
           >
             Register
           </Button>

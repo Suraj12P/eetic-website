@@ -13,6 +13,7 @@ import sanityClient from "./client";
 import { IoLogoClosedCaptioning } from "react-icons/io";
 import JoinUs from "./pages/JoinUs";
 import RegisterEvent from "./pages/RegisterEvent";
+import Loader from "./pages/Loader";
 
 function App() {
   const { events, setEventData, careers, setCareersData } =
@@ -44,7 +45,7 @@ function App() {
       } | order(startDate desc)`
         )
         .then((data) => {
-          console.log(data);
+          // console.log(data);
           setEventData(data);
         })
         .catch((err) => {
@@ -81,15 +82,7 @@ function App() {
           </Routes>
         </Router>
       ) : (
-        <div className="loader">
-          <div className="ld-container">
-            <div id="loader" className="qt-loading">
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </div>
+        <Loader />
       )}
     </div>
   );

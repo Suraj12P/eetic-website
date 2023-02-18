@@ -80,6 +80,7 @@ form {
 
 .MuiCollapse-root {
   position: fixed;
+  bottom: 0;
   z-index: 9999;
   width: 90vw;
   max-width: 600px;
@@ -91,6 +92,10 @@ form {
   font-size: 1rem !important;
   font-weight: 600 !important;
   align-items: center;
+}
+.MuiAlert-message {
+  font-size: 1rem !important;
+  font-weight: 600 !important;
 }
 
 @media (max-width: 425px) {
