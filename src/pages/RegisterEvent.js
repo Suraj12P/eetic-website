@@ -9,6 +9,7 @@ import PersonIcon from "@mui/icons-material/Person";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import eventIllustration from "../images/eventreg.svg";
+import chat from "../images/chat.svg";
 import { Alert, Collapse, IconButton } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import { useEffect } from "react";
@@ -59,7 +60,6 @@ const RegisterEvent = (props) => {
       ],
     };
     axios
-      // .post(`${url}/${data.registration_link}`, body, {
       .post(`${url}/${data.registration_link}`, body, {
         headers: {
           Authorization: key,
@@ -280,6 +280,52 @@ const RegisterEvent = (props) => {
               disabled={disabled}
             />
           </Form.Group>
+
+          {/* ==================whatsapp================== */}
+          <div className="white form-title shadow p-3 mb-5 rounded">
+            <h6 style={{ maxWidth:"200px"}}>
+              Please join any one of the EETIF WhatsApp groups if you haven't
+              joined yet
+            </h6>
+            <div className="details">
+              <ul>
+                <li>
+                  <a
+                    href="https://chat.whatsapp.com/LFxXV0QWFgd330aSbZcEqY"
+                    target="_blank"
+                  >
+                    Group 1
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://chat.whatsapp.com/Ee5I0M0jMnU9Ahbju8pimt"
+                    target="_blank"
+                  >
+                    Group 2
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://chat.whatsapp.com/KSYDievd94r0oKNlZjF85T"
+                    target="_blank"
+                  >
+                    Group 3
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://chat.whatsapp.com/KuFMbBYwrvc2gMDQ0vvER9"
+                    target="_blank"
+                  >
+                    Group 4
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <img src={chat} alt="img" />
+          </div>
+          {/* ============================================ */}
 
           <Button variant="primary" disabled={disabled} type="submit">
             Register

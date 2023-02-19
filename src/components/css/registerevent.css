@@ -46,6 +46,29 @@ form {
   );
 }
 
+.white {
+  color: #000 !important;
+  /* background: linear-gradient(
+    45deg,
+    rgba(150,150,250,1) 20%,
+    rgba(200,200,200,1) 60%,
+  ); */
+  background: linear-gradient(
+    90deg,
+    rgba(200 ,200, 200, 1) 20%,
+    rgba(180 ,180, 180, 1) 60%,
+    rgba(150, 150, 150, 1) 90%
+  );
+}
+
+.details a{
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+}
+.details a:hover{
+  text-decoration: underline !important;
+}
+
 .form-title > span.heading {
   font-weight: 600;
   font-size: 26px;
