@@ -29,9 +29,9 @@ function Footer() {
             
           </div>
           <div className="company">
-            <span>
+            {/* <span>
               <u>COMPANY</u>
-            </span>
+            </span> */}
             <a href="/aboutus" className="f_links">
               About Us
             </a>
@@ -45,7 +45,7 @@ function Footer() {
               Resources
             </a>
           </div>
-          <div className="other-links">
+          {/* <div className="other-links">
             <span>
               <u>OTHER LINKS</u>
             </span>
@@ -55,7 +55,7 @@ function Footer() {
             <a href="/404" className="f_links">
               Terms and Conditions
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="copyright down container justify text-white py-lg-4">
             {/* <ul className="list-inline">

@@ -23,7 +23,7 @@ function CommunityWhy() {
       />
 
       <div className="header p-4">
-        <h1 data-aos="zoom-in" >Here is why you should join our community</h1>
+        <h1 data-aos="fade-up" >Here is why you should join our community</h1>
         {/* set  start*/}
         <div data-aos="fade-right" className="d-flex point flex-row  mb-3">
           <div className="p-2 dot">
