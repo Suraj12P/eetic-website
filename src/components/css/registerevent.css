@@ -47,7 +47,7 @@ form {
 }
 
 .white {
-  color: #000 !important;
+  color: #fff !important;
   /* background: linear-gradient(
     45deg,
     rgba(150,150,250,1) 20%,
@@ -55,17 +55,16 @@ form {
   ); */
   background: linear-gradient(
     90deg,
-    rgba(200 ,200, 200, 1) 20%,
-    rgba(180 ,180, 180, 1) 60%,
-    rgba(150, 150, 150, 1) 90%
+    rgba(0, 0, 0, 0.7) 20%,
+    rgba(0, 0, 0, 0.6) 50% /* rgba(0, 0, 0, 1) 90% */
   );
 }
 
-.details a{
-  color: rgba(0, 0, 0, 0.7);
+.details a {
+  color: rgba(255, 255, 255, 0.8);
   font-weight: 500;
 }
-.details a:hover{
+.details a:hover {
   text-decoration: underline !important;
 }
 
@@ -121,7 +120,22 @@ form {
   font-weight: 600 !important;
 }
 
+.show {
+  visibility: visible !important;
+}
+.group-left {
+  text-align: left !important;
+  justify-content: left !important;
+  align-items: flex-start !important;
+}
+
 @media (max-width: 425px) {
+  .group-img {
+    height: 60% !important;
+    position: absolute !important;
+    right: 5px !important;
+    top: 60% !important;
+  }
   .form-title > span.heading {
     text-align: center;
   }

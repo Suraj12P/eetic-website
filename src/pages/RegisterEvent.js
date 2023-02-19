@@ -282,12 +282,12 @@ const RegisterEvent = (props) => {
           </Form.Group>
 
           {/* ==================whatsapp================== */}
-          <div className="white form-title shadow p-3 mb-5 rounded">
-            <h6 style={{ maxWidth:"200px"}}>
+          <div className="white group-left form-title shadow p-3 mb-5 rounded">
+            <h6 style={{ maxWidth:"250px"}} className="group-left">
               Please join any one of the EETIF WhatsApp groups if you haven't
               joined yet
             </h6>
-            <div className="details">
+            <div className="group-left details">
               <ul>
                 <li>
                   <a
@@ -323,7 +323,7 @@ const RegisterEvent = (props) => {
                 </li>
               </ul>
             </div>
-            <img src={chat} alt="img" />
+            <img src={chat} alt="img" className="show group-img"/>
           </div>
           {/* ============================================ */}
 
