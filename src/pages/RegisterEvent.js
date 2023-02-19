@@ -33,6 +33,7 @@ const RegisterEvent = (props) => {
   const [data, setData] = useState({});
   const [loading, setLoading] = useState(false);
   const [disabled, setdisabled] = useState(false);
+  const [validated, setvalidated] = useState(false);
 
   const url = process.env.REACT_APP_AIRTABLE_API;
   const key = process.env.REACT_APP_AIRTABLE_TOKEN;
@@ -78,10 +79,16 @@ const RegisterEvent = (props) => {
       });
   };
 
-  const validate = () => {
-    const invalid = false;
-    console.log({ name, email, colg, branch, phone, refcode, queries });
-    return !invalid;
+  const validate = (e) => {
+    e.preventDefault();
+    let invalid = false;
+    const form = e.currentTarget;
+    if (form.checkValidity() === false) {
+      invalid = true;
+      setvalidated(false);
+    }
+    setvalidated(true);
+    if (!invalid) post();
   };
 
   const date = (d) => {
@@ -90,7 +97,6 @@ const RegisterEvent = (props) => {
       dt.getHours() < 12 ? "am" : "pm"
     }`;
     const date = `${dt.getDate()}/${dt.getMonth()}/${dt.getFullYear()}`;
-    console.log(`${time} ${date}`);
     return `${time} ${date}`;
   };
 
@@ -124,8 +130,9 @@ const RegisterEvent = (props) => {
               size="small"
               onClick={() => {
                 setdisabled(false);
-                clearText();
+                if (!error) clearText();
                 setOpen(false);
+                if (!error) navigate("/");
               }}
             >
               <CloseIcon fontSize="inherit" />
@@ -150,16 +157,18 @@ const RegisterEvent = (props) => {
               {data.host_name}
             </span>
             <span className="date">
-              <QueryBuilderIcon marginRight="10px" />
+              <QueryBuilderIcon marginright="10px" />
               {date(data.startDate)}
             </span>
           </div>
           <img src={eventIllustration} alt="img" />
         </div>
-        <Form>
-          <Form.Group className="mb-3" controlId="formBasicText">
+
+        <Form noValidate validated={validated} onSubmit={validate}>
+          <Form.Group className="mb-3" controlId="validationName">
             <Form.Label>Name</Form.Label>
             <Form.Control
+              required
               type="text"
               placeholder="Enter Name"
               value={name}
@@ -168,11 +177,15 @@ const RegisterEvent = (props) => {
               }}
               disabled={disabled}
             />
+            <Form.Control.Feedback type="invalid">
+              Name is required
+            </Form.Control.Feedback>
           </Form.Group>
 
-          <Form.Group className="mb-3" controlId="formBasicEmail">
+          <Form.Group className="mb-3" controlId="validationEmail">
             <Form.Label>Email address</Form.Label>
             <Form.Control
+              required
               type="email"
               placeholder="Enter email"
               value={email}
@@ -181,12 +194,16 @@ const RegisterEvent = (props) => {
               }}
               disabled={disabled}
             />
+            <Form.Control.Feedback type="invalid">
+              Invalid Email
+            </Form.Control.Feedback>
           </Form.Group>
 
-          <Form.Group className="mb-3" controlId="formBasicText">
+          <Form.Group className="mb-3" controlId="validationColg">
             <Form.Label>College</Form.Label>
             <Form.Control
               type="text"
+              required
               placeholder="Enter College"
               value={colg}
               onChange={(e) => {
@@ -194,16 +211,20 @@ const RegisterEvent = (props) => {
               }}
               disabled={disabled}
             />
+            <Form.Control.Feedback type="invalid">
+              College is required
+            </Form.Control.Feedback>
           </Form.Group>
 
           <Form.Group
             className="mb-3"
-            controlId="formBasicText"
+            controlId="validationBrch"
             aria-required="true"
           >
             <Form.Label>Branch</Form.Label>
             <Form.Control
               type="text"
+              required
               placeholder="Branch"
               value={branch}
               onChange={(e) => {
@@ -211,9 +232,12 @@ const RegisterEvent = (props) => {
               }}
               disabled={disabled}
             />
+            <Form.Control.Feedback type="invalid">
+              Branch is required
+            </Form.Control.Feedback>
           </Form.Group>
 
-          <Form.Group className="mb-3" controlId="formBasicText">
+          <Form.Group className="mb-3" controlId="validationRefCode">
             <Form.Label>Referral Code</Form.Label>
             <Form.Control
               type="text"
@@ -226,10 +250,11 @@ const RegisterEvent = (props) => {
             />
           </Form.Group>
 
-          <Form.Group className="mb-3" controlId="formBasicNumber">
+          <Form.Group className="mb-3" controlId="validationPh">
             <Form.Label>Phone</Form.Label>
             <Form.Control
               type="tel"
+              required
               placeholder="Enter Phone Number"
               value={phone}
               onChange={(e) => {
@@ -237,9 +262,12 @@ const RegisterEvent = (props) => {
               }}
               disabled={disabled}
             />
+            <Form.Control.Feedback type="invalid">
+              Invalid phone number
+            </Form.Control.Feedback>
           </Form.Group>
 
-          <Form.Group className="mb-3" controlId="formBasicText">
+          <Form.Group className="mb-3" controlId="validationQuery">
             <Form.Label>Queries for Speaker</Form.Label>
             <Form.Control
               as="textarea"
@@ -253,13 +281,7 @@ const RegisterEvent = (props) => {
             />
           </Form.Group>
 
-          <Button
-            variant="primary"
-            onClick={() => {
-              if (validate()) post();
-            }}
-            disabled={disabled}
-          >
+          <Button variant="primary" disabled={disabled} type="submit">
             Register
           </Button>
         </Form>
