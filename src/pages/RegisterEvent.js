@@ -96,7 +96,7 @@ const RegisterEvent = (props) => {
     const time = `${dt.getHours() % 12}:${dt.getMinutes()}${
       dt.getHours() < 12 ? "am" : "pm"
     }`;
-    const date = `${dt.getDate()}/${dt.getMonth()}/${dt.getFullYear()}`;
+    const date = `${dt.getDate()}/${dt.getMonth()+1}/${dt.getFullYear()}`;
     return `${time} ${date}`;
   };
 
