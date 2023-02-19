@@ -1,25 +1,22 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import "./css/hero.css";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import ImgReel from "./carousel";
-import {
-  FiExternalLink
-} from "react-icons/fi";
+import { FiExternalLink } from "react-icons/fi";
 import AOS from "aos";
-import "aos/dist/aos.css"
+import "aos/dist/aos.css";
 
 function Hero(options) {
-  useEffect(()=>{
-    AOS.init({duration:1500,
-      easing: 'ease-out-quart'});
-  },[])
+  useEffect(() => {
+    AOS.init({ duration: 1000, easing: "ease-out-quart" });
+  }, []);
   return (
     <div className="hero">
       <Row>
         <Col
           lg
           className=" md-4 column1"
-          style={{ "maxWidth": "100vw !important" }}
+          style={{ maxWidth: "100vw !important" }}
         >
           <Container className="container">
             {/* <div>
@@ -46,14 +43,24 @@ function Hero(options) {
                 </a>
               </div>
               <div className="buttons">
-                <a href="https://www.ca.eetifoundation.org/" target="_blank" rel="noopener noreferrer" id="btn_ca">
-                  <Button className="btn_ca">Campus Ambassador <FiExternalLink /> </Button>
+                <a
+                  href="https://www.ca.eetifoundation.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="btn_ca"
+                >
+                  <Button className="btn_ca">
+                    Campus Ambassador <FiExternalLink />{" "}
+                  </Button>
                 </a>
               </div>
             </div>
           </Container>
         </Col>
-        <div data-aos="fade-up-left" className="carousel-container p-4 md-4 w-auto">
+        <div
+          data-aos="fade-up"
+          className="carousel-container p-4 md-4 w-auto"
+        >
           {/* <Container className="w-auto p-4"> */}
           {/* <div className="arc"></div>
           <div className="dashes"></div> */}
