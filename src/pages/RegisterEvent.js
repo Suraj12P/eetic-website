@@ -60,7 +60,7 @@ const RegisterEvent = (props) => {
     };
     axios
       // .post(`${url}/${data.registration_link}`, body, {
-      .post(`${url}/appe7738Eu3vxE9aq/tblsbPPC02OnofLXz`, body, {
+      .post(`${url}/${data.registration_link}`, body, {
         headers: {
           Authorization: key,
         },
