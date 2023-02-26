@@ -237,18 +237,18 @@ const RegisterEvent = (props) => {
             </Form.Control.Feedback>
           </Form.Group>
 
-          <Form.Group className="mb-3" controlId="validationRefCode">
-            <Form.Label>Referral Code</Form.Label>
-            <Form.Control
-              type="text"
-              placeholder="Enter Referral Code"
-              value={refcode}
-              onChange={(e) => {
-                setrefcode(e.target.value);
-              }}
-              disabled={disabled}
-            />
-          </Form.Group>
+//           <Form.Group className="mb-3" controlId="validationRefCode">
+//             <Form.Label>Referral Code</Form.Label>
+//             <Form.Control
+//               type="text"
+//               placeholder="Enter Referral Code"
+//               value={refcode}
+//               onChange={(e) => {
+//                 setrefcode(e.target.value);
+//               }}
+//               disabled={disabled}
+//             />
+//           </Form.Group>
 
           <Form.Group className="mb-3" controlId="validationPh">
             <Form.Label>Phone</Form.Label>
