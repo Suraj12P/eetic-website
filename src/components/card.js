@@ -41,7 +41,7 @@ function EventCard({ data }) {
         {/* <img src={data.poster_url} alt="card" className="position-absolute" /> */}
         <img
           // src={urlFor(`${data.poster_url.asset._ref}`).toString()}
-          src={data.poster_url.asset.url}
+          src={data.poster_url?.asset.url}
           alt="card"
           className="position-absolute"
         />
