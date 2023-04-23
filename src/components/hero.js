@@ -42,6 +42,9 @@ function Hero(options) {
                   <Button className="btn_readmore">Read More</Button>
                 </a>
               </div>
+              {/* <div className="buttons">
+                <a href="https://www.ca.eetifoundation.org/" target="_blank" rel="noopener noreferrer" id="btn_ca">
+                  <Button className="btn_ca">Campus Ambassador <FiExternalLink /> </Button>
               <div className="buttons">
                 <a
                   href="https://www.ca.eetifoundation.org/"
@@ -53,7 +56,7 @@ function Hero(options) {
                     Campus Ambassador <FiExternalLink />{" "}
                   </Button>
                 </a>
-              </div>
+              </div> */}
             </div>
           </Container>
         </Col>
