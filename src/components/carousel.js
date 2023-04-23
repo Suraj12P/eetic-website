@@ -42,7 +42,7 @@ function ImgReel() {
           );
         })}
 
-        <Carousel.Item interval={2000} className="">
+        {/* <Carousel.Item interval={2000} className="">
           <a href="https://ca.eetifoundation.org" target="_blank">
             <Image
               className="carousel-img"
@@ -50,7 +50,7 @@ function ImgReel() {
               fluid
             />
           </a>
-        </Carousel.Item>
+        </Carousel.Item> */}
 
         {careers.map((c, i) => {
           return (

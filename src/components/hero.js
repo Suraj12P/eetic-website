@@ -47,7 +47,7 @@ function Hero(options) {
               </div>
               <div className="buttons">
                 <a href="https://www.ca.eetifoundation.org/" target="_blank" rel="noopener noreferrer" id="btn_ca">
-                  <Button className="btn_ca">Campus Ambassador <FiExternalLink /> </Button>
+                  {/* <Button className="btn_ca">Campus Ambassador <FiExternalLink /> </Button> */}
                 </a>
               </div>
             </div>
