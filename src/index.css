@@ -1,8 +1,9 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-*{
+* {
   box-sizing: border-box !important;
+  -webkit-tap-highlight-color: transparent;
 }
 body {
   margin: 20;
@@ -10,6 +11,10 @@ body {
   overflow: hidden;
 }
 
-html{
+html {
   overflow-x: hidden;
+}
+
+a {
+  text-decoration: none !important;
 }

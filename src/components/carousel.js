@@ -18,7 +18,7 @@ const urlFor = (source) => {
 function ImgReel() {
   let date = new Date();
   const { events, careers } = useContext(DataContext);
-  console.log(careers[0].disabled);
+  // console.log(careers[0].disabled);
 
   return (
     <>
@@ -32,7 +32,7 @@ function ImgReel() {
                   <Image
                     className="carousel-img"
                     // src={urlFor(`${event.poster_url.asset._ref}`).toString()}
-                    src={event.poster_url.asset.url}
+                    src={event.poster_url?.asset.url}
                     fluid
                     index={i}
                   />

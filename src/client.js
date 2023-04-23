@@ -5,5 +5,5 @@ export default sanityClient({
   dataset: "production",
   apiVersion: "2022-02-03",
   token: `${process.env.REACT_APP_EDITOR_TOKEN}`,
-  useCdn: true,
+  useCdn: false,
 });

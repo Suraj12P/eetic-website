@@ -11,6 +11,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { DataContext } from "./context";
 import sanityClient from "./client";
 import { IoLogoClosedCaptioning } from "react-icons/io";
+import JoinUs from "./pages/JoinUs";
+import RegisterEvent from "./pages/RegisterEvent";
+import Loader from "./pages/Loader";
 
 function App() {
   const { events, setEventData, careers, setCareersData } =
@@ -22,6 +25,7 @@ function App() {
       await sanityClient
         .fetch(
           `*[_type == "event"]{
+        _id,
         event_name,
         description,
         startDate,
@@ -60,7 +64,7 @@ function App() {
         });
     };
     fetchData();
-  },[]);
+  }, []);
 
   return (
     <div className="App">
@@ -72,19 +76,13 @@ function App() {
             <Route exact path="/aboutus" element={<AboutUs />} />
             <Route exact path="/team" element={<Team />} />
             <Route exact path="/careers" element={<Careers />} />
+            {/* <Route exact path="/join-us" element={<JoinUs />} /> */}
+            <Route exact path="/register/:id" element={<RegisterEvent />} />
             <Route exact path="/404" element={<UnderDev />} />
           </Routes>
         </Router>
       ) : (
-        <div className="loader">
-          <div className="ld-container">
-            <div id="loader" className="qt-loading">
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </div>
+        <Loader />
       )}
     </div>
   );

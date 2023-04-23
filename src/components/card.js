@@ -41,7 +41,7 @@ function EventCard({ data }) {
         {/* <img src={data.poster_url} alt="card" className="position-absolute" /> */}
         <img
           // src={urlFor(`${data.poster_url.asset._ref}`).toString()}
-          src={data.poster_url.asset.url}
+          src={data.poster_url?.asset.url}
           alt="card"
           className="position-absolute"
         />
@@ -68,8 +68,9 @@ function EventCard({ data }) {
         </div>
         {isOpen ? (
           <a
-            href={data.registration_link}
-            target="_blank"
+            // href={data.registration_link}
+            href={`/register/${data._id}`}
+            // target="_blank"
             rel="noopener noreferrer"
           >
             <button type="button" className=" register btn btn-primary">
