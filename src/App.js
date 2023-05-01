@@ -11,9 +11,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { DataContext } from "./context";
 import sanityClient from "./client";
 import { IoLogoClosedCaptioning } from "react-icons/io";
-import JoinUs from "./pages/JoinUs";
 import RegisterEvent from "./pages/RegisterEvent";
 import Loader from "./pages/Loader";
+import Resources from "./pages/Resources";
 
 function App() {
   const { events, setEventData, careers, setCareersData } =
@@ -78,6 +78,7 @@ function App() {
             <Route exact path="/careers" element={<Careers />} />
             {/* <Route exact path="/join-us" element={<JoinUs />} /> */}
             <Route exact path="/register/:id" element={<RegisterEvent />} />
+            <Route exact path="/resources" element={<Resources />} />
             <Route exact path="/404" element={<UnderDev />} />
           </Routes>
         </Router>

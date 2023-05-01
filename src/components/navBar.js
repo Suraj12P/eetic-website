@@ -34,6 +34,9 @@ function navBar() {
             <Nav.Link href="/events" className="navText">
               Events
             </Nav.Link>
+            <Nav.Link href="/resources" className="navText">
+              Resources
+            </Nav.Link>
             <Nav.Link href="/aboutus" className="navText">
               About Us
             </Nav.Link>
