@@ -96,7 +96,7 @@ function Resources() {
       resources: [
         {
           head: "marketfeed by ShariqueSamsudheen",
-          liink: "https://youtu.be/XDtWSmnDLEs",
+          link: "https://youtu.be/XDtWSmnDLEs",
         },
       ],
     },

@@ -47,6 +47,8 @@ button{
   height: 3rem;
 }
 
+
+
 .buttons{
   display: flex;
 }
@@ -109,6 +111,8 @@ ul{
   flex-direction: column;
   overflow: hidden;
   font-size: 1rem;
+  list-style-type: none;
+  padding-left: 0;
 
 }
 
