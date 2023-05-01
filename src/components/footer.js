@@ -41,7 +41,7 @@ function Footer() {
             <a href="/team" className="f_links">
               Team
             </a>
-            <a href="/404" className="f_links">
+            <a href="/resources" className="f_links">
               Resources
             </a>
           </div>
