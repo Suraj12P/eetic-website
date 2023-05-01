@@ -53,7 +53,7 @@ function Resources() {
     },
     {
       title: "EV",
-      resources: [{ head: "NexLoop", link: "https://youtu.be/XDtWSmnDLEs" }],
+      resources: [{ head: "NexLoop", link: "https://www.nexloop.in/foev-course-page" }],
     },
     {
       title: "Teachable Machine",
@@ -123,7 +123,7 @@ function Resources() {
       resources: [
         {
           head: "Clever Programmer",
-          link: "https://youtube.com/playlist?list=PL9ooVrP1hQOHUfd-g8GUpKI3hHOwM_9Dn",
+          link: "https://www.youtube.com/watch?v=Qqx_wzMmFeA",
         },
         {
           head: "freecodecamp",
