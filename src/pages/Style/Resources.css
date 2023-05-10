@@ -70,6 +70,19 @@ button{
   padding: 1rem 0;
 }
 
+.fillbtn{
+  padding:0.2rem 1rem;
+  font-size: 0.8em;
+  font-weight: 700;
+  border: none;
+  height:2em ;
+  text-align: center;
+  border-radius: 0.5em;
+  color: rgb(48, 42, 42);
+  background-color: #cfcfcf;
+  margin-bottom: 2rem;
+}
+
 .soft{
   margin: 0em 1em 1em 0em;
 }
