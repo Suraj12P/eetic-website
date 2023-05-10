@@ -484,6 +484,7 @@ function Resources() {
             Hardware
           </button>
         </div>
+        
         <div className="Both">
           {activeTab === "software" && (
             <div className="software">
@@ -536,7 +537,12 @@ function Resources() {
             </div>
           )}
         </div>
+        <div className="suggestions">
+          If you have any suggestions or updates regarding the resources,<br />
+          Please fill out this google form... <a href="https://bit.ly/EETI_Resources">https://bit.ly/EETI_Resources</a>
+        </div>
       </div>
+      
       <Footer />
     </div>
   );
