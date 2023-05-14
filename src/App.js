@@ -14,6 +14,7 @@ import { IoLogoClosedCaptioning } from "react-icons/io";
 import RegisterEvent from "./pages/RegisterEvent";
 import Loader from "./pages/Loader";
 import Resources from "./pages/Resources";
+import WeeklyContent from "./pages/WeeklyContent";
 
 function App() {
   const { events, setEventData, careers, setCareersData } =
@@ -79,6 +80,7 @@ function App() {
             {/* <Route exact path="/join-us" element={<JoinUs />} /> */}
             <Route exact path="/register/:id" element={<RegisterEvent />} />
             <Route exact path="/resources" element={<Resources />} />
+            <Route exact path="/weeklycontent" element={<WeeklyContent />} />
             <Route exact path="/404" element={<UnderDev />} />
           </Routes>
         </Router>
