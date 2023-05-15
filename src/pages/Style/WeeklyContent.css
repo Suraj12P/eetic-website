@@ -21,9 +21,10 @@
 .WCcard {
   position: relative;
   margin: 5rem 1rem 0rem 1rem;
-  border: 2px solid;
-  border-color: #ff845e;
+  /* border: 2px solid; */
+  /* border-color: #ff845e; */
   border-radius: 0.5rem;
+  box-shadow: 2px 2px 8px rgba(68, 67, 67,0.5);
   height: 30rem;
   width: 24rem;
 }
@@ -32,12 +33,16 @@
   margin: 5rem 1rem;
   height: 24rem;
   width: 24rem;
-  visibility: hidden;
-  /* display: none; */
+  /* visibility: hidden; */
+  display: none;
 }
 
 .WCweek_1, .WCweek_2{
   max-width: 100%;
+}
+
+.WCweek-img{
+  object-fit: cover;
 }
 
 .WCweek-text{

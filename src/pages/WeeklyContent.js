@@ -37,7 +37,7 @@ function WeeklyContent() {
               href="https://www.instagram.com/p/CrqlNVipRgM/?igshid=YmMyMTA2M2Y%3D"
               target="_blank"
             >
-              <img src={week1} alt="Week-1" className="WCweek_1" />
+              <div className="WCweek-img"><img src={week1} alt="Week-1" className="WCweek_1" /></div>
             </a>
             <div className="WCweek-text">Week 1</div>
           </div>
@@ -46,7 +46,7 @@ function WeeklyContent() {
               href="https://www.instagram.com/p/CsNg-u4plHd/?igshid=NTc4MTIwNjQ2YQ%3D%3D"
               target="_blank"
             >
-              <img src={week2} alt="Week-2" className="WCweek_2" />
+              <div className="WCweek-img"><img src={week2} alt="Week-2" className="WCweek_2" /></div>
             </a>
             <div className="WCweek-text">Week 2</div>
           </div>
