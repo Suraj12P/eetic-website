@@ -3,7 +3,6 @@ import "./Style/Resources.css";
 import NavBar from "../components/navBar";
 import Footer from "../components/footer";
 
-
 function Resources() {
   const softResources = [
     {
@@ -53,7 +52,9 @@ function Resources() {
     },
     {
       title: "EV",
-      resources: [{ head: "NexLoop", link: "https://www.nexloop.in/foev-course-page" }],
+      resources: [
+        { head: "NexLoop", link: "https://www.nexloop.in/foev-course-page" },
+      ],
     },
     {
       title: "Teachable Machine",
@@ -485,11 +486,14 @@ function Resources() {
           </button>
         </div>
         <div className="suggestions">
-          If you have any suggestions or updates regarding the resources,<br />
-          Please fill out this google form : <a href="https://bit.ly/EETI_Resources">
-          <button className="fillbtn">Submit</button></a>
+          If you have any suggestions or updates regarding the resources,
+          <br />
+          Please fill out this google form :{" "}
+          <a href="https://bit.ly/EETI_Resources">
+            <button className="fillbtn">Submit</button>
+          </a>
         </div>
-        
+
         <div className="Both">
           {activeTab === "software" && (
             <div className="software">
@@ -542,9 +546,8 @@ function Resources() {
             </div>
           )}
         </div>
-        
       </div>
-      
+
       <Footer />
     </div>
   );
