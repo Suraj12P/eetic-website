@@ -1,0 +1,68 @@
+.WCmain {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  width: 100%;
+}
+
+.WCheading {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.WCrow {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0rem 0rem 2rem 0rem;
+  justify-content: center;
+  /* gap: 6rem; */
+}
+
+.WCcard {
+  position: relative;
+  margin: 5rem 1rem 0rem 1rem;
+  border: 2px solid;
+  border-color: #ff845e;
+  border-radius: 0.5rem;
+  height: 30rem;
+  width: 24rem;
+}
+
+.WCnot-card {
+  margin: 5rem 1rem;
+  height: 24rem;
+  width: 24rem;
+  visibility: hidden;
+  /* display: none; */
+}
+
+.WCweek_1, .WCweek_2{
+  max-width: 100%;
+}
+
+.WCweek-text{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1315px) {
+  .WCcard{
+    max-height: 30rem;
+    width: 25rem;
+  }
+  .WCnot-card{
+    display: none;
+  }
+}
+
+@media (max-width: 950px) {
+    .WCcard{
+      width: 24rem;
+      margin: 3rem 0rem 0rem 0rem;
+    }
+    .WCnot-card{
+      display: none;
+    }
+}
