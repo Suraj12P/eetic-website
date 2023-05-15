@@ -1,3 +1,13 @@
+.weeklycontent
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
 .WCmain {
   display: flex;
   flex-direction: column;
@@ -28,6 +38,8 @@
   box-shadow: 2px 2px 8px rgba(68, 67, 67,0.5);
   height: 30rem;
   width: 24rem;
+  /* background:linear-gradient(to bottom, transparent 80% ,rgba(255, 132, 94,0.35) ); */
+  transition-duration: 0.5s;
 }
 
 .WCnot-card {
@@ -44,15 +56,17 @@
 
 .WCweek-img{
   object-fit: cover;
-  transition-duration: 0.5s;
+
 }
 
-.WCweek-img:hover{
-  transform: scale(1.2);
+.WCcard:hover{
+  transform: scale(1.05);
 }
 
 .WCweek-text{
   position: absolute;
+  font-weight: 500;
+  color: rgb(106, 106, 106);
   bottom: 8px;
   left: 16px;
   font-size: 1.5rem;
@@ -71,9 +85,13 @@
 @media (max-width: 950px) {
     .WCcard{
       width: 24rem;
-      margin: 3rem 0rem 0rem 0rem;
+      margin: 3rem 0.5rem 0rem 0.5rem;
     }
     .WCnot-card{
       display: none;
+    }
+    .WCmain {
+      margin: 0;
+      padding: 0.5rem;
     }
 }
