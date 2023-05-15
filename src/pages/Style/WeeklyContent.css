@@ -36,7 +36,7 @@
   /* border-color: #ff845e; */
   border-radius: 0.5rem;
   box-shadow: 2px 2px 8px rgba(68, 67, 67,0.5);
-  height: 30rem;
+  height: max-content;
   width: 24rem;
   /* background:linear-gradient(to bottom, transparent 80% ,rgba(255, 132, 94,0.35) ); */
   transition-duration: 0.5s;
