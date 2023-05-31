@@ -13,6 +13,8 @@ export const DataProvider = ({ children }) => {
     setCareers(data);
   };
 
+  
+
   return (
     <DataContext.Provider
       value={{
