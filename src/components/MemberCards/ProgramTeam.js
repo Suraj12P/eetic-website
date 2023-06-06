@@ -3,7 +3,7 @@ import React from 'react'
 import "../css/MemberPanel.css";
 import MemberCard from "./MemberCard";
 
-import { Ardra_V_V, Abel_K_Raju, Aishwarya_Achuthan, Donna_Thomas, Gayathri_A_S, Saranya_V_S } from '../../images/program_team';
+// import { Ardra_V_V, Abel_K_Raju, Aishwarya_Achuthan, Donna_Thomas, Gayathri_A_S, Saranya_V_S } from '../../images/program_team';
 
 const ProgramTeam = () => {
     return (
@@ -12,7 +12,7 @@ const ProgramTeam = () => {
                 <h3>Program Team Members</h3>
             </div>
 
-            <div className="member-panel-cards co-team">
+            {/* <div className="member-panel-cards co-team">
                 <MemberCard
                     name="Ardra V V"
                     position="College of Engineering, Trivandrum"
@@ -53,8 +53,8 @@ const ProgramTeam = () => {
                     position="LBS Institute of technology for women"
                     image={Gayathri_A_S}
                     size="medium"
-                ></MemberCard>
-            </div>
+                ></MemberCard> 
+            </div>*/}
         </>
     )
 }

@@ -5,26 +5,19 @@ import MemberCard from "./MemberCard";
 import ProgramTeam from "./ProgramTeam";
 
 import Arjun from "../../images/team/arjun.jpeg";
-import SidharthP from "../../images/team/sidharth.jpeg";
-import jaidan from "../../images/team/jaidan.jpg";
+import SidharthP from "../../images/team/sidharth.jpg";
 import ardra from "../../images/team/ardra.jpg";
 import bilal from "../../images/team/bilal.JPG";
-import haridathan from "../../images/team/haridathan.jpeg";
-import harish from "../../images/team/harish.jpeg";
-import meera from "../../images/team/meera.jpeg";
 import rameesa from "../../images/team/rameesa.jpg";
-import diya from "../../images/team/diya.jpg";
 import vaishnavi from "../../images/team/vaishnavi.jpg";
-import archa from "../../images/team/archa.jpeg";
 import gokul from "../../images/team/gokul.jpeg";
-import akhila from "../../images/team/akhila.jpeg";
-import karthik from "../../images/team/karthik.jpeg";
-import surya from "../../images/team/surya.png";
-import dave from "../../images/team/dave.jpeg";
-import shenin from "../../images/team/shenin.jpeg";
-import anjitha from "../../images/team/anjitha.jpg";
+import surya from "../../images/team/surya.jpg";
+import shehin from "../../images/team/shehin.jpeg";
+import anjitha from "../../images/team/anjitha.png";
 import nandana from "../../images/team/nandana.jpeg";
-import niran from "../../images/team/niran.jpeg";
+import sreenath from "../../images/team/Sreenath.jpg";
+import adithyan from "../../images/team/adithyan.jpg";
+import vishnu from "../../images/team/vishnu.jpg";
 
 const MemberPanel = () => {
   return (
@@ -52,45 +45,11 @@ const MemberPanel = () => {
         ></MemberCard>
       </div>
       <div className="member-panel-cards">
-        <MemberCard
-          name="Archa A S"
-          position="Chief Financial Officer"
-          image={archa}
-          linkedin="archa-a-s-839794221"
-          github=""
-          size="medium"
-        ></MemberCard>
 
-        <MemberCard
-          name="Meera J"
-          position="Chief Operating Officer"
-          image={meera}
-          linkedin="meera-j-85803b201"
-          github=""
-          size="medium"
-        ></MemberCard>
-
-        <MemberCard
-          name="Niran S Narayan"
-          position="Chief Technical Officer"
-          image={niran}
-          linkedin="niran-s-narayanan"
-          github=""
-          size="medium"
-        ></MemberCard>
-
-        <MemberCard
-          name="Harish Babu"
-          position="Chief Marketing Officer"
-          image={harish}
-          linkedin="harish-babu-666127211"
-          github=""
-          size="medium"
-        ></MemberCard>
 
         <MemberCard
           name="Sidharth P"
-          position="Chief Creative Officer"
+          position="Creative Lead"
           image={SidharthP}
           linkedin="sidharth-p-085255225"
           github=""
@@ -99,7 +58,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="Gokul G Kumar"
-          position="Chief Community Officer"
+          position="Public Realtion Head"
           image={gokul}
           linkedin="gokul-g-kumar-b50877241"
           github=""
@@ -108,7 +67,7 @@ const MemberPanel = () => {
 
         <MemberCard
           name="Anjitha S"
-          position="Design Head"
+          position="Design Lead"
           image={anjitha}
           linkedin="anjitha-s-bb237a202"
           github=""
@@ -116,8 +75,35 @@ const MemberPanel = () => {
         ></MemberCard>
 
         <MemberCard
+          name="Muhammed Shehin"
+          position="Design Lead"
+          image={shehin}
+          linkedin="muhammed-shehin-b197a9220"
+          github=""
+          size="medium"
+        ></MemberCard>
+
+      <MemberCard
+          name="Vishnu Shaji"
+          position="Publicity Head"
+          image={vishnu}
+          linkedin="vishnu-shaji-36691019a"
+          github=""
+          size="medium"
+        ></MemberCard>
+
+        <MemberCard
+          name="Suryagayatri Thangalazhi"
+          position="WIEETIF"
+          image={surya}
+          linkedin="suryagayatri-thangalazhi-16116a223"
+          github=""
+          size="medium"
+        ></MemberCard>        
+
+        <MemberCard
           name="A R Arjun"
-          position="Chief Social Media Officer"
+          position="Social Media Head"
           image={Arjun}
           linkedin="a-r-arjun-104a36200"
           github=""
@@ -125,26 +111,8 @@ const MemberPanel = () => {
         ></MemberCard>
 
         <MemberCard
-          name="Ardra S S"
-          position="Chief Program Officer"
-          image={ardra}
-          linkedin="ardra-s-s-980670221"
-          github=""
-          size="medium"
-        ></MemberCard>
-
-        <MemberCard
-          name="Akhila Nasrin"
-          position="Chief Program Officer"
-          image={akhila}
-          linkedin="akhila-nasrin-a81991211"
-          github=""
-          size="medium"
-        ></MemberCard>
-
-        <MemberCard
           name="Vaishnavi M S"
-          position="Public Relation Officer"
+          position="Social Media Head"
           image={vaishnavi}
           linkedin="vaishnavi-m-s"
           github=""
@@ -152,8 +120,28 @@ const MemberPanel = () => {
         ></MemberCard>
 
         <MemberCard
+          name="Ardra S S"
+          position="Program Lead"
+          image={ardra}
+          linkedin="ardra-s-s-980670221"
+          github=""
+          size="medium"
+        ></MemberCard>
+
+        <MemberCard
+          name="Rameesa Jahan"
+          position="Documentation Head"
+          image={rameesa}
+          linkedin="rameesa-jahan-a3a971227"
+          github=""
+          size="medium"
+        ></MemberCard>
+
+        
+
+        <MemberCard
           name="Nandana J"
-          position="Content head"
+          position="Content Lead"
           image={nandana}
           linkedin="nandana-j-b0a6b5220"
           github=""
@@ -161,10 +149,19 @@ const MemberPanel = () => {
         ></MemberCard>
 
         <MemberCard
-          name="Jaidan Sleeba"
+          name="Sreenath K P"
+          position="Flutter team Lead"
+          image={sreenath}
+          linkedin="kpsreenath"
+          github=""
+          size="medium"
+        ></MemberCard>
+
+        <MemberCard
+          name="Adithyan T"
           position="Web Master"
-          image={jaidan}
-          linkedin="jaidan22"
+          image={adithyan}
+          linkedin="adithyan-t-ba37b9220"
           github=""
           size="medium"
         ></MemberCard>
@@ -172,76 +169,9 @@ const MemberPanel = () => {
 
       {/* ================================ */}
 
-      <div className="member-team">
-        <h3>Junior Board of Governors</h3>
-      </div>
+      
 
-      <div className="member-panel-cards">
-        <MemberCard
-          name="Suryagayatri Thangalazhi"
-          position="Junior Chief Executive Officer"
-          image={surya}
-          linkedin="suryagayatri-thangalazhi-16116a223"
-          github=""
-          size="medium"
-        ></MemberCard>
-
-        <MemberCard
-          name="Karthik Ajay"
-          position="Junior Chief Financial Officer"
-          image={karthik}
-          linkedin="karthik-ajay-42b252225"
-          github=""
-          size="medium"
-        ></MemberCard>
-
-        <MemberCard
-          name="Rameesa Jahan"
-          position="Junior Chief Operating Officer"
-          image={rameesa}
-          linkedin="rameesa-jahan-a3a971227"
-          github=""
-          size="medium"
-        ></MemberCard>
-
-        <MemberCard
-          name="Dave Paul Joseph"
-          position="Junior Chief Technical Officer"
-          image={dave}
-          linkedin="dave-paul-joseph-157153243"
-          github=""
-          size="medium"
-        ></MemberCard>
-
-        <MemberCard
-          name="Haridathan S"
-          position="Junior Chief Marketing Officer"
-          image={haridathan}
-          linkedin="haridathan-s-73b986228"
-          github=""
-          size="medium"
-        ></MemberCard>
-
-        <MemberCard
-          name="Muhammed Shehin"
-          position="Junior Chief Creative Officer"
-          image={shenin}
-          linkedin="muhammed-shehin-b197a9220"
-          github=""
-          size="medium"
-        ></MemberCard>
-
-        <MemberCard
-          name="Diya Sunil"
-          position="Junior Chief Community Officer"
-          image={diya}
-          linkedin=""
-          github=""
-          size="medium"
-        ></MemberCard>
-      </div>
-
-      <ProgramTeam />
+      {/* <ProgramTeam /> */}
 
       {/* <div className="member-team">
         <h2>Co Team</h2>
