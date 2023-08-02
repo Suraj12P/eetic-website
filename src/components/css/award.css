@@ -1,0 +1,26 @@
+.aw-main {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem 4rem 0;
+}
+
+.aw-heading {
+  font-size: 3rem;
+}
+
+.aw-content {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 2rem 4rem 2rem;
+}
+
+.aw-awardimg {
+  margin: 0 1rem 0 0;
+  box-shadow: 2px 2px 3px 3px rgb(120, 115, 115);
+}
+
+.aw-text {
+  padding: 6rem 5rem 0rem 5rem;
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
