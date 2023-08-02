@@ -6,12 +6,14 @@
 
 .aw-heading {
   font-size: 3rem;
+  font-weight: bold;
 }
 
 .aw-content {
   display: flex;
   flex-direction: row;
-  margin: 2rem 2rem 4rem 2rem;
+  margin: 2rem 4rem 4rem 2rem;
+  color: var(--primary-grey-blue) !important;
 }
 
 .aw-awardimg {
@@ -20,7 +22,7 @@
 }
 
 .aw-text {
-  padding: 6rem 5rem 0rem 5rem;
+  padding: 6rem 10rem 0rem 10rem;
   font-size: 1.5rem;
   vertical-align: middle;
 }
