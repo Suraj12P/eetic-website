@@ -17,7 +17,7 @@ function Award() {
           this well-deserved recognition!
         </div>
         <div className="aw-awardimg">
-          <img src={Img} alt="award" height="450px" width="auto" />
+          <img src={Img} className="aw-img" alt="award" />
         </div>
       </div>
       <div className="aw-awardvid">
@@ -25,8 +25,8 @@ function Award() {
           controls
           src={Vid}
           type="video/mp4"
-          height="600px"
-          width="auto"
+          height="auto"
+          width="100%"
         />
       </div>
     </div>
