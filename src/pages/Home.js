@@ -4,6 +4,7 @@ import Hero from "../components/hero";
 import CommunityWhy from "../components/community_why";
 import Footer from "../components/footer";
 import UpcomingEvents from "../components/upcoming_events";
+import Award from "../components/award";
 import { Helmet } from "react-helmet";
 
 const Home = () => {
@@ -30,6 +31,7 @@ const Home = () => {
       <NavBar />
       <Hero />
       <CommunityWhy />
+      <Award />
       <UpcomingEvents />
       <Footer />
     </div>
