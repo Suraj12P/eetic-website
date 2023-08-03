@@ -10,7 +10,7 @@ function Award() {
       <div className="aw-content">
         <div className="aw-text">
           Muhammed Bilal O P, founder of our community EETI, has been awarded the
-          prestigious Education2.0 Outstanding Leadership Award for his
+          prestigious Education2.0 Young Leadership Award for his
           exceptional contributions to education and technology integration. His
           visionary leadership has empowered our community to thrive as a platform
           for innovation and positive change in education. Congratulations on
