@@ -23,7 +23,7 @@ import abhijith from "../../images/team/abhijith.jpg";
 import adheena from "../../images/team/adheena.jpg";
 import afeefa from "../../images/team/afeefa.jpg";
 import anoushka from "../../images/team/anoushka.jpg";
-import arya from "../../images/team/arya.jpg";
+import arya from "../../images/team/arya1.jpg";
 import ashna from "../../images/team/ashna.jpg";
 import aswajith from "../../images/team/aswajith.jpg";
 import aswathy from "../../images/team/aswathy.jpg";
@@ -36,7 +36,7 @@ import srutav from "../../images/team/srutav.jpg";
 import yadhu from "../../images/team/yadhu.jpeg";
 
 const MemberPanel = () => {
-  const [activeTab, setActiveTab] = useState("tab2");
+  const [activeTab, setActiveTab] = useState("mtab2");
 
   const handleTabClick = (tab) => {
     setActiveTab(tab);
@@ -49,7 +49,7 @@ const MemberPanel = () => {
             </div> */}
       <div className="member-team">
         <h2>Team</h2>
-        <h3>Senior Board of Governers</h3>
+        <h3>Senior Board of Governors</h3>
       </div>
       {/* <div className="member-panel-details">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -67,24 +67,24 @@ const MemberPanel = () => {
         ></MemberCard>
       </div>
 
-      <div className="tabs">
+      <div className="mtabs">
         <button
-          onClick={() => handleTabClick("tab1")}
-          className={`tab `}
-          id={activeTab === "tab1" ? "active" : ""}
+          onClick={() => handleTabClick("mtab1")}
+          className={`mtab `}
+          id={activeTab === "mtab1" ? "active" : ""}
         >
           Execom '22
         </button>
         <button
-          onClick={() => handleTabClick("tab2")}
-          className={`tab `}
-          id={activeTab === "tab2" ? "active" : ""}
+          onClick={() => handleTabClick("mtab2")}
+          className={`mtab `}
+          id={activeTab === "mtab2" ? "active" : ""}
         >
           Student Team '23
         </button>
       </div>
 
-      {activeTab === "tab1" ? (
+      {activeTab === "mtab1" ? (
         <div className="tab-content">
           <div className="member-panel-cards">
             <MemberCard
