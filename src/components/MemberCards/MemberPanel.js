@@ -36,7 +36,7 @@ import srutav from "../../images/team/srutav.jpg";
 import yadhu from "../../images/team/yadhu.jpeg";
 
 const MemberPanel = () => {
-  const [activeTab, setActiveTab] = useState("tab1");
+  const [activeTab, setActiveTab] = useState("tab2");
 
   const handleTabClick = (tab) => {
     setActiveTab(tab);
