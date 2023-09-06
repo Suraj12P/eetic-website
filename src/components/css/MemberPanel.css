@@ -45,13 +45,13 @@
   margin-top: 25px;
 }
 
-.tabs {
+.mtabs {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
-.tab {
+.mtab {
   flex-grow: 1;
   margin: 1rem 1rem 2rem 1rem;
   padding: 0.6em 3em;

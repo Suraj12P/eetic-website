@@ -409,10 +409,10 @@ function Resources() {
   //   },
   // ];
 
-  const [activeTab, setActiveTab] = useState("software");
+  const [ractiveTab, setrActiveTab] = useState("software");
 
-  const handleTabClick = (tab) => {
-    setActiveTab(tab);
+  const rhandleTabClick = (tab) => {
+    setrActiveTab(tab);
   };
 
   useEffect(() => {
@@ -420,20 +420,20 @@ function Resources() {
     const hard = document.querySelector(".hard");
 
     if (soft) {
-      soft.addEventListener("click", () => handleTabClick("software"));
+      soft.addEventListener("click", () => rhandleTabClick("software"));
     }
 
     if (hard) {
-      hard.addEventListener("click", () => handleTabClick("hardware"));
+      hard.addEventListener("click", () => rhandleTabClick("hardware"));
     }
 
     return () => {
       if (soft) {
-        soft.removeEventListener("click", () => handleTabClick("software"));
+        soft.removeEventListener("click", () => rhandleTabClick("software"));
       }
 
       if (hard) {
-        hard.removeEventListener("click", () => handleTabClick("hardware"));
+        hard.removeEventListener("click", () => rhandleTabClick("hardware"));
       }
     };
   }, []);
@@ -474,13 +474,13 @@ function Resources() {
         <div className="buttons">
           <button
             className={`soft Button`}
-            id={`${activeTab === "software" ? "active" : ""}`}
+            id={`${ractiveTab === "software" ? "ractive" : ""}`}
           >
             Software
           </button>
           <button
             className={`hard Button`}
-            id={`${activeTab === "hardware" ? "active" : ""}`}
+            id={`${ractiveTab === "hardware" ? "ractive" : ""}`}
           >
             Hardware
           </button>
@@ -495,7 +495,7 @@ function Resources() {
         </div>
 
         <div className="Both">
-          {activeTab === "software" && (
+          {ractiveTab === "software" && (
             <div className="software">
               {softResources.map((resource, index) => (
                 <div className="block" key={index} data-topic={resource.title}>
@@ -520,7 +520,7 @@ function Resources() {
               ))}
             </div>
           )}
-          {activeTab === "hardware" && (
+          {ractiveTab === "hardware" && (
             <div className="hardware">
               {hardResources.map((resource, index) => (
                 <div className="block" key={index} data-topic={resource.title}>
