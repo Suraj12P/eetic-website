@@ -212,7 +212,7 @@ const MemberPanel = () => {
               name="Yadhukrishnan S"
               position="Student Lead"
               image={yadhu}
-              linkedin=""
+              linkedin="yadhukrishnan-s-241941201"
               github=""
               size="medium"
             ></MemberCard>
@@ -329,7 +329,7 @@ const MemberPanel = () => {
               name="Shabeeba T P"
               position="Media Lead"
               image={shabeeba}
-              linkedin=""
+              linkedin="shabeeba-t-p-a7b380277"
               github=""
               size="medium"
             ></MemberCard>
@@ -338,7 +338,7 @@ const MemberPanel = () => {
               name="Adheena A K"
               position="Content Lead"
               image={adheena}
-              linkedin=""
+              linkedin="adheena-a-k-978939225"
               github=""
               size="medium"
             ></MemberCard>
