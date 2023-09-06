@@ -291,7 +291,7 @@ const MemberPanel = () => {
 
             <MemberCard
               name="Savan J Saji"
-              position="Creative LeadFlutter team Lead"
+              position="Creative Lead"
               image={savan}
               linkedin="savan-j-saji"
               github=""
