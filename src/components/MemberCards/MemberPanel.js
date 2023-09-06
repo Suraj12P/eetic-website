@@ -19,6 +19,7 @@ import sreenath from "../../images/team/Sreenath.jpg";
 import adithyan from "../../images/team/adithyan.jpg";
 import vishnu from "../../images/team/vishnu.jpg";
 
+import abhijith from "../../images/team/abhijith.jpg";
 import adheena from "../../images/team/adheena.jpg";
 import afeefa from "../../images/team/afeefa.jpg";
 import anoushka from "../../images/team/anoushka.jpg";
@@ -79,7 +80,7 @@ const MemberPanel = () => {
           className={`tab `}
           id={activeTab === "tab2" ? "active" : ""}
         >
-          Execom '23
+          Student Team '23
         </button>
       </div>
 
@@ -211,7 +212,16 @@ const MemberPanel = () => {
               name="Sreepriya S"
               position="Creative Lead"
               image={sreepriya}
-              linkedin=""
+              linkedin="sreepriya-s-a02772239"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Abhijith K V"
+              position="Design Lead Lead"
+              image={abhijith}
+              linkedin="abhiji-kv/"
               github=""
               size="medium"
             ></MemberCard>
@@ -229,7 +239,7 @@ const MemberPanel = () => {
               name="Arya Vijayan"
               position="Technical Lead"
               image={arya}
-              linkedin=""
+              linkedin="arya-vijayan"
               github=""
               size="medium"
             ></MemberCard>
@@ -238,7 +248,7 @@ const MemberPanel = () => {
               name="Afeefa Ali"
               position="Publicity Lead"
               image={afeefa}
-              linkedin=""
+              linkedin="afeefa-ali-879969276"
               github=""
               size="medium"
             ></MemberCard>
@@ -247,7 +257,7 @@ const MemberPanel = () => {
               name="Anoushka L Nair"
               position="Program Lead"
               image={anoushka}
-              linkedin=""
+              linkedin="anoushka-l-nair-331b73239"
               github=""
               size="medium"
             ></MemberCard>
@@ -256,7 +266,7 @@ const MemberPanel = () => {
               name="Aswathy K"
               position="Program Lead"
               image={aswathy}
-              linkedin=""
+              linkedin="aswathie"
               github=""
               size="medium"
             ></MemberCard>
@@ -265,7 +275,7 @@ const MemberPanel = () => {
               name="Ashna Anna Philips"
               position="Campus Community Lead"
               image={ashna}
-              linkedin=""
+              linkedin="ashna-anna-philips-aab3b0227"
               github=""
               size="medium"
             ></MemberCard>
@@ -274,16 +284,7 @@ const MemberPanel = () => {
               name="Rayen M Sulphi"
               position="Design Lead"
               image={rayen}
-              linkedin=""
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Abhijith K V"
-              position="Design Lead"
-              image={arya}
-              linkedin=""
+              linkedin="rayen-m-sulphi-944b62275"
               github=""
               size="medium"
             ></MemberCard>
@@ -292,7 +293,7 @@ const MemberPanel = () => {
               name="Savan J Saji"
               position="Creative LeadFlutter team Lead"
               image={savan}
-              linkedin=""
+              linkedin="savan-j-saji"
               github=""
               size="medium"
             ></MemberCard>
@@ -301,7 +302,7 @@ const MemberPanel = () => {
               name="Srutav Tarun"
               position="Web Master"
               image={srutav}
-              linkedin=""
+              linkedin="srutav-tarun-00625a25b/"
               github=""
               size="medium"
             ></MemberCard>
@@ -310,7 +311,7 @@ const MemberPanel = () => {
               name="Binto Joseph"
               position="Web Master"
               image={binto}
-              linkedin=""
+              linkedin="binto-joseph/"
               github=""
               size="medium"
             ></MemberCard>
@@ -319,7 +320,7 @@ const MemberPanel = () => {
               name="Aswajith M S"
               position="Video Editing Lead"
               image={aswajith}
-              linkedin=""
+              linkedin="aswajith-m-s-31713a24a"
               github=""
               size="medium"
             ></MemberCard>

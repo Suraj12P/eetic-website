@@ -52,8 +52,8 @@
 }
 
 .tab {
-flex-grow: 1;
-margin: 1rem 1rem 2rem 1rem;
+  flex-grow: 1;
+  margin: 1rem 1rem 2rem 1rem;
   padding: 0.6em 3em;
   font-size: 1em;
   font-weight: 700;
@@ -61,12 +61,13 @@ margin: 1rem 1rem 2rem 1rem;
   border-radius: 1em;
   color: rgb(48, 42, 42);
   background-color: #cfcfcf;
-  
+  transition: flex-grow 0.5s ease;
 }
 
-#active{
-    color: white;
+#active {
+  color: white;
   background-color: #ff845e;
+  flex-grow: 4;
 }
 
 .member-panel-heading {
