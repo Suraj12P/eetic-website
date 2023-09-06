@@ -209,24 +209,6 @@ const MemberPanel = () => {
         <div className="tab-content">
           <div className="member-panel-cards">
             <MemberCard
-              name="Sreepriya S"
-              position="Creative Lead"
-              image={sreepriya}
-              linkedin="sreepriya-s-a02772239"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Abhijith K V"
-              position="Design Lead Lead"
-              image={abhijith}
-              linkedin="abhiji-kv/"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
               name="Yadhukrishnan S"
               position="Student Lead"
               image={yadhu}
@@ -240,15 +222,6 @@ const MemberPanel = () => {
               position="Technical Lead"
               image={arya}
               linkedin="arya-vijayan"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Afeefa Ali"
-              position="Publicity Lead"
-              image={afeefa}
-              linkedin="afeefa-ali-879969276"
               github=""
               size="medium"
             ></MemberCard>
@@ -281,10 +254,37 @@ const MemberPanel = () => {
             ></MemberCard>
 
             <MemberCard
+              name="Afeefa Ali"
+              position="Publicity Lead"
+              image={afeefa}
+              linkedin="afeefa-ali-879969276"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
               name="Rayen M Sulphi"
               position="Design Lead"
               image={rayen}
               linkedin="rayen-m-sulphi-944b62275"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Abhijith K V"
+              position="Design Lead"
+              image={abhijith}
+              linkedin="abhiji-kv/"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Sreepriya S"
+              position="Creative Lead"
+              image={sreepriya}
+              linkedin="sreepriya-s-a02772239"
               github=""
               size="medium"
             ></MemberCard>
@@ -326,7 +326,7 @@ const MemberPanel = () => {
             ></MemberCard>
 
             <MemberCard
-              name="Shabeeba"
+              name="Shabeeba T P"
               position="Media Lead"
               image={shabeeba}
               linkedin=""
