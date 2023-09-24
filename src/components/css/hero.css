@@ -202,6 +202,12 @@
   }
 }
 
+@media (max-width: 1250px) {
+  .carousel-container{
+    display: none;
+  }
+}
+
 @media (max-width: 991px) {
   .carousel-container {
     margin-top: 60px !important;

@@ -32,18 +32,22 @@ function Footer() {
             {/* <span>
               <u>COMPANY</u>
             </span> */}
-            <a href="/aboutus" className="f_links">
-              About Us
-            </a>
-            <a href="/events" className="f_links">
-              Events
-            </a>
-            <a href="/team" className="f_links">
-              Team
-            </a>
-            <a href="/resources" className="f_links">
-              Resources
-            </a>
+            {/* <div className="first_row"> */}
+              <a href="/aboutus" className="f_links">
+                About Us
+              </a>
+              <a href="/events" className="f_links">
+                Events
+              </a>
+            {/* </div> */}
+            {/* <div className="second_row"> */}
+              <a href="/team" className="f_links">
+                Team
+              </a>
+              <a href="/resources" className="f_links">
+                Resources
+              </a>
+            {/* </div> */}
           </div>
           {/* <div className="other-links">
             <span>
