@@ -4,15 +4,15 @@ import TestCard from "./test-card";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 
-import Arjun from "../images/team/arjun.jpeg";
-import SidharthP from "../images/team/sidharth.jpg";
-import ardra from "../images/team/ardra.jpg";
+import Arjun from "../images/team/arjun.jpeg";//
+import SidharthP from "../images/team/sidharth.jpg";//
+import ardra from "../images/team/ardra.jpg";//
 import bilal from "../images/team/bilal.JPG";
-import rameesa from "../images/team/rameesa.jpg";
-import vaishnavi from "../images/team/vaishnavi.jpg";
+import rameesa from "../images/team/rameesa.jpg";//
+import vaishnavi from "../images/team/vaishnavi.jpg";//
 import gokul from "../images/team/gokul.jpeg";
-import surya from "../images/team/surya.jpg";
-import shehin from "../images/team/shehin.jpeg";
+import surya from "../images/team/surya.jpg";//
+import shehin from "../images/team/shehin.jpeg";//
 import anjitha from "../images/team/anjitha.png";
 import nandana from "../images/team/nandana.jpeg";
 import sreenath from "../images/team/Sreenath.jpg";

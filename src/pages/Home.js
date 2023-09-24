@@ -33,7 +33,7 @@ const Home = () => {
       <Hero />
       <CommunityWhy />
       <Award />
-      <UpcomingEvents />
+      {/* <UpcomingEvents /> */}
       <Testimonials/>
       <Footer />
     </div>
