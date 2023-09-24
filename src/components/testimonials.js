@@ -18,6 +18,8 @@ import nandana from "../images/team/nandana.jpeg";
 import sreenath from "../images/team/Sreenath.jpg";
 import adithyan from "../images/team/adithyan.jpg";
 import vishnu from "../images/team/vishnu.jpg";
+import archa from "../images/team/archa.jpg";
+import harish from "../images/team/harish.jpg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -30,7 +32,7 @@ const Testimonials = () => {
       <div className="eventHeading">Testimonials</div>
       <Swiper
         autoplay={{
-          delay: 2500,
+          delay: 7000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -38,6 +40,7 @@ const Testimonials = () => {
         }}
         modules={[Pagination,Autoplay]}
         className="mySwiper"
+        spaceBetween={50}
       >
         <SwiperSlide>
           <TestCard name='Muhammed Shehin' image={shehin} text ="This was my first execom call. It was a really good experience working with an amazing team. Sometimes I felt hectic about my work, still I enjoyed doing them and it has helped me grow as a designer.
@@ -61,6 +64,12 @@ const Testimonials = () => {
         </SwiperSlide>
         <SwiperSlide>
           <TestCard name='Ardra S S' image={ardra} text="I have been a member of EETI for quite a long time now. It has been great to be a part of a high-spirited set of people The experiences I acquired from here is effable. It was great to communicate with many renowned personalities and listen to their experiences. At the same time, i was able to have lively connections with many others from diverse field of expertise, comprising of students, professionals and so on. The knack of organizing responsibilities can only be gained through experience and EETI has provided that to me. I was able to understand the behind-the-scene working of a society. Being part of such an energetic group will help one to understand & practice how to coordinate things, plan effectively, manage time & lead a team Will forever be grateful to EETI for the space and opportunities that i received through this society" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <TestCard name='Archa A S' image={archa} text="Hai there, my name may not matters so much. But EETIF means a lot. I am so glad to be part of EETIF (Electronics Enthusiast Technical Integration Foundation) and for its growth from the very beginning. Bilal who is the founder, just marked his path and I accompanied him for his ideas. He is so curious about the present innovation and that's how we got connected. The growth is owned by the members accompanied by our Foundation. The success lies in bringing up everyone together. Together we have achieved great success. And now our NGO is a platform providing a lots of opportunity to young innovators and help in developing and inspire you in living your life the way you dream of." />
+        </SwiperSlide>
+        <SwiperSlide>
+          <TestCard name='Harish Babu' image={harish} text="Hi, My name is Harish Babu. I'm 3rd year in Electrical and electronics engineering, CET. I first joined the EETIF in my first year, second semester onwards. I joined because most workshops provided by other clubs at that time were paid and Arduino classes by EETIF were free. That time the community was not registered. I was able to help a little during they became a community. During my second year there was a whole Arduino series from EETIF. I was able to gain much technical idea about Arduino programming. There was many other programs." />
         </SwiperSlide>
       </Swiper>
     </div>

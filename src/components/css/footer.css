@@ -23,6 +23,11 @@ footer {
   align-items: flex-start;
 }
 
+.first_row, .second_row{
+  display: flex;
+  flex-direction: column;
+}
+
 .f-logo {
   max-width: 200px;
 }
@@ -79,6 +84,14 @@ span > u {
     justify-content: center;
   }
 
+  .company{
+    flex-direction: column;
+  }
+
+  .f_links{
+    padding: 0 1em;
+  }
+
   .f-container {
     max-width: 1250px;
     width: 100vw;
@@ -91,6 +104,13 @@ span > u {
     margin: 30px auto;
   }
 }
+
+@media (max-width: 510px) {
+  .first_row, .second_row{
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 320px) {
   a > svg {
     height: 1.5rem;
