@@ -6,6 +6,7 @@ import Footer from "../components/footer";
 import UpcomingEvents from "../components/upcoming_events";
 import Award from "../components/award";
 import { Helmet } from "react-helmet";
+import Testimonials from "../components/testimonials";
 
 const Home = () => {
   return (
@@ -33,6 +34,7 @@ const Home = () => {
       <CommunityWhy />
       <Award />
       <UpcomingEvents />
+      <Testimonials/>
       <Footer />
     </div>
   );
