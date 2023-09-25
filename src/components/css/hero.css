@@ -203,9 +203,9 @@
 }
 
 @media (max-width: 1250px) {
-  .carousel-container{
+  /* .carousel-container{
     display: none;
-  }
+  } */
 }
 
 @media (max-width: 991px) {
