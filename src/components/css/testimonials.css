@@ -13,14 +13,21 @@
 }
 
 .wrapper{
-    /* border: solid 3px orange; */
+    /* border: solid 4px rgba(0, 0, 0, 0.1); */
     /* border-radius: 10px; */
     /* border-color: orange; */
     display: flex;
     flex-direction: column;
     /* padding: 20px; */
     margin: 1em 10em 1em 10em;
+    /* box-shadow: -1em 1em 1em rgba(0, 0, 0, 0.1); */
+    /* transition: box-shadow 0.3s ease; */
 }
+
+/* .wrapper:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  } */
 
 .wrapper-2{
     width: 100%;
