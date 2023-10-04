@@ -24,7 +24,7 @@ const RegisterEvent = () => {
       <div className="event-form">
         <iframe
           className="airtable-embed"
-          src="https://airtable.com/embed/appJtI8AIFRPLuUeo/shrAT9jwkPODsIgHr?backgroundColor=cyan"
+          src="https://airtable.com/embed/app1jlX2pTb6cffVs/shrnayM9IgTtK7Jmh?backgroundColor=blue"
           onWheel={() => {}}
           width="100%"
           height="100%"
