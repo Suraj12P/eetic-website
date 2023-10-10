@@ -73,7 +73,7 @@ function EventCard({ data }) {
             // target="_blank"
             rel="noopener noreferrer"
           >
-            <button type="button" className=" register btn btn-primary">
+            <button type="button" className=" register btn btn-primary hidden-in-mobile">
               Register
             </button>
           </a>
@@ -84,6 +84,9 @@ function EventCard({ data }) {
             </button>
           </a>
         )}
+        <button type="button" className=" register btn btn-primary shown-in-mobile">
+              Register
+            </button>
       </div>
     </div>
   );

@@ -281,6 +281,14 @@ p.desc {
   }
 }
 
+.hidden-in-mobile{
+  display: block !important;
+}
+
+.shown-in-mobile{
+  display: none !important;
+}
+
 /* =========== CARD FLIP ===========  */
 .card-front,
 .card-rear {
@@ -314,5 +322,13 @@ p.desc {
   .card:hover .card-rear {
     transform: rotateY(0deg) !important;
     /* visibility: visible; */
+  }
+
+  .hidden-in-mobile{
+    display: none !important;
+  }
+
+  .shown-in-mobile{
+    display: block !important;
   }
 }
