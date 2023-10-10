@@ -1,4 +1,4 @@
-import React, { useEffect, useState, Component, useContext } from "react";
+import React, { useContext } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -9,6 +9,12 @@ import { DataContext } from "../context";
 const UpcomingEvents = () => {
   let date = new Date();
   const { events } = useContext(DataContext);
+
+  // Check if there are active events
+  const hasActiveEvents = events.some((event) => {
+    const e_date = new Date(`${event.startDate}`);
+    return e_date > date;
+  });
 
   var settings = {
     dots: true,
@@ -37,7 +43,6 @@ const UpcomingEvents = () => {
         settings: {
           slidesToShow: 1,
           infinite: false,
-
           slidesToScroll: 1,
           initialSlide: 1,
         },
@@ -48,7 +53,6 @@ const UpcomingEvents = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: false,
-
           initialSlide: 1,
         },
       },
@@ -57,7 +61,6 @@ const UpcomingEvents = () => {
         settings: {
           slidesToShow: 1,
           infinite: false,
-
           slidesToScroll: 1,
           autoplay: true,
         },
@@ -67,13 +70,18 @@ const UpcomingEvents = () => {
 
   return (
     <div className="upcoming-events">
-      <h2 className="eventHeading">Upcoming Events</h2>
-      <Slider {...settings}>
-        {events.map((event, i) => {
-          const e_date = new Date(`${event.startDate}`);
-          return e_date > date && <EventCard data={event} key={i} />;
-        })}
-      </Slider>
+      {/* Conditionally render the entire div */}
+      {hasActiveEvents && (
+        <>
+          <h2 className="eventHeading">Upcoming Events</h2>
+          <Slider {...settings}>
+            {events.map((event, i) => {
+              const e_date = new Date(`${event.startDate}`);
+              return e_date > date && <EventCard data={event} key={i} />;
+            })}
+          </Slider>
+        </>
+      )}
       <p className="caution">*Click on the poster to register</p>
     </div>
   );

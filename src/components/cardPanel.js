@@ -10,6 +10,11 @@ import "aos/dist/aos.css";
 function CardPanel() {
   let date = new Date();
   const { events } = useContext(DataContext);
+
+  const hasActiveEvents = events.some((event) => {
+    const e_date = new Date(`${event.startDate}`);
+    return e_date > date;
+  });
   // console.log(events);
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -17,12 +22,20 @@ function CardPanel() {
   return (
     <div className="cardPanel">
       <div className="upcoming position-relative">
-        <p className="event-caution">*Click on the poster to register</p>
-        <h1 className="position-absolute top-0 mb-3">Upcoming Events</h1>
-        {events.map((event, i) => {
-          const e_date = new Date(`${event.startDate}`);
-          return e_date > date && <EventCard data={event} key={i} />;
-        })}
+        {hasActiveEvents && (
+          <>
+            {hasActiveEvents && (
+              <p className="event-caution">*Click on the poster to register</p>
+            )}
+            {hasActiveEvents && (
+              <h1 className="position-absolute top-0 mb-3">Upcoming Events</h1>
+            )}
+            {events.map((event, i) => {
+              const e_date = new Date(`${event.startDate}`);
+              return e_date > date && <EventCard data={event} key={i} />;
+            })}
+          </>
+        )}
       </div>
 
       <div className="closed position-relative">
