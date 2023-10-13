@@ -30,6 +30,7 @@ footer {
 
 .f-logo {
   max-width: 200px;
+  scale: 0.8;
 }
 
 .f-container {
@@ -90,6 +91,7 @@ span > u {
 
   .f_links{
     padding: 0 1em;
+    margin: 0 1em;
   }
 
   .f-container {

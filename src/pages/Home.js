@@ -7,6 +7,7 @@ import UpcomingEvents from "../components/upcoming_events";
 import Award from "../components/award";
 import { Helmet } from "react-helmet";
 import Testimonials from "../components/testimonials";
+import Initiatives from "../components/initiatives";
 
 const Home = () => {
   return (
@@ -31,6 +32,7 @@ const Home = () => {
 
       <NavBar />
       <Hero />
+      <Initiatives />
       <CommunityWhy />
       <Award />
       <UpcomingEvents />
