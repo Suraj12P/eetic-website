@@ -32,10 +32,12 @@ const Home = () => {
 
       <NavBar />
       <Hero />
+      <hr></hr>
       <Initiatives />
       <CommunityWhy />
       <Award />
       <UpcomingEvents />
+      <hr></hr>
       <Testimonials/>
       <Footer />
     </div>

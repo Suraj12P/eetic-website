@@ -41,8 +41,9 @@
 }
 .aw-awardvid{
   height: auto;
-  width:60vw;
+  width:100vw;
   object-fit: contain;
+  background-color: rgb(19, 18, 18);
 }
 
 @media (max-width: 768px) {

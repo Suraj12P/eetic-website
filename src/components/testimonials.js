@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../components/css/testimonials.css";
 import TestCard from "./test-card";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -6,18 +6,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import Arjun from "../images/team/arjun.jpeg";//
 import SidharthP from "../images/team/sidharth.jpg";//
-import ardra from "../images/team/ardra.jpg";//
-import bilal from "../images/team/bilal.JPG";
-import rameesa from "../images/team/rameesa.jpg";//
-import vaishnavi from "../images/team/vaishnavi.jpg";//
-import gokul from "../images/team/gokul.jpeg";
-import surya from "../images/team/surya.jpg";//
-import shehin from "../images/team/shehin.jpeg";//
-import anjitha from "../images/team/anjitha.png";
-import nandana from "../images/team/nandana.jpeg";
-import sreenath from "../images/team/Sreenath.jpg";
-import adithyan from "../images/team/adithyan.jpg";
-import vishnu from "../images/team/vishnu.jpg";
+import ardra from "../images/team/ardra.jpg";
+import rameesa from "../images/team/rameesa.jpg";
+import vaishnavi from "../images/team/vaishnavi.jpg";
+import surya from "../images/team/surya.jpg";
+import shehin from "../images/team/shehin.jpeg";
 import archa from "../images/team/archa.jpg";
 import harish from "../images/team/harish.jpg";
 
@@ -27,10 +20,32 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 
 const Testimonials = () => {
+    const [slidesPerView, setSlidesPerView] = useState(2); // Initially set to 2 slides
+  
+    // Function to update slidesPerView based on screen width
+    const updateSlidesPerView = () => {
+      if (window.innerWidth <= 900) {
+        setSlidesPerView(1); // Set to 1 slide for smaller screens
+      } else {
+        setSlidesPerView(2); // Set to 2 slides for larger screens
+      }
+    };
+  
+    useEffect(() => {
+      // Initialize slidesPerView and update it when the screen size changes
+      updateSlidesPerView();
+      window.addEventListener('resize', updateSlidesPerView);
+  
+      return () => {
+        window.removeEventListener('resize', updateSlidesPerView);
+      };
+    }, []);
+
   return (
     <div className="testimonials">
       <div className="eventHeading">Testimonials</div>
       <Swiper
+      slidesPerView={slidesPerView}
         autoplay={{
           delay: 7000,
           disableOnInteraction: false,
