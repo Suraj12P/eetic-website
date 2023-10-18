@@ -10,7 +10,7 @@ import Careers from "./pages/Careers";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { DataContext } from "./context";
 import sanityClient from "./client";
-// import { IoLogoClosedCaptioning } from "react-icons/io";
+import { IoLogoClosedCaptioning } from "react-icons/io";
 import RegisterEvent from "./pages/RegisterEvent";
 import Loader from "./pages/Loader";
 import Resources from "./pages/Resources";
