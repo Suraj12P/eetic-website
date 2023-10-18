@@ -29,11 +29,8 @@ function Hero(options) {
             </div>
             <div>
               <h5 className="text-start text_info">
-                A community initiative from college of engineering Trivandrum,
-                EETI Foundation is a group of young innovators future
-                entrepreneurs and technology enthusiasts across Kerala, coming
-                under one platform to share ideas and explore the blazing fast
-                changes and advancements in science and technology.
+              EETI Foundation is a group of young innovators future entrepreneurs and technology enthusiasts coming under one platform to share ideas and explore the blazing fast changes and advancements in science and technology.
+
               </h5>
             </div>
             <div className="readmore_ca">

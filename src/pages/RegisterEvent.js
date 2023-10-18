@@ -1,28 +1,28 @@
-import axios from "axios";
+// import axios from "axios";
 import React, { useContext, useState } from "react";
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 import Footer from "../components/footer";
 import NavBar from "../components/navBar";
 import "../components/css/registerevent.css";
-import QueryBuilderIcon from "@mui/icons-material/QueryBuilder";
-import PersonIcon from "@mui/icons-material/Person";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
-import eventIllustration from "../images/eventreg.svg";
-import chat from "../images/chat.svg";
-import { Alert, Collapse, IconButton } from "@mui/material";
-import CloseIcon from "@mui/icons-material/Close";
-import { useEffect } from "react";
-import { DataContext } from "../context";
-import { useNavigate } from "react-router-dom";
-import Loader from "./Loader";
+// import QueryBuilderIcon from "@mui/icons-material/QueryBuilder";
+// import PersonIcon from "@mui/icons-material/Person";
+// import Button from "react-bootstrap/Button";
+// import Form from "react-bootstrap/Form";
+// import eventIllustration from "../images/eventreg.svg";
+// import chat from "../images/chat.svg";
+// import { Alert, Collapse, IconButton } from "@mui/material";
+// import CloseIcon from "@mui/icons-material/Close";
+// import { useEffect } from "react";
+// import { DataContext } from "../context";
+// import { useNavigate } from "react-router-dom";
+// import Loader from "./Loader";
 
 const RegisterEvent = () => {
   return (
     <div>
       <NavBar />
       <div className="event-form">
-        <iframe
+        <iframe title="form"
           className="airtable-embed"
           src="https://airtable.com/embed/appJtI8AIFRPLuUeo/shrjP4iKNiubQn2jz?backgroundColor=cyan"
           onWheel={() => {}}

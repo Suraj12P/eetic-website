@@ -17,6 +17,7 @@
     "aos": "^2.3.4",
     "axios": "^1.2.0",
     "bootstrap": "^5.2.0",
+    "caniuse-lite": "^1.0.30001550",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
