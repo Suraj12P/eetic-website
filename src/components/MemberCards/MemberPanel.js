@@ -35,6 +35,30 @@ import sreepriya from "../../images/team/sreepriya.jpg";
 import srutav from "../../images/team/srutav.jpg";
 import yadhu from "../../images/team/yadhu.jpeg";
 
+import ashkind from '../../images/program_team_23/ashkind.jpg';
+import ananthalakshmi from '../../images/program_team_23/ananthalakshmi-2.jpg';
+import haeba from '../../images/program_team_23/haeba.jpg';
+import edison from '../../images/program_team_23/edison.jpg';
+import neha from '../../images/program_team_23/neha.jpg';
+
+
+import adhil from '../../images/design_team_23/Adhil.jpg';
+import adithya from '../../images/design_team_23/Adithya.jpg';
+import akash from '../../images/design_team_23/Akash.jpg';
+import celma from '../../images/design_team_23/Celma_CET.jpg';
+import greeshma from '../../images/design_team_23/greeshma-jayakumar.jpg';
+
+import parvathy from '../../images/content_team_23/parvathy.png';
+import gouri from '../../images/content_team_23/gouri.jpg';
+import deepthi from '../../images/content_team_23/deepthi.jpg';
+import nehanna from '../../images/content_team_23/neha-anna.jpg';
+
+import abhishek from '../../images/web_team_23/abhisheks.jpg';
+import akashm from '../../images/web_team_23/akashm.jpg';
+import nahal from '../../images/web_team_23/nahal.jpg';
+import riya from '../../images/web_team_23/riya.jpg';
+import febin from '../../images/web_team_23/febin.jpg';
+
 const MemberPanel = () => {
   const [activeTab, setActiveTab] = useState("mtab2");
 
@@ -345,6 +369,253 @@ const MemberPanel = () => {
           </div>
         </div>
       )}
+
+
+      {activeTab === "mtab1" ? <div></div> :
+      <div>
+      <div className="mtabs">
+        <button
+          onClick={() => handleTabClick("mtab2")}
+          className={`mtab `}
+          id={activeTab === "mtab2" ? "active" : ""}
+        >
+          Program Team '23
+        </button>
+      </div>
+
+
+      <div className="tab-content">
+          <div className="member-panel-cards">
+            <MemberCard
+              name="Haeba Sara"
+              position="Team Member"
+              image={haeba}
+              linkedin="haeba-sara-16982b244"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Neha Manoj"
+              position="Team Member"
+              image={neha}
+              linkedin="neha-manoj-6ab292223"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Akshind A D"
+              position="Team Member"
+              image={ashkind}
+              linkedin="akshind-a-d-a442b5213"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Anantha Lakshmi"
+              position="Team Member"
+              image={ananthalakshmi}
+              linkedin="/"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Edison Alan"
+              position="Team Member"
+              image={edison}
+              linkedin="/"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            
+          </div>
+        </div>
+
+
+        <div className="mtabs">
+        <button
+          onClick={() => handleTabClick("mtab2")}
+          className={`mtab `}
+          id={activeTab === "mtab2" ? "active" : ""}
+        >
+          Design Team '23
+        </button>
+      </div>
+
+
+      <div className="tab-content">
+          <div className="member-panel-cards">
+            <MemberCard
+              name="Adhil Abdulla"
+              position="Team Member"
+              image={adhil}
+              linkedin="adhil-abdulla-4b5b62227"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Adithya V"
+              position="Team Member"
+              image={adithya}
+              linkedin="adithya-viswanathan-09ba73294"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Akash Reji"
+              position="Team Member"
+              image={akash}
+              linkedin="akash-regi-7b9311284"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Celma Mariya Naveen"
+              position="Team Member"
+              image={celma}
+              linkedin="celma-maria-naveen-5aa50622a"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Greeshma Jayakumar"
+              position="Team Member"
+              image={greeshma}
+              linkedin="greeshma-jayakumar-56b411295"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            
+          </div>
+        </div>
+
+
+        <div className="mtabs">
+        <button
+          onClick={() => handleTabClick("mtab2")}
+          className={`mtab `}
+          id={activeTab === "mtab2" ? "active" : ""}
+        >
+          Content Team '23
+        </button>
+      </div>
+
+
+      <div className="tab-content">
+          <div className="member-panel-cards">
+            <MemberCard
+              name="Parvathy Narayan H"
+              position="Team Member"
+              image={parvathy}
+              linkedin="parvathy-narayan-h-4b2766282"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Gouri KS"
+              position="Team Member"
+              image={gouri}
+              linkedin="gouri-k-s-01a31724b"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Deepthi N"
+              position="Team Member"
+              image={deepthi}
+              linkedin="deepthi-n-6b6029256"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Neha Anna Abraham"
+              position="Team Member"
+              image={nehanna}
+              linkedin="neha-anna-abraham"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            
+          </div>
+        </div>
+
+
+        <div className="mtabs">
+        <button
+          onClick={() => handleTabClick("mtab2")}
+          className={`mtab `}
+          id={activeTab === "mtab2" ? "active" : ""}
+        >
+          Web Team '23
+        </button>
+      </div>
+
+
+      <div className="tab-content">
+          <div className="member-panel-cards">
+            <MemberCard
+              name="Abhishek S"
+              position="Team Member"
+              image={abhishek}
+              linkedin="abhis03"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Akash M Nandan"
+              position="Team Member"
+              image={akashm}
+              linkedin="akashmnandan"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Nahal Roshan K"
+              position="Team Member"
+              image={nahal}
+              linkedin="nahalroshan"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Riya Sabu"
+              position="Team Member"
+              image={riya}
+              linkedin="riya-sabu-aa2177229"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Febin Nelson P"
+              position="Team Member"
+              image={febin}
+              linkedin="febin-nelson"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            
+          </div>
+        </div>
+
+        </div>}
 
       {/* ================================ */}
 
