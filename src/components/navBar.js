@@ -31,9 +31,9 @@ function navBar() {
             <Nav.Link href="/" className="navText">
               Home
             </Nav.Link>
-            <Nav.Link href="https://www.campus.eetifoundation.org/" className="navText">
+            {/* <Nav.Link href="https://www.campus.eetifoundation.org/" className="navText">
               Campus
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link href="/events" className="navText">
               Events
             </Nav.Link>

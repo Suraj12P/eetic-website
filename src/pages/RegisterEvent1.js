@@ -17,14 +17,14 @@ import { DataContext } from "../context";
 import { useNavigate } from "react-router-dom";
 import Loader from "./Loader";
 
-const RegisterEvent = () => {
+const RegisterEvent1 = () => {
   return (
     <div>
       <NavBar />
       <div className="event-form">
         <iframe
           className="airtable-embed"
-          src="https://airtable.com/embed/appJtI8AIFRPLuUeo/shrjP4iKNiubQn2jz?backgroundColor=cyan"
+          src="https://airtable.com/embed/appJtI8AIFRPLuUeo/shrO3yOh4anKgkoeX?backgroundColor=cyan"
           onWheel={() => {}}
           width="100%"
           height="100%"
@@ -36,7 +36,7 @@ const RegisterEvent = () => {
   );
 };
 
-export default RegisterEvent;
+export default RegisterEvent1;
 
 // const RegisterEvent = (props) => {
 //   const { id } = useParams();

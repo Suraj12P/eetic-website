@@ -28,7 +28,7 @@ function Award() {
           src={Vid}
           type="video/mp4"
           height="auto"
-          width="100%"
+          width="60%"
         />
       </div>
     </div>
