@@ -66,7 +66,7 @@ function App() {
         });
     };
     fetchData();
-  }, []);
+  }, [setCareersData, setEventData]);
 
   return (
     <div className="App">
