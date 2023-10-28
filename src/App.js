@@ -7,11 +7,12 @@ import UnderDev from "./pages/UnderDev";
 import Team from "./pages/Team";
 import AboutUs from "./pages/AboutUs";
 import Careers from "./pages/Careers";
+import RegisterEvent from "./pages/RegisterEvent";
+import RegisterEvent1 from "./pages/RegisterEvent1";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { DataContext } from "./context";
 import sanityClient from "./client";
 import { IoLogoClosedCaptioning } from "react-icons/io";
-import RegisterEvent from "./pages/RegisterEvent";
 import Loader from "./pages/Loader";
 import Resources from "./pages/Resources";
 import WeeklyContent from "./pages/WeeklyContent";
@@ -65,7 +66,7 @@ function App() {
         });
     };
     fetchData();
-  }, []);
+  }, [setCareersData, setEventData]);
 
   return (
     <div className="App">
@@ -78,7 +79,8 @@ function App() {
             <Route exact path="/team" element={<Team />} />
             <Route exact path="/careers" element={<Careers />} />
             {/* <Route exact path="/join-us" element={<JoinUs />} /> */}
-            <Route exact path="/register/:id" element={<RegisterEvent />} />
+            <Route exact path="/registerevent" element={<RegisterEvent />} />
+            <Route exact path="/registerevent1" element={<RegisterEvent1 />} />
             <Route exact path="/resources" element={<Resources />} />
             <Route exact path="/weeklycontent" element={<WeeklyContent />} />
             <Route exact path="/404" element={<UnderDev />} />

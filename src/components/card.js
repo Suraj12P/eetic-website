@@ -4,6 +4,7 @@ import "./css/card.css";
 import yt from "./site_images/yt.svg";
 import { useRef } from "react";
 import imageUrlBuilder from "@sanity/image-url";
+import { NavLink } from "react-router-dom";
 
 const builder = imageUrlBuilder({
   projectId: `${process.env.REACT_APP_PROJECT_ID}`,
@@ -36,7 +37,11 @@ function EventCard({ data }) {
   };
 
   return (
-    <div data-aos="fade-up" className="card position-relative" onClick={handleClick}>
+    <div
+      data-aos="fade-up"
+      className="card position-relative"
+      onClick={handleClick}
+    >
       <div className={`card-front`} ref={frontRef}>
         {/* <img src={data.poster_url} alt="card" className="position-absolute" /> */}
         <img
@@ -67,16 +72,26 @@ function EventCard({ data }) {
           <span className="det-venue">{`Venue : ${data.venue}`} </span>
         </div>
         {isOpen ? (
-          <a
-            // href={data.registration_link}
-            href={`/register/${data._id}`}
+          <NavLink
+            to={
+              data._id === "8f787a4f-f857-40c3-91fa-f5f43c200368" ? (
+                "/registerevent"
+              ) : data._id === "ccfcc17e-12c7-4816-b8c0-e26dba79d23c" ? (
+                "/registerevent1"
+              ) : (
+                data.registration_link
+              )
+            }
             // target="_blank"
             rel="noopener noreferrer"
           >
-            <button type="button" className=" register btn btn-primary" /*hidden-in-mobile*/>
+            <button
+              type="button"
+              className=" register btn btn-primary" /*hidden-in-mobile*/
+            >
               Register
             </button>
-          </a>
+          </NavLink>
         ) : (
           <a href={data.yt}>
             <button type="button" className="register-closed btn btn-primary">
