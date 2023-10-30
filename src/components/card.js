@@ -74,7 +74,7 @@ function EventCard({ data }) {
         {isOpen ? (
           <NavLink
             to={
-              data._id === "8f787a4f-f857-40c3-91fa-f5f43c200368" ? (
+              data._id === "a83683d0-04ef-4ec8-a245-44ee1214737b" ? (
                 "/registerevent"
               ) : data._id === "ccfcc17e-12c7-4816-b8c0-e26dba79d23c" ? (
                 "/registerevent1"
