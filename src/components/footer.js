@@ -57,7 +57,8 @@ function Footer() {
             </a>
           </div> */}
         </div>
-        <div className="copyright down container justify text-white py-lg-4">
+        <div className="copyright">
+        {/* className="copyright down container justify text-white py-lg-4"> */}
             {/* <ul className="list-inline">
               <li className="list-inline-item me-4"><a className="link-light" href="#">Web design</a></li>
               <li className="list-inline-item me-4"><a className="link-light" href="#">Development</a></li>

@@ -13,6 +13,7 @@ footer {
 }
 
 .logo {
+  flex: 2;
   display: flex;
 }
 
@@ -22,6 +23,12 @@ footer {
   flex-direction: row;
   align-items: flex-start;
   gap: 3rem;
+}
+
+.company{
+  flex: 1;
+  margin: 0;
+  padding: 0;
 }
 
 .first_row, .second_row{
@@ -38,7 +45,7 @@ footer {
   max-width: 1350px;
   width: 90vw;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0rem;
   box-sizing: border-box;
 }
 
@@ -51,10 +58,15 @@ span > u {
   color: white;
   margin-top: 5px;
   font-size: 19px;
+  white-space: nowrap;
 }
 
 .f_links:hover {
   color: white;
+}
+
+.copyright{
+    margin: 0 0 1em 0;
 }
 
 .social-media {
