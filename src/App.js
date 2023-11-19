@@ -86,9 +86,9 @@ function App() {
             <Route exact path="/404" element={<UnderDev />} />
           </Routes>
         </Router>
-      ) : (
-        <Loader />
-      )}
+       ) : (
+         <Loader />
+       )}
     </div>
   );
 }
