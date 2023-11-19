@@ -73,7 +73,7 @@ function Footer() {
               </a>
             </li>
             <li className="list-inline-item social-media-item">
-              <a href={info.phone}>
+              <a href={info.group}>
                 <IoLogoWhatsapp size="1.7rem" color="grey" />
               </a>
             </li>

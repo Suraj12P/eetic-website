@@ -6,6 +6,7 @@ export const info = {
     github: "https://www.github.com/",
     email: "contact@eetifoundation.org",
     phone: "https://wa.me/+919746577467",
+    group: "https://chat.whatsapp.com/LFxXV0QWFgd330aSbZcEqY",
     website: "https://eetifoundation.org",
     medium: " ",
     twitter: " ",
