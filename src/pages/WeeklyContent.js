@@ -3,6 +3,15 @@ import { useState, useEffect } from "react";
 import "./Style/WeeklyContent.css";
 
 import pic1 from "../images/weekly_content/week1.jpg";
+import pic12 from "../images/weekly_content/week3.jpg";
+import pic13 from "../images/weekly_content/week4.jpg";
+import pic14 from "../images/weekly_content/week5.jpg";
+import pic15 from "../images/weekly_content/week6.jpg";
+import pic16 from "../images/weekly_content/week7.jpg";
+import pic17 from "../images/weekly_content/week8.jpg";
+import pic18 from "../images/weekly_content/week9.jpg";
+import pic19 from "../images/weekly_content/week10.jpg";
+import pic20 from "../images/weekly_content/week11.jpg";
 import pic2 from "../images/weekly_content/week2.jpg";
 import pic3 from "../images/weekly_content/pic3.jpg";
 import pic4 from "../images/weekly_content/pic4.jpg";
@@ -41,6 +50,51 @@ function WeeklyContent() {
 
 
   const weeklyContent = [
+    {
+      title: "20",
+      path :  pic20,
+      link : "https://www.instagram.com/p/Cz2bOPBvH0B/?img_index=1 "
+    },
+    {
+      title: "19",
+      path :  pic19,
+      link : "https://www.instagram.com/p/Czlr12EPp6G/?img_index=1 "
+    },
+    {
+      title: "18",
+      path :  pic18,
+      link : "https://www.instagram.com/p/CzLpblOp7SO/?img_index=1 "
+    },
+    {
+      title: "17",
+      path :  pic17,
+      link : "https://www.instagram.com/p/CyvFTAFp4jU/?img_index=1 "
+    },
+    {
+      title: "16",
+      path :  pic16,
+      link : "https://www.instagram.com/p/CySJRMCy2p3/?img_index=1 "
+    },
+    {
+      title: "15",
+      path :  pic15,
+      link : "https://www.instagram.com/p/CvTtJz6pcsf/?img_index=1 "
+    },
+    {
+      title: "14",
+      path :  pic14,
+      link : "https://www.instagram.com/p/CtbiUqOpX5j/?img_index=1 "
+    },
+    {
+      title: "13",
+      path :  pic13,
+      link : "https://www.instagram.com/p/CtEW7ONp7KP/?img_index=1 "
+    },
+    {
+      title: "12",
+      path :  pic12,
+      link : "https://www.instagram.com/p/CssjOW_JZfp/?img_index=1 "
+    },
     {
       title: "1",
       path :  pic1,
