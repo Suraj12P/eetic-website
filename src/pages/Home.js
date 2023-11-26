@@ -8,6 +8,7 @@ import Award from "../components/award";
 import { Helmet } from "react-helmet";
 import Testimonials from "../components/testimonials";
 import Initiatives from "../components/initiatives";
+import Statistics from "../components/statistics";
 
 const Home = () => {
   return (
@@ -32,6 +33,8 @@ const Home = () => {
 
       <NavBar />
       <Hero />
+      <hr></hr>
+      <Statistics />
       <hr></hr>
       <Initiatives />
       <CommunityWhy />

@@ -3,6 +3,7 @@
 } */
 
 .Iheading {
+  margin: 1em 0 0 0;
   font-size: 3rem;
   font-weight: 700;
 }
@@ -93,4 +94,22 @@
   /* .Icard2Content {
     margin: 3rem 0;
   } */
+}
+
+@media (max-width: 650px) {
+  /* .Imain{
+    font-size: 70%;
+  } */
+
+  .Iheading{
+    font-size: 2rem;
+  }
+
+  .IcardHead {
+    font-size: 1.5rem;
+  }
+
+  .IcardContent {
+    font-size: 1rem;
+  }
 }

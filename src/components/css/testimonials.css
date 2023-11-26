@@ -26,6 +26,7 @@
   margin: 1em 0em 2em 0em;
   text-align: justify;
   /* transition: box-shadow 0.3s ease; */
+  height: 35em;
 }
 
 /* .wrapper:hover {
@@ -54,6 +55,7 @@
 .wrapper-3 {
   display: flex;
   flex: 1;
+  margin: -5em 0 0 0;
   /* align-items: center; */
   /* justify-content: center; */
   /* margin: 15px; */
