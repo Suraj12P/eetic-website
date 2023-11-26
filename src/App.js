@@ -70,7 +70,7 @@ function App() {
 
   return (
     <div className="App">
-      {events.length !== 0 && careers.length !== 0 ? (
+      {/* {events.length !== 0 && careers.length !== 0 ? ( */}
         <Router>
           <Routes>
             <Route exact path="/" element={<Home />} />
@@ -86,9 +86,9 @@ function App() {
             <Route exact path="/404" element={<UnderDev />} />
           </Routes>
         </Router>
-       ) : (
+       {/* ) : (
          <Loader />
-       )}
+       )} */}
     </div>
   );
 }
