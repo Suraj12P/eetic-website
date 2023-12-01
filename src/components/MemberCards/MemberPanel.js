@@ -73,7 +73,7 @@ const MemberPanel = () => {
             </div> */}
       <div className="member-team">
         <h2>Team</h2>
-        <h3>Senior Board of Governors</h3>
+        {/* <h3>Senior Board of Governors</h3> */}
       </div>
       {/* <div className="member-panel-details">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -92,13 +92,13 @@ const MemberPanel = () => {
       </div>
 
       <div className="mtabs">
-        <button
+        {/* <button
           onClick={() => handleTabClick("mtab1")}
           className={`mtab `}
           id={activeTab === "mtab1" ? "active" : ""}
         >
           Execom '22
-        </button>
+        </button> */}
         <button
           onClick={() => handleTabClick("mtab2")}
           className={`mtab `}
