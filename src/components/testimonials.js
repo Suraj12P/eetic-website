@@ -14,6 +14,8 @@ import shehin from "../images/team/shehin.jpeg";
 import archa from "../images/team/archa.jpg";
 import harish from "../images/team/harish.jpg";
 
+import nandana from "../images/testimonials/nandana.jpg"
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -47,7 +49,7 @@ const Testimonials = () => {
       <Swiper
       slidesPerView={slidesPerView}
         autoplay={{
-          delay: 7000,
+          delay: 700000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -85,6 +87,9 @@ const Testimonials = () => {
         </SwiperSlide>
         <SwiperSlide>
           <TestCard name='Harish Babu' image={harish} text="Hi, My name is Harish Babu. I'm 3rd year in Electrical and electronics engineering, CET. I first joined the EETIF in my first year, second semester onwards. I joined because most workshops provided by other clubs at that time were paid and Arduino classes by EETIF were free. That time the community was not registered. I was able to help a little during they became a community. During my second year there was a whole Arduino series from EETIF. I was able to gain much technical idea about Arduino programming. There was many other programs." />
+        </SwiperSlide>
+        <SwiperSlide>
+          <TestCard name="Nandana J Graduate Engineering Trainee, L&" image={nandana} text="During my tenure as the Content Head at EETI Foundation, I gained valuable insights into organizational workflows, project management, and content creation. This role allowed me to delve deeply into various projects, significantly enhancing my content writing skills. Collaborating within a dedicated team, I witnessed firsthand the impact of effective content strategies on engagement and outreach. Moreover, working in this organization provided me with a platform to expand my network within the college community, fostering stronger connections. The diverse activities conducted by EETI Foundation offered me exposure to a wide range of experiences, contributing to my holistic growth and development. Overall, my experience at EETI Foundation was invaluable, offering practical knowledge in content creation, leadership, teamwork dynamics, and expanded connections within the college." />
         </SwiperSlide>
       </Swiper>
     </div>
