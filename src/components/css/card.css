@@ -17,6 +17,7 @@
   right: 13.88%;
   top: 31.03%;
 }
+
 .ig-id {
   position: absolute;
   right: 50%;
@@ -31,6 +32,7 @@
 
   color: #e0dbff;
 }
+
 /* .card::after {
   background: rgba(36, 39, 49, 0.44);
   filter: blur(17px);
@@ -44,13 +46,15 @@
   position: relative;
   border-radius: 30px;
 }
-.card-front > img {
+
+.card-front>img {
   left: 0;
   bottom: 0;
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
+
 .card-details {
   height: 100%;
   position: absolute;
@@ -93,19 +97,19 @@ span {
   bottom: 0;
   left: 0;
   padding: 20px 0;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.1),
-    rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.8)
-  );
+  background: linear-gradient(rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.8));
   /* filter: blur(17px); */
   border-radius: 0px 0px 30px 30px;
   box-sizing: border-box;
 }
-.speaker > span {
+
+.speaker>span {
   margin-left: 50px;
 }
+
 span.name {
   font-family: "Poppins";
   font-style: normal;
@@ -127,7 +131,7 @@ span.company {
   margin: 0 20px;
 }
 
-.card-details > p {
+.card-details>p {
   text-align: left;
   font-family: "Poppins";
   font-style: normal;
@@ -142,7 +146,8 @@ span.company {
   align-items: flex-start;
   margin-bottom: 28px;
 }
-.det-container > span {
+
+.det-container>span {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -176,6 +181,7 @@ span.company {
   color: #000;
   border-color: var(--primary-orange);
 }
+
 .register-closed {
   background-color: var(--parimary-white) !important;
 }
@@ -196,9 +202,22 @@ p.desc {
 p.desc::-webkit-scrollbar {
   display: none;
 }
+
 p.desc {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.shown-in-mobile {
+  display: none;
+}
+
+.hidden-in-mobile {
+  display: block;
+}
+
+.mobile-button {
+  margin: 0 auto;
 }
 
 @media (max-width: 425px) {
@@ -206,7 +225,7 @@ p.desc {
     margin-top: 12px !important;
   }
 
-  .det-container > span {
+  .det-container>span {
     font-size: 15px;
     font-weight: 600;
   }
@@ -220,6 +239,7 @@ p.desc {
     height: 30px !important;
     padding: 2px 0 !important;
   }
+
   .yt {
     height: 100%;
     width: auto;
@@ -234,6 +254,18 @@ p.desc {
   .register-closed {
     bottom: 15px;
   }
+
+  .shown-in-mobile {
+    display: block;
+    position: relative;
+    top: 0px;
+    margin: 10px auto;
+  }
+
+  .hidden-in-mobile {
+    display: none;
+  }
+
 }
 
 @media (max-width: 375px) {
@@ -241,19 +273,22 @@ p.desc {
     right: 5%;
     top: 25%;
   }
+
   h2 {
     font-weight: 600;
     font-size: 25px;
   }
+
   p.desc {
     max-height: 100px;
     overflow-y: scroll;
     margin: 0 !important;
   }
+
   .register,
   .register-closed {
     bottom: 10px;
-    padding:5px 20px;
+    padding: 5px 20px;
   }
 }
 
@@ -262,6 +297,7 @@ p.desc {
     right: 50%;
     transform: translateX(50%);
   }
+
   /* img.yt {
     bottom: -20%;
   } */
@@ -274,6 +310,7 @@ p.desc {
     font-size: 20px;
     line-height: 30px;
   }
+
   p.desc {
     max-height: 80px;
     overflow-y: scroll;
@@ -281,13 +318,6 @@ p.desc {
   }
 }
 
-.hidden-in-mobile{
-  display: block !important;
-}
-
-.shown-in-mobile{
-  display: none !important;
-}
 
 /* =========== CARD FLIP ===========  */
 .card-front,
@@ -303,6 +333,7 @@ p.desc {
   transform: rotateY(-180deg) !important;
   /* visibility: hidden; */
 }
+
 .card-front {
   transform: rotateY(0deg) !important;
   /* visibility: hidden; */
@@ -311,6 +342,7 @@ p.desc {
 .flip-front {
   transform: rotateY(180deg) !important;
 }
+
 .flip-rear {
   transform: rotateY(0deg) !important;
 }
@@ -319,16 +351,9 @@ p.desc {
   .card:hover .card-front {
     transform: rotateY(180deg) !important;
   }
+
   .card:hover .card-rear {
     transform: rotateY(0deg) !important;
     /* visibility: visible; */
-  }
-
-  .hidden-in-mobile{
-    display: none !important;
-  }
-
-  .shown-in-mobile{
-    display: block !important;
   }
 }
