@@ -58,16 +58,13 @@ function EventCard({ data }) {
           {/* {console.log(new Date().getDate())} */}
 
           <span className="det-date">
-            {`Date : ${new Date(data.startDate).getDate()}/${
-              new Date(data.startDate).getMonth() + 1
-            }/${new Date(data.startDate).getFullYear()}`}{" "}
+            {`Date : ${new Date(data.startDate).getDate()}/${new Date(data.startDate).getMonth() + 1
+              }/${new Date(data.startDate).getFullYear()}`}{" "}
           </span>
 
-          <span className="det-time">{`Time : ${
-            new Date(data.startDate).getHours() % 12
-          }.${new Date(data.startDate).getMinutes()} ${
-            new Date(data.startDate).getHours() < 12 ? "am" : "pm"
-          }`}</span>
+          <span className="det-time">{`Time : ${new Date(data.startDate).getHours() % 12
+            }.${new Date(data.startDate).getMinutes()} ${new Date(data.startDate).getHours() < 12 ? "am" : "pm"
+            }`}</span>
 
           <span className="det-venue">{`Venue : ${data.venue}`} </span>
         </div>
@@ -87,7 +84,7 @@ function EventCard({ data }) {
           >
             <button
               type="button"
-              className=" register btn btn-primary" /*hidden-in-mobile*/
+              className="register btn btn-primary hidden-in-mobile" /*hidden-in-mobile*/
             >
               Register
             </button>
@@ -99,10 +96,19 @@ function EventCard({ data }) {
             </button>
           </a>
         )}
-        {/* <button type="button" className=" register btn btn-primary shown-in-mobile">
-              Register
-            </button> */}
       </div>
+      {isOpen ? (
+        <div className="mobile-button">
+          <button
+            type="button"
+            className="register btn btn-primary shown-in-mobile"
+          >
+            Register
+          </button>
+        </div>
+      ) : (
+        <div></div>
+      )}
     </div>
   );
 }
