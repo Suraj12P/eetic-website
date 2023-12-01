@@ -3,7 +3,6 @@ import NavBar from "../components/navBar";
 import Hero from "../components/hero";
 import CommunityWhy from "../components/community_why";
 import Footer from "../components/footer";
-import UpcomingEvents from "../components/upcoming_events";
 import Award from "../components/award";
 import { Helmet } from "react-helmet";
 import Testimonials from "../components/testimonials";
@@ -36,9 +35,8 @@ const Home = () => {
       <Initiatives />
       <CommunityWhy />
       <Award />
-      <UpcomingEvents />
       <hr></hr>
-      <Testimonials/>
+      <Testimonials />
       <Footer />
     </div>
   );
