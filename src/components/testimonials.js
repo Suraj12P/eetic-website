@@ -14,6 +14,11 @@ import shehin from "../images/team/shehin.jpeg";
 import archa from "../images/team/archa.jpg";
 import harish from "../images/team/harish.jpg";
 
+import nandana from "../images/testimonials/nandana.jpg"
+import sreekiran from "../images/testimonials/sreekiran.jpg"
+import jaidan from "../images/testimonials/jaidan.jpg"
+import aanjith from "../images/testimonials/aanjith.jpg"
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -47,7 +52,7 @@ const Testimonials = () => {
       <Swiper
       slidesPerView={slidesPerView}
         autoplay={{
-          delay: 7000,
+          delay: 700000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -57,6 +62,18 @@ const Testimonials = () => {
         className="mySwiper"
         spaceBetween={50}
       >
+        <SwiperSlide>
+          <TestCard name="Nandana J" image={nandana} text="During my tenure as the Content Head at EETI Foundation, I gained valuable insights into organizational workflows, project management, and content creation. This role allowed me to delve deeply into various projects, significantly enhancing my content writing skills. Collaborating within a dedicated team, I witnessed firsthand the impact of effective content strategies on engagement and outreach. Moreover, working in this organization provided me with a platform to expand my network within the college community, fostering stronger connections. The diverse activities conducted by EETI Foundation offered me exposure to a wide range of experiences, contributing to my holistic growth and development. Overall, my experience at EETI Foundation was invaluable, offering practical knowledge in content creation, leadership, teamwork dynamics, and expanded connections within the college." />
+        </SwiperSlide>
+        <SwiperSlide>
+          <TestCard name="Sreekiran" image={sreekiran} text="I am thrilled to share that I've secured a placement at JSW Steels through campus recruitment. This achievement is a testament to the exceptional education and preparation I received. I extend special thanks to the technical community 'EETI Foundation' for their invaluable support and knowledge throughout my placement journey. The collaborative spirit and abundant resources provided by EETI Foundation significantly contributed to my growth and industry readiness. I look forward to applying the skills gained here to make a meaningful contribution to the industry. Thank you for providing me with an enriching academic experience and fostering an environment that cultivates excellence." />
+        </SwiperSlide>
+        <SwiperSlide>
+          <TestCard name="Jaidan Sleeba" image={jaidan} text="I served as the webmaster of EETI Foundation for 6 months. I led the development of EETI Foundation's website and also had the opportunity to mentor interns during that time. I had an amazing time working with innovative minds. This experience allowed me to apply my technical skills to a meaningful cause and contributed to both my personal and professional growth" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <TestCard name="Aanjith" image={aanjith} text="I have always been a tech enthusiast and the biggest problem problem i've faced is to start learning a new skill, stay updated and have a good learning path. This has been the main problem of any college student like me and i believe EETIF has completely solved the problem by giving the best classes, mentorship and providing  a learning platform free of cost. I've seen my colleagues and myself improve in our area of expertise and stay motivated and disciplined, all with the help of EETIF and i hope the NGO continues the same and provide oppurtunities and resources to all the students out there in the world" />
+        </SwiperSlide>
         <SwiperSlide>
           <TestCard name='Muhammed Shehin' image={shehin} text ="This was my first execom call. It was a really good experience working with an amazing team. Sometimes I felt hectic about my work, still I enjoyed doing them and it has helped me grow as a designer.
             Looking forward to contribute more. Thank you for having me." />

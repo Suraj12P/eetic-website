@@ -82,7 +82,7 @@ const UpcomingEvents = () => {
           </Slider>
         </>
       )}
-      <p className="caution">*Click on the poster to register</p>
+      {/* <p className="caution">*Click on the poster to register</p> */}
     </div>
   );
 };
