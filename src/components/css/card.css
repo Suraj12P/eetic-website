@@ -191,7 +191,8 @@ span.company {
 }
 
 .yt {
-  max-width: 100%;
+  width: 100%;
+  padding: 0 0 40px 0;
 }
 
 p.desc {
@@ -243,6 +244,7 @@ p.desc {
   .yt {
     height: 100%;
     width: auto;
+    padding: 0 0 0 0;
   }
 
   p.desc {
