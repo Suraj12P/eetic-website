@@ -103,6 +103,7 @@
 @media (max-width: 600px) {
   .wrapper {
     margin: 0 2em 2em 2em;
+    height: 40em;
   }
 
   .eventHeading{
