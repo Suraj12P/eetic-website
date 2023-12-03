@@ -50,13 +50,13 @@
   display: none;
 }
 
-.WCweek_1, .WCweek_2{
-  max-width: 100%;
+.WCweek_1{
+  width: 100%;
+  height: auto;
 }
 
 .WCweek-img{
   object-fit: cover;
-
 }
 
 .WCcard:hover{
