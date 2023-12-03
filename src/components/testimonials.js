@@ -25,9 +25,8 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 
 const Testimonials = () => {
-    const [slidesPerView, setSlidesPerView] = useState(2); // Initially set to 2 slides
+    const [slidesPerView, setSlidesPerView] = useState(2);
   
-    // Function to update slidesPerView based on screen width
     const updateSlidesPerView = () => {
       if (window.innerWidth <= 900) {
         setSlidesPerView(1); // Set to 1 slide for smaller screens
@@ -37,7 +36,6 @@ const Testimonials = () => {
     };
   
     useEffect(() => {
-      // Initialize slidesPerView and update it when the screen size changes
       updateSlidesPerView();
       window.addEventListener('resize', updateSlidesPerView);
   
