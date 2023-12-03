@@ -19,6 +19,7 @@
 }
 
 .about-img {
+  width: 45%;
   max-width: 90vw;
   height: auto;
 }
