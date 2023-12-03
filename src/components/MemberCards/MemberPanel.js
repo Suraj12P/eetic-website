@@ -22,6 +22,7 @@ import vishnu from "../../images/team/vishnu.jpg";
 import abhijith from "../../images/team/abhijith.jpg";
 import adheena from "../../images/team/adheena.jpg";
 import afeefa from "../../images/team/afeefa.jpg";
+import aleena from "../../images/team/Aleena.jpg";
 import anoushka from "../../images/team/anoushka.jpg";
 import arya from "../../images/team/arya1.jpg";
 import ashna from "../../images/team/ashna.jpg";
@@ -378,6 +379,15 @@ const MemberPanel = () => {
               github=""
               size="medium"
             ></MemberCard>
+
+            <MemberCard
+              name="Aleena Johny"
+              position="Marketing Lead"
+              image={aleena}
+              linkedin="placeholder"
+              github=""
+              size="medium"
+            ></MemberCard>
           </div>
         </div>
       )}
@@ -644,7 +654,7 @@ const MemberPanel = () => {
               name="Muhammed Iqubal"
               position="Team Member"
               image={iqubal}
-              linkedin=""
+              linkedin="placeholder"
               github=""
               size="medium"
             ></MemberCard>
@@ -653,7 +663,7 @@ const MemberPanel = () => {
               name="Revathy Sankar"
               position="Team Member"
               image={revathy}
-              linkedin=""
+              linkedin="placeholder"
               github=""
               size="medium"
             ></MemberCard>
@@ -662,7 +672,7 @@ const MemberPanel = () => {
               name="Varun Subramanian"
               position="Team Member"
               image={varun}
-              linkedin=""
+              linkedin="placeholder"
               github=""
               size="medium"
             ></MemberCard>
@@ -671,7 +681,7 @@ const MemberPanel = () => {
               name="Vrindha Vinod"
               position="Team Member"
               image={vrindha}
-              linkedin=""
+              linkedin="placeholder"
               github=""
               size="medium"
             ></MemberCard>
@@ -697,7 +707,7 @@ const MemberPanel = () => {
               name="Abhijith G"
               position="Team Member"
               image={abhijithg}
-              linkedin=""
+              linkedin="placeholder"
               github=""
               size="medium"
             ></MemberCard>
@@ -706,7 +716,7 @@ const MemberPanel = () => {
               name="Anoop Prasannan"
               position="Team Member"
               image={anoop}
-              linkedin=""
+              linkedin="placeholder"
               github=""
               size="medium"
             ></MemberCard>
@@ -715,7 +725,7 @@ const MemberPanel = () => {
               name="K P Sreenath"
               position="Team Member"
               image={sreenath}
-              linkedin=""
+              linkedin="placeholder"
               github=""
               size="medium"
             ></MemberCard>
@@ -724,7 +734,7 @@ const MemberPanel = () => {
               name="Rahul Das P"
               position="Team Member"
               image={rahuldas}
-              linkedin=""
+              linkedin="placeholder"
               github=""
               size="medium"
             ></MemberCard>
@@ -733,7 +743,7 @@ const MemberPanel = () => {
               name="Siavni L R"
               position="Team Member"
               image={sivanilr}
-              linkedin=""
+              linkedin="placeholder"
               github=""
               size="medium"
             ></MemberCard>
