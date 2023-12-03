@@ -9,7 +9,7 @@ import dreams from "../images/icons/dream.png";
 const Statistics = () => {
   return (
     <div className="statistics">
-      <div className="stat-heading">Statistics</div>
+      {/* <div className="stat-heading">Statistics</div> */}
       <div className="stats">
         <div className="stat">
           <div>

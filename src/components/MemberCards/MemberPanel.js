@@ -59,6 +59,18 @@ import nahal from '../../images/web_team_23/nahal.jpg';
 import riya from '../../images/web_team_23/riya.jpg';
 import febin from '../../images/web_team_23/febin.jpg';
 
+import iqubal from '../../images/marketing_team_23/Iqubal.jpg'
+import revathy from '../../images/marketing_team_23/S_Revathy_Sankar_CET.jpg'
+import varun from '../../images/marketing_team_23/varun.png'
+import vrindha from '../../images/marketing_team_23/VrindhaVinod.jpg'
+
+import abhijithg from '../../images/flutter_team_23/Abhijith G (CET).jpg'
+import anoop from '../../images/flutter_team_23/Anoop Prasannan(TKM College of Engineering)_.jpg'
+import sreenathkp from '../../images/flutter_team_23/K P SREENATH (CET).jpg'
+import rahuldas from '../../images/flutter_team_23/Rahul Das P(CET).jpg'
+import sivanilr from '../../images/flutter_team_23/Sivani L R _ LBSITW.jpg'
+
+
 const MemberPanel = () => {
   const [activeTab, setActiveTab] = useState("mtab2");
 
@@ -607,6 +619,121 @@ const MemberPanel = () => {
               position="Team Member"
               image={febin}
               linkedin="febin-nelson"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            
+          </div>
+        </div>
+
+        <div className="mtabs">
+        <button
+          onClick={() => handleTabClick("mtab2")}
+          className={`mtab `}
+          id={activeTab === "mtab2" ? "active" : ""}
+        >
+          Marketing Team '23
+        </button>
+      </div>
+
+
+      <div className="tab-content">
+          <div className="member-panel-cards">
+            <MemberCard
+              name="Muhammed Iqubal"
+              position="Team Member"
+              image={iqubal}
+              linkedin=""
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Revathy Sankar"
+              position="Team Member"
+              image={revathy}
+              linkedin=""
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Varun Subramanian"
+              position="Team Member"
+              image={varun}
+              linkedin=""
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Vrindha Vinod"
+              position="Team Member"
+              image={vrindha}
+              linkedin=""
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            
+          </div>
+        </div>
+
+        <div className="mtabs">
+        <button
+          onClick={() => handleTabClick("mtab2")}
+          className={`mtab `}
+          id={activeTab === "mtab2" ? "active" : ""}
+        >
+          Flutter Team '23
+        </button>
+      </div>
+
+
+      <div className="tab-content">
+          <div className="member-panel-cards">
+            <MemberCard
+              name="Abhijith G"
+              position="Team Member"
+              image={abhijithg}
+              linkedin=""
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Anoop Prasannan"
+              position="Team Member"
+              image={anoop}
+              linkedin=""
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="K P Sreenath"
+              position="Team Member"
+              image={sreenath}
+              linkedin=""
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Rahul Das P"
+              position="Team Member"
+              image={rahuldas}
+              linkedin=""
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Siavni L R"
+              position="Team Member"
+              image={sivanilr}
+              linkedin=""
               github=""
               size="medium"
             ></MemberCard>
