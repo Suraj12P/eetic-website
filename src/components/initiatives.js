@@ -18,7 +18,7 @@ const Initiatives = () => {
           <div className="IcardContent">
             This is an initiative to let students network with professionals,
             tech enthusiasts and stand out in the crowd. As a part of marking
-            EETIF’s presence in all colleges and making sure that our resources
+            EETIF's presence in all colleges and making sure that our resources
             and workshops are being utilized to the fullest and being benefited
             from; EETIF decided to setup campus communities all through Kerala,
             where a proficient executive committee will overlook all the matters
@@ -31,7 +31,7 @@ const Initiatives = () => {
         <div className="Icard">
           <div className="IcardHead">STARTUP SCHOOL</div>
           <div className="IcardContent">
-            This initiative, started in colleges across Kerala was intended to
+            This initiative, started in colleges across India was intended to
             boost entrepreneurship skills in students and guide them through all
             the steps of their startup journey. Startup school is an elaborate
             one year program where the selected students are guided and trained
