@@ -58,48 +58,50 @@ function EventCard({ data }) {
           {/* {console.log(new Date().getDate())} */}
 
           <span className="det-date">
-            {`Date : ${new Date(data.startDate).getDate()}/${new Date(data.startDate).getMonth() + 1
-              }/${new Date(data.startDate).getFullYear()}`}{" "}
+            {`Date : ${new Date(data.startDate).getDate()}/${
+              new Date(data.startDate).getMonth() + 1
+            }/${new Date(data.startDate).getFullYear()}`}{" "}
           </span>
 
-          <span className="det-time">{`Time : ${new Date(data.startDate).getHours() % 12
-            }.${new Date(data.startDate).getMinutes()} ${new Date(data.startDate).getHours() < 12 ? "am" : "pm"
-            }`}</span>
+          <span className="det-time">{`Time : ${
+            new Date(data.startDate).getHours() % 12
+          }.${new Date(data.startDate).getMinutes()} ${
+            new Date(data.startDate).getHours() < 12 ? "am" : "pm"
+          }`}</span>
 
           <span className="det-venue">{`Venue : ${data.venue}`} </span>
         </div>
         {isOpen ? (
           data._id != "a4e19945-9618-4019-987b-be4a105ab788" ? (
-
-          <NavLink
-            to={
-              data._id === "a83683d0-04ef-4ec8-a245-44ee1214737b" ? (
-                "/registerevent"
-              ) : data._id === "ccfcc17e-12c7-4816-b8c0-e26dba79d23c" ? (
-                "/registerevent1"
-              ) : (
-                data.registration_link
-              )
-            }
-            // target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button
-              type="button"
-              className="register btn btn-primary hidden-in-mobile" /*hidden-in-mobile*/
+            <NavLink
+              to={
+                data._id === "a83683d0-04ef-4ec8-a245-44ee1214737b"
+                  ? "/registerevent"
+                  : data._id === "ccfcc17e-12c7-4816-b8c0-e26dba79d23c"
+                  ? "/registerevent1"
+                  : data.registration_link
+              }
+              // target="_blank"
+              rel="noopener noreferrer"
             >
-              Register
-            </button>
-          </NavLink>
-        
-          ) : (
-            <a href="https://www.instagram.com/p/C0qFEUIvagQ/?igshid=ZDBjMWI0ZjMxOQ%3D%3D" target="blank">
               <button
-              type="button"
-              className="register btn btn-primary hidden-in-mobile" /*hidden-in-mobile*/
+                type="button"
+                className="register btn btn-primary hidden-in-mobile" /*hidden-in-mobile*/
+              >
+                Register
+              </button>
+            </NavLink>
+          ) : (
+            <a
+              href="https://www.instagram.com/p/C0qFEUIvagQ/?igshid=ZDBjMWI0ZjMxOQ%3D%3D"
+              target="blank"
             >
-              Link
-            </button>
+              <button
+                type="button"
+                className="register btn btn-primary hidden-in-mobile" /*hidden-in-mobile*/
+              >
+                Link
+              </button>
             </a>
           )
         ) : (
@@ -111,14 +113,42 @@ function EventCard({ data }) {
         )}
       </div>
       {isOpen ? (
-        <div className="mobile-button">
-          <button
-            type="button"
-            className="register btn btn-primary shown-in-mobile"
+        data._id != "a4e19945-9618-4019-987b-be4a105ab788" ? (
+          <NavLink
+            to={
+              data._id === "a83683d0-04ef-4ec8-a245-44ee1214737b"
+                ? "/registerevent"
+                : data._id === "ccfcc17e-12c7-4816-b8c0-e26dba79d23c"
+                ? "/registerevent1"
+                : data.registration_link
+            }
+            // target="_blank"
+            rel="noopener noreferrer"
           >
-            Register
-          </button>
-        </div>
+            <div className="mobile-button">
+              <button
+                type="button"
+                className="register btn btn-primary shown-in-mobile"
+              >
+                Register
+              </button>
+            </div>
+          </NavLink>
+        ) : (
+          <a
+            href="https://www.instagram.com/p/C0qFEUIvagQ/?igshid=ZDBjMWI0ZjMxOQ%3D%3D"
+            target="blank"
+          >
+            <div className="mobile-button">
+              <button
+                type="button"
+                className="register btn btn-primary shown-in-mobile"
+              >
+                Link
+              </button>
+            </div>
+          </a>
+        )
       ) : (
         <div></div>
       )}
