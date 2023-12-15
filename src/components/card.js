@@ -69,6 +69,8 @@ function EventCard({ data }) {
           <span className="det-venue">{`Venue : ${data.venue}`} </span>
         </div>
         {isOpen ? (
+          data._id != "a4e19945-9618-4019-987b-be4a105ab788" ? (
+
           <NavLink
             to={
               data._id === "a83683d0-04ef-4ec8-a245-44ee1214737b" ? (
@@ -89,6 +91,17 @@ function EventCard({ data }) {
               Register
             </button>
           </NavLink>
+        
+          ) : (
+            <a href="https://www.instagram.com/p/C0qFEUIvagQ/?igshid=ZDBjMWI0ZjMxOQ%3D%3D" target="blank">
+              <button
+              type="button"
+              className="register btn btn-primary hidden-in-mobile" /*hidden-in-mobile*/
+            >
+              Link
+            </button>
+            </a>
+          )
         ) : (
           <a href={data.yt}>
             <button type="button" className="register-closed btn btn-primary">
