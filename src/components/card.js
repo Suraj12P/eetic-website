@@ -116,7 +116,7 @@ function EventCard({ data }) {
         data._id != "a4e19945-9618-4019-987b-be4a105ab788" ? (
           <NavLink
             to={
-              data._id === "a83683d0-04ef-4ec8-a245-44ee1214737b"
+              data._id === "7c0c32d7-1b65-4219-8004-ca4e273961c7"
                 ? "/registerevent"
                 : data._id === "ccfcc17e-12c7-4816-b8c0-e26dba79d23c"
                 ? "/registerevent1"
