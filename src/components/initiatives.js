@@ -4,15 +4,20 @@ import "./css/initiatives.css";
 // import imag from "./site_images/campus-1.jpg";
 
 const Initiatives = () => {
-  const handleCardClick = () => {
+  const handleCardClick = (index) => {
+    if (index === 0){
     window.open("https://www.campus.eetifoundation.org", "_blank");
+    }
+    else if (index === 1){
+      window.open("https://startupschool.eetifoundation.org", "_blank");
+    }
   };
 
   return (
     <div className="Imain">
       <h1 className="Iheading">Our Initiatives</h1>
       <div className="Icards-Row1">
-        <div className="Icard" onClick={handleCardClick}>
+        <div className="Icard" onClick={() => handleCardClick(0)}>
           {/* <img className="ICCImag" src={imag} alt="Image" /> */}
           <div className="IcardHead">CAMPUS COMMUNITY</div>
           <div className="IcardContent">
@@ -28,13 +33,13 @@ const Initiatives = () => {
             leadership and organizational skills.
           </div>
         </div>
-        <div className="Icard">
+        <div className="Icard" onClick={() => handleCardClick(1)}>
           <div className="IcardHead">STARTUP SCHOOL</div>
           <div className="IcardContent">
             This initiative, started in colleges across India was intended to
             boost entrepreneurship skills in students and guide them through all
             the steps of their startup journey. Startup school is an elaborate
-            one year program where the selected students are guided and trained
+            two months program where the selected students are guided and trained
             to become exemplary entrepreneurs capable of initiating startups of
             their own. Building these curious minds from ground zero, by
             equipping them with knowledge on all facets of entrepreneurship and
