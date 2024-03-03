@@ -5,10 +5,9 @@ import "./css/initiatives.css";
 
 const Initiatives = () => {
   const handleCardClick = (index) => {
-    if (index === 0){
-    window.open("https://www.campus.eetifoundation.org", "_blank");
-    }
-    else if (index === 1){
+    if (index === 0) {
+      window.open("https://www.campus.eetifoundation.org", "_blank");
+    } else if (index === 1) {
       window.open("https://startupschool.eetifoundation.org", "_blank");
     }
   };
@@ -39,12 +38,12 @@ const Initiatives = () => {
             This initiative, started in colleges across India was intended to
             boost entrepreneurship skills in students and guide them through all
             the steps of their startup journey. Startup school is an elaborate
-            two months program where the selected students are guided and trained
-            to become exemplary entrepreneurs capable of initiating startups of
-            their own. Building these curious minds from ground zero, by
-            equipping them with knowledge on all facets of entrepreneurship and
-            encouraging them to become the future of tomorrow has always been
-            the prime aim of startup schools.
+            two months program where the selected students are guided and
+            trained to become exemplary entrepreneurs capable of initiating
+            startups of their own. Building these curious minds from ground
+            zero, by equipping them with knowledge on all facets of
+            entrepreneurship and encouraging them to become the future of
+            tomorrow has always been the prime aim of startup schools.
           </div>
         </div>
       </div>
@@ -62,7 +61,9 @@ const Initiatives = () => {
             and frequently driving them through a set of workshops and
             mentorships to sharpen their skills and instill leadership qualities
             in them. Super10 promotes them to embrace this moment and urges them
-            to learn and connect.
+            to learn and connect. Super10 is curated with the prime aim of
+            making students industry-ready and empowering them with essential
+            skills to make their job secure.
           </div>
         </div>
         <div className="Icard">
