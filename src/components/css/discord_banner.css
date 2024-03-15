@@ -8,6 +8,10 @@
 }
 
 .link-text{
-    color: white;
+    color: white;  
     text-decoration: none;
+}
+
+.link-text:hover{
+    color: white;
 }
