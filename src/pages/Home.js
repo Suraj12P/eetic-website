@@ -8,6 +8,7 @@ import { Helmet } from "react-helmet";
 import Testimonials from "../components/testimonials";
 import Initiatives from "../components/initiatives";
 import Statistics from "../components/statistics";
+import Discord_Banner from "../components/Discord_Banner";
 
 const Home = () => {
   return (
@@ -32,6 +33,7 @@ const Home = () => {
 
       <NavBar />
       <Hero />
+      <Discord_Banner />
       <hr></hr>
       <Statistics />
       <hr></hr>
