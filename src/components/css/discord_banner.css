@@ -5,6 +5,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: -2.3rem;
+    transition: top 0.3s;
+    z-index: 1000;
+    /* border-radius: 10em; */
+}
+
+.banner.show {
+    top: 0;
 }
 
 .link-text{
@@ -16,7 +25,3 @@
 .link-text:hover{
     color: white;
 }
-
-/* @media (max-width: 510px) {
-    
-} */
