@@ -28,6 +28,11 @@ import saniya from "../images/testimonials/saniya.jpeg"
 import saranya_v_s from "../images/testimonials/saranya_v_s.jpg"
 import gokulr from "../images/testimonials/gokulr.jpg"
 
+//aug24
+
+import srutav from "../images/testimonials/Srutav.jpg"
+import yadhukrishnan from "../images/testimonials/Yadhukrishnan.jpg"
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -136,6 +141,17 @@ const Testimonials = () => {
         <SwiperSlide>
           <TestCard name='Aswathy K' position={''} image={aswathy} text="Working alongside an amazing panel of teammates, I gained valuable insights into the essence of effective group collaboration. The dynamic nature of our tasks not only made every day eventful but also enhanced my team management skills significantly. This hands-on experience is truly worth boasting about, as it enriched my professional journey in ways I hadn't imagined."	 />
         </SwiperSlide>
+
+        <SwiperSlide>
+          <TestCard name='Srutav Tarun' position={'Upcoming SDE, Caterpillar'} image={srutav} text="I had the opportunity to serve as one of the webmasters for the EETI Foundation, working closely with Binto and a talented team of five web interns. Together, we were responsible for maintaining the website, implementing new features, and ensuring everything stayed up to date. This role not only allowed me to refine my technical skills but also gave me valuable experience in team management and collaboration. I thoroughly enjoyed working with such a driven group of individuals, and it was rewarding to see our collective efforts make a real impact. This experience has been instrumental in my growth, both professionally and personally, as I learned how to lead, mentor, and engage with a diverse team."	 />
+        </SwiperSlide>
+        <SwiperSlide>
+          <TestCard name='Yadhukrishnan' position={''} image={yadhukrishnan} text="My name is Yadhukrishnan, and I am from the College of Engineering Trivandrum. I have recently secured a placement at South Indian Bank. During my time at the EETI Foundation, I served as the Student Lead for six months, where I led a team and mentored members. This role allowed me to apply my technical skills to a meaningful cause, significantly contributing to my personal and professional growth while working alongside innovative minds."	 />
+        </SwiperSlide>
+
+
+
+
       </Swiper>
     </div>
   );
