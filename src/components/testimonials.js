@@ -33,6 +33,10 @@ import gokulr from "../images/testimonials/gokulr.jpg"
 import srutav from "../images/testimonials/Srutav.jpg"
 import yadhukrishnan from "../images/testimonials/Yadhukrishnan.jpg"
 
+import ardrass from "../images/testimonials/ardrass.jpg"
+import haneen from "../images/testimonials/Haneen.jpg"
+import aryavi from "../images/testimonials/aryavi.jpg"
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -146,7 +150,17 @@ const Testimonials = () => {
           <TestCard name='Srutav Tarun' position={'Upcoming SDE, Caterpillar'} image={srutav} text="I had the opportunity to serve as one of the webmasters for the EETI Foundation, working closely with Binto and a talented team of five web interns. Together, we were responsible for maintaining the website, implementing new features, and ensuring everything stayed up to date. This role not only allowed me to refine my technical skills but also gave me valuable experience in team management and collaboration. I thoroughly enjoyed working with such a driven group of individuals, and it was rewarding to see our collective efforts make a real impact. This experience has been instrumental in my growth, both professionally and personally, as I learned how to lead, mentor, and engage with a diverse team."	 />
         </SwiperSlide>
         <SwiperSlide>
-          <TestCard name='Yadhukrishnan' position={''} image={yadhukrishnan} text="My name is Yadhukrishnan, and I am from the College of Engineering Trivandrum. I have recently secured a placement at South Indian Bank. During my time at the EETI Foundation, I served as the Student Lead for six months, where I led a team and mentored members. This role allowed me to apply my technical skills to a meaningful cause, significantly contributing to my personal and professional growth while working alongside innovative minds."	 />
+          <TestCard name='Yadhukrishnan' position={''} image={yadhukrishnan} text="My name is Yadhukrishnan,  and I am from the College of Engineering Trivandrum. I have recently secured a placement at South Indian Bank. During my time at the EETI Foundation, I served as the Student Lead for six months, where I led a team and mentored members. This role allowed me to apply my technical skills to a meaningful cause, significantly contributing to my personal and professional growth while working alongside innovative minds."	 />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <TestCard name='Ardra S S' position={'Business Analyst at geekywolf Pvt Lt. (Trainee)'} image={ardrass} text="I had the privilege of serving as the Chief Program Head of EETI for quiet some time and I am deeply grateful to EETI for providing me with a platform to develop my leadership and managerial skills. This experience offered me valuable insights into company operations and the effort behind every initiative. The lessons I learned during my time at EETI continue to benefit me during my job training.Special mention to founter& CEO Muhammed bilal O. P. for his commitment to empowering students through this organization"	 />
+        </SwiperSlide>
+        <SwiperSlide>
+          <TestCard name='Mohamed Haneen' position={'Placed at Sobha Constructions'} image={haneen} text="Really appreciate the initiatives taken by the EETI Foundation. Personally, I was fortunate enough to work on the Program team of the EETI Foundation for six months.The exposure and knowledge gained during this time have immensely helped me grow both personally and professionally. I hope  the EETI Foundation continues to create more success stories in their future endeavors."	 />
+        </SwiperSlide>
+        <SwiperSlide>
+          <TestCard name='Arya Vijayan' position={'Placed at Caterpillar'} image={aryavi} text="My name is Yadhukrishnan,  and I am from the College of Engineering Trivandrum. I have recently secured a placement at South Indian Bank. During my time at the EETI Foundation, I served as the Student Lead for six months, where I led a team and mentored members. This role allowed me to apply my technical skills to a meaningful cause, significantly contributing to my personal and professional growth while working alongside innovative minds."	 />
         </SwiperSlide>
 
 
