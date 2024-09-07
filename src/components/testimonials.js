@@ -6,7 +6,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import Arjun from "../images/team/arjun.jpeg";//
 import SidharthP from "../images/team/sidharth.jpg";//
-import ardra from "../images/team/ardra.jpg";
 import rameesa from "../images/team/rameesa.jpg";
 import vaishnavi from "../images/team/vaishnavi.jpg";
 import surya from "../images/team/surya.jpg";
@@ -105,6 +104,26 @@ const Testimonials = () => {
         <SwiperSlide>
           <TestCard name='Gokul R' position={'Founder and CEO Bit Builders'} image={gokulr} text="I want to express my gratitude to EETI Foundation for the transformative 5-month internship in graphic design. Under the guidance of ANJITHA S, my design lead, I honed my skills and discovered new facets of myself as a creative professional. Special thanks to MUHAMMED BILAL O P, the visionary founder, for providing meaningful opportunities. Best wishes to EETI Foundation for continuing to empower young talents and driving positive change through design. Thank you for an unforgettable experience, and I look forward to applying the skills gained in future endeavors."	 />
         </SwiperSlide>
+        
+
+        <SwiperSlide>
+          <TestCard name='Srutav Tarun' position={'Upcoming SDE, Caterpillar'} image={srutav} text="I had the opportunity to serve as one of the webmasters for the EETI Foundation, working closely with Binto and a talented team of five web interns. Together, we were responsible for maintaining the website, implementing new features, and ensuring everything stayed up to date. This role not only allowed me to refine my technical skills but also gave me valuable experience in team management and collaboration. I thoroughly enjoyed working with such a driven group of individuals, and it was rewarding to see our collective efforts make a real impact. This experience has been instrumental in my growth, both professionally and personally, as I learned how to lead, mentor, and engage with a diverse team."	 />
+        </SwiperSlide>
+        
+
+        <SwiperSlide>
+          <TestCard name='Ardra S S' position={'Business Analyst at geekywolf Pvt Lt. (Trainee)'} image={ardrass} text="I had the privilege of serving as the Chief Program Head of EETI for quite some time and I am deeply grateful to EETI for providing me with a platform to develop my leadership and managerial skills. This experience offered me valuable insights into company operations and the effort behind every initiative. The lessons I learned during my time at EETI continue to benefit me during my job training.Special mention to founder & CEO Muhammed Bilal O. P. for his commitment to empowering students through this organization"	 />
+        </SwiperSlide>
+        <SwiperSlide>
+          <TestCard name='Mohamed Haneen' position={'Placed at Sobha Constructions'} image={haneen} text="Really appreciate the initiatives taken by the EETI Foundation. Personally, I was fortunate enough to work on the Program team of the EETI Foundation for six months.The exposure and knowledge gained during this time have immensely helped me grow both personally and professionally. I hope  the EETI Foundation continues to create more success stories in their future endeavors."	 />
+        </SwiperSlide>
+        <SwiperSlide>
+          <TestCard name='Arya Vijayan' position={'Placed at Caterpillar'} image={aryavi} text="During my tenure as the Technical Lead at EETI Foundation, I had the privilege of leading the technical activities within our community. This role provided me with numerous opportunities to grow both technically and personally. Through the foundation, I was able to work on multiple website projects and secure freelance work, which significantly enhanced my skills. The experience has been invaluable in shaping my career, and I am grateful for the growth and opportunities that the EETI Foundation has afforded me."	 />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <TestCard name='Yadhukrishnan' position={''} image={yadhukrishnan} text="My name is Yadhukrishnan,  and I am from the College of Engineering Trivandrum. I have recently secured a placement at South Indian Bank. During my time at the EETI Foundation, I served as the Student Lead for six months, where I led a team and mentored members. This role allowed me to apply my technical skills to a meaningful cause, significantly contributing to my personal and professional growth while working alongside innovative minds."	 />
+        </SwiperSlide>
         <SwiperSlide>
           <TestCard name='Vaishnavi M S' position={''} image={vaishnavi} text="I am Vaishnavi M S. The Public Relations Officer of EETIF. The curiosity to know more about Arduino helped me reach here. From Arduino to different topics like IOT etc and I met some amazing people with the curiosity to know more things and to teach it to all those people out there who wanna know. That's how I stepped here and from there on we started working like a team and helped many people to know more about this changing world. It was because of Bilal and his dedication which made this NGO a big success." />
         </SwiperSlide>
@@ -118,9 +137,7 @@ const Testimonials = () => {
         <SwiperSlide>
           <TestCard name='Sidharth P' position={''} image={SidharthP} text="Being working from the start of this foundation helped me get more connections, build my network and upskilled myself. As part of this foundation i have learned skills that include arduino coding, incubated interests for robotics and much more. As part of the position I have been given upon, the Chief Creative Officer; my team along with me did create content for Instagram handle of eetifoundation on a weekly basis. As a whole i did learn to manage and connect with more people outside my peer group." />
         </SwiperSlide>
-        <SwiperSlide>
-          <TestCard name='Ardra S S' position={''} image={ardra} text="I have been a member of EETIF for quite a long time now. It has been great to be a part of a high-spirited set of people The experiences I acquired from here is effable. It was great to communicate with many renowned personalities and listen to their experiences. At the same time, i was able to have lively connections with many others from diverse field of expertise, comprising of students, professionals and so on. The knack of organizing responsibilities can only be gained through experience and EETIF has provided that to me. I was able to understand the behind-the-scene working of a society. Being part of such an energetic group will help one to understand & practice how to coordinate things, plan effectively, manage time & lead a team Will forever be grateful to EETF for the space and opportunities that i received through this society" />
-        </SwiperSlide>
+        
         <SwiperSlide>
           <TestCard name='Archa A S' position={''} image={archa} text="Hai there, my name may not matters so much. But EETIF means a lot. I am so glad to be part of EETIF and for its growth from the very beginning. Bilal who is the founder, just marked his path and I accompanied him for his ideas. He is so curious about the present innovation and that's how we got connected. The growth is owned by the members accompanied by our Foundation. The success lies in bringing up everyone together. Together we have achieved great success. And now our NGO is a platform providing a lots of opportunity to young innovators and help in developing and inspire you in living your life the way you dream of." />
         </SwiperSlide>
@@ -144,23 +161,6 @@ const Testimonials = () => {
         </SwiperSlide>
         <SwiperSlide>
           <TestCard name='Aswathy K' position={''} image={aswathy} text="Working alongside an amazing panel of teammates, I gained valuable insights into the essence of effective group collaboration. The dynamic nature of our tasks not only made every day eventful but also enhanced my team management skills significantly. This hands-on experience is truly worth boasting about, as it enriched my professional journey in ways I hadn't imagined."	 />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <TestCard name='Srutav Tarun' position={'Upcoming SDE, Caterpillar'} image={srutav} text="I had the opportunity to serve as one of the webmasters for the EETI Foundation, working closely with Binto and a talented team of five web interns. Together, we were responsible for maintaining the website, implementing new features, and ensuring everything stayed up to date. This role not only allowed me to refine my technical skills but also gave me valuable experience in team management and collaboration. I thoroughly enjoyed working with such a driven group of individuals, and it was rewarding to see our collective efforts make a real impact. This experience has been instrumental in my growth, both professionally and personally, as I learned how to lead, mentor, and engage with a diverse team."	 />
-        </SwiperSlide>
-        <SwiperSlide>
-          <TestCard name='Yadhukrishnan' position={''} image={yadhukrishnan} text="My name is Yadhukrishnan,  and I am from the College of Engineering Trivandrum. I have recently secured a placement at South Indian Bank. During my time at the EETI Foundation, I served as the Student Lead for six months, where I led a team and mentored members. This role allowed me to apply my technical skills to a meaningful cause, significantly contributing to my personal and professional growth while working alongside innovative minds."	 />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <TestCard name='Ardra S S' position={'Business Analyst at geekywolf Pvt Lt. (Trainee)'} image={ardrass} text="I had the privilege of serving as the Chief Program Head of EETI for quiet some time and I am deeply grateful to EETI for providing me with a platform to develop my leadership and managerial skills. This experience offered me valuable insights into company operations and the effort behind every initiative. The lessons I learned during my time at EETI continue to benefit me during my job training.Special mention to founter& CEO Muhammed bilal O. P. for his commitment to empowering students through this organization"	 />
-        </SwiperSlide>
-        <SwiperSlide>
-          <TestCard name='Mohamed Haneen' position={'Placed at Sobha Constructions'} image={haneen} text="Really appreciate the initiatives taken by the EETI Foundation. Personally, I was fortunate enough to work on the Program team of the EETI Foundation for six months.The exposure and knowledge gained during this time have immensely helped me grow both personally and professionally. I hope  the EETI Foundation continues to create more success stories in their future endeavors."	 />
-        </SwiperSlide>
-        <SwiperSlide>
-          <TestCard name='Arya Vijayan' position={'Placed at Caterpillar'} image={aryavi} text="My name is Yadhukrishnan,  and I am from the College of Engineering Trivandrum. I have recently secured a placement at South Indian Bank. During my time at the EETI Foundation, I served as the Student Lead for six months, where I led a team and mentored members. This role allowed me to apply my technical skills to a meaningful cause, significantly contributing to my personal and professional growth while working alongside innovative minds."	 />
         </SwiperSlide>
 
 
