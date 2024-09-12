@@ -22,7 +22,7 @@ const Discord_Banner = () => {
 
   return (
     <div className={`banner ${showBanner ? 'show' : ''}`}>
-      <a href="https://discord.gg/KAbXKEXG" className='link-text'>Join Our Discord Community</a>
+      <a href="https://chat.whatsapp.com/G06bx9dWzrqKjOpvbRdcKA" className='link-text'>Join Our WhatsApp Community</a>
     </div>
   );
 };
