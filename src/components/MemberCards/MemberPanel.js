@@ -54,11 +54,10 @@ import gouri from '../../images/content_team_23/gouri.jpg';
 import deepthi from '../../images/content_team_23/deepthi.jpg';
 import nehanna from '../../images/content_team_23/neha-anna.jpg';
 
-import abhishek from '../../images/web_team_23/abhisheks.jpg';
-import akashm from '../../images/web_team_23/akashm.jpg';
-import nahal from '../../images/web_team_23/nahal.jpg';
-import riya from '../../images/web_team_23/riya.jpg';
-import febin from '../../images/web_team_23/febin.jpg';
+import shravan from '../../images/web_team_24/Shravan.png';
+import gopika from '../../images/web_team_24/Gopika.jpeg';
+import keerthana from '../../images/web_team_24/Keerthana.jpg';
+import suraj from '../../images/web_team_24/Suraj_P.jpg';
 
 import iqubal from '../../images/marketing_team_23/Iqubal.jpg'
 import revathy from '../../images/marketing_team_23/S_Revathy_Sankar_CET.jpg'
@@ -589,50 +588,40 @@ const MemberPanel = () => {
       <div className="tab-content">
           <div className="member-panel-cards">
             <MemberCard
-              name="Abhishek S"
+              name="Shravan Pandala"
               position="Team Member"
-              image={abhishek}
-              linkedin="abhis03"
+              image={shravan}
+              linkedin="shravanpandala"
+              github="Unknown-Geek"
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Suraj P"
+              position="Team Member"
+              image={suraj}
+              linkedin=""
               github=""
               size="medium"
             ></MemberCard>
 
             <MemberCard
-              name="Akash M Nandan"
+              name="Gopika C"
               position="Team Member"
-              image={akashm}
-              linkedin="akashmnandan"
+              image={gopika}
+              linkedin=""
               github=""
               size="medium"
             ></MemberCard>
 
             <MemberCard
-              name="Nahal Roshan K"
+              name="Keerthana T P"
               position="Team Member"
-              image={nahal}
-              linkedin="nahalroshan"
+              image={keerthana}
+              linkedin=""
               github=""
               size="medium"
             ></MemberCard>
-
-            <MemberCard
-              name="Riya Sabu"
-              position="Team Member"
-              image={riya}
-              linkedin="riya-sabu-aa2177229"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Febin Nelson P"
-              position="Team Member"
-              image={febin}
-              linkedin="febin-nelson"
-              github=""
-              size="medium"
-            ></MemberCard>
-
             
           </div>
         </div>
