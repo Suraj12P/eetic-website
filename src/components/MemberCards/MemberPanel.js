@@ -600,7 +600,7 @@ const MemberPanel = () => {
               name="Suraj P"
               position="Team Member"
               image={suraj}
-              linkedin=""
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
@@ -609,7 +609,7 @@ const MemberPanel = () => {
               name="Gopika C"
               position="Team Member"
               image={gopika}
-              linkedin=""
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
@@ -618,7 +618,7 @@ const MemberPanel = () => {
               name="Keerthana T P"
               position="Team Member"
               image={keerthana}
-              linkedin=""
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
