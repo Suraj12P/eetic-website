@@ -36,39 +36,36 @@ import sreepriya from "../../images/team/sreepriya.jpg";
 import srutav from "../../images/team/srutav.jpg";
 import yadhu from "../../images/team/yadhu.jpeg";
 
-import ashkind from '../../images/program_team_23/ashkind.jpg';
-import ananthalakshmi from '../../images/program_team_23/ananthalakshmi-2.jpg';
-import haeba from '../../images/program_team_23/haeba.jpg';
-import edison from '../../images/program_team_23/edison.jpg';
-import neha from '../../images/program_team_23/neha.jpg';
+import theertha_s from '../../images/program_team_24/ashkind.jpg';
+import rayyan_khan from '../../images/program_team_24/ananthalakshmi-2.jpg';
+import kashinath from '../../images/program_team_24/haeba.jpg';
+import afsal_v_n from '../../images/program_team_24/edison.jpg';
 
+import keerthana_maria from '../../images/design_team_24/Adhil.jpg';
+import malavika_k_j from '../../images/design_team_24/Adithya.jpg';
+import fathima_farhana from '../../images/design_team_24/Akash.jpg';
 
-import adhil from '../../images/design_team_23/Adhil.jpg';
-import adithya from '../../images/design_team_23/Adithya.jpg';
-import akash from '../../images/design_team_23/Akash.jpg';
-import celma from '../../images/design_team_23/Celma_CET.jpg';
-import greeshma from '../../images/design_team_23/greeshma-jayakumar.jpg';
-
-import parvathy from '../../images/content_team_23/parvathy.png';
-import gouri from '../../images/content_team_23/gouri.jpg';
-import deepthi from '../../images/content_team_23/deepthi.jpg';
-import nehanna from '../../images/content_team_23/neha-anna.jpg';
+import m_aswathy from '../../images/content_team_24/parvathy.png';
+import ananya_p from '../../images/content_team_24/gouri.jpg';
+import anjitha_vk from '../../images/content_team_24/deepthi.jpg';
+import devi_dekshina from '../../images/content_team_24/neha-anna.jpg';
 
 import shravan from '../../images/web_team_24/Shravan.png';
 import gopika from '../../images/web_team_24/Gopika.jpeg';
 import keerthana from '../../images/web_team_24/Keerthana.jpg';
 import suraj from '../../images/web_team_24/Suraj_P.jpg';
 
-import iqubal from '../../images/marketing_team_23/Iqubal.jpg'
-import revathy from '../../images/marketing_team_23/S_Revathy_Sankar_CET.jpg'
-import varun from '../../images/marketing_team_23/varun.png'
-import vrindha from '../../images/marketing_team_23/VrindhaVinod.jpg'
+/*Not mentioned*/
+import iqubal from '../../images/marketing_team_24/Iqubal.jpg'
+import revathy from '../../images/marketing_team_24/S_Revathy_Sankar_CET.jpg'
+import varun from '../../images/marketing_team_24/varun.png'
+import vrindha from '../../images/marketing_team_24/VrindhaVinod.jpg'
 
-import abhijithg from '../../images/flutter_team_23/Abhijith G (CET).jpg'
-import anoop from '../../images/flutter_team_23/Anoop Prasannan(TKM College of Engineering)_.jpg'
-import sreenathkp from '../../images/flutter_team_23/K P SREENATH (CET).jpg'
-import rahuldas from '../../images/flutter_team_23/Rahul Das P(CET).jpg'
-import sivanilr from '../../images/flutter_team_23/Sivani L R _ LBSITW.jpg'
+import abhijithg from '../../images/flutter_team_24/Abhijith G (CET).jpg'
+import anoop from '../../images/flutter_team_24/Anoop Prasannan(TKM College of Engineering)_.jpg'
+import sreenathkp from '../../images/flutter_team_24/K P SREENATH (CET).jpg'
+import rahuldas from '../../images/flutter_team_24/Rahul Das P(CET).jpg'
+import sivanilr from '../../images/flutter_team_24/Sivani L R _ LBSITW.jpg'
 
 
 const MemberPanel = () => {
@@ -116,7 +113,7 @@ const MemberPanel = () => {
           className={`mtab `}
           id={activeTab === "mtab2" ? "active" : ""}
         >
-          Student Team '23
+          Student Team '24
         </button>
       </div>
 
@@ -145,7 +142,7 @@ const MemberPanel = () => {
               name="Anjitha S"
               position="Design Lead"
               image={anjitha}
-              linkedin="anjitha-s-bb237a202"
+              linkedin="anjitha-s-bb247a202"
               github=""
               size="medium"
             ></MemberCard>
@@ -172,7 +169,7 @@ const MemberPanel = () => {
               name="Suryagayatri Thangalazhi"
               position="WIEETIF"
               image={surya}
-              linkedin="suryagayatri-thangalazhi-16116a223"
+              linkedin="suryagayatri-thangalazhi-16116a224"
               github=""
               size="medium"
             ></MemberCard>
@@ -266,7 +263,7 @@ const MemberPanel = () => {
               name="Anoushka L Nair"
               position="Program Lead"
               image={anoushka}
-              linkedin="anoushka-l-nair-331b73239"
+              linkedin="anoushka-l-nair-331b73249"
               github=""
               size="medium"
             ></MemberCard>
@@ -320,7 +317,7 @@ const MemberPanel = () => {
               name="Sreepriya S"
               position="Creative Lead"
               image={sreepriya}
-              linkedin="sreepriya-s-a02772239"
+              linkedin="sreepriya-s-a02772249"
               github=""
               size="medium"
             ></MemberCard>
@@ -400,7 +397,7 @@ const MemberPanel = () => {
           className={`mtab `}
           id={activeTab === "mtab2" ? "active" : ""}
         >
-          Program Team '23
+          Program Team '24
         </button>
       </div>
 
@@ -420,7 +417,7 @@ const MemberPanel = () => {
               name="Neha Manoj"
               position="Team Member"
               image={neha}
-              linkedin="neha-manoj-6ab292223"
+              linkedin="neha-manoj-6ab292224"
               github=""
               size="medium"
             ></MemberCard>
@@ -463,7 +460,7 @@ const MemberPanel = () => {
           className={`mtab `}
           id={activeTab === "mtab2" ? "active" : ""}
         >
-          Design Team '23
+          Design Team '24
         </button>
       </div>
 
@@ -526,7 +523,7 @@ const MemberPanel = () => {
           className={`mtab `}
           id={activeTab === "mtab2" ? "active" : ""}
         >
-          Content Team '23
+          Content Team '24
         </button>
       </div>
 
@@ -580,7 +577,7 @@ const MemberPanel = () => {
           className={`mtab `}
           id={activeTab === "mtab2" ? "active" : ""}
         >
-          Web Team '23
+          Web Team '24
         </button>
       </div>
 
@@ -626,13 +623,14 @@ const MemberPanel = () => {
           </div>
         </div>
 
+
         <div className="mtabs">
         <button
           onClick={() => handleTabClick("mtab2")}
           className={`mtab `}
           id={activeTab === "mtab2" ? "active" : ""}
         >
-          Marketing Team '23
+          Marketing Team '24
         </button>
       </div>
 
@@ -685,7 +683,7 @@ const MemberPanel = () => {
           className={`mtab `}
           id={activeTab === "mtab2" ? "active" : ""}
         >
-          Flutter Team '23
+          Flutter Team '24
         </button>
       </div>
 
