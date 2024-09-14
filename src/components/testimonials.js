@@ -2,16 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../components/css/testimonials.css";
 import TestCard from "./test-card";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-
-import Arjun from "../images/team/arjun.jpeg";//
-import SidharthP from "../images/team/sidharth.jpg";//
-import rameesa from "../images/team/rameesa.jpg";
-import vaishnavi from "../images/team/vaishnavi.jpg";
-import surya from "../images/team/surya.jpg";
-import shehin from "../images/team/shehin.jpeg";
-import archa from "../images/team/archa.jpg";
-import harish from "../images/team/harish.jpg";
+import "swiper/css";
 
 import nandana from "../images/testimonials/nandana.jpg"
 import sreekiran from "../images/testimonials/sreekiran.jpg"
@@ -20,7 +11,7 @@ import aanjith from "../images/testimonials/aanjith.jpg"
 import aishwarya_achuthan from "../images/testimonials/aishwarya_achuthan.jpeg"
 import akshay_p_k from "../images/testimonials/akshay_p_k.jpeg"
 import ardra_v_v from "../images/testimonials/ardra_v_v.jpg"
-import aswathy from "../images/team/aswathy.jpg"
+import aswathy from "../images/team/aswathy.webp"
 import hilan from "../images/testimonials/hilan.jpeg"
 import neeraj_rajeev from "../images/testimonials/neeraj_rajeev.jpeg"
 import saniya from "../images/testimonials/saniya.jpeg"
@@ -77,6 +68,7 @@ const Testimonials = () => {
         className="mySwiper"
         spaceBetween={50}
       >
+        {/*
         <SwiperSlide>
           <TestCard name="Nandana J" position={'Graduate Engineering Trainee, L&T'} image={nandana} text="During my tenure as the Content Head at EETI Foundation, I gained valuable insights into organizational workflows, project management, and content creation. This role allowed me to delve deeply into various projects, significantly enhancing my content writing skills. Collaborating within a dedicated team, I witnessed firsthand the impact of effective content strategies on engagement and outreach. Moreover, working in this organization provided me with a platform to expand my network within the college community, fostering stronger connections. The diverse activities conducted by EETI Foundation offered me exposure to a wide range of experiences, contributing to my holistic growth and development. Overall, my experience at EETI Foundation was invaluable, offering practical knowledge in content creation, leadership, teamwork dynamics, and expanded connections within the college." />
         </SwiperSlide>
@@ -164,7 +156,7 @@ const Testimonials = () => {
         </SwiperSlide>
 
 
-
+      */}
 
       </Swiper>
     </div>
