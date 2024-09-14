@@ -4,69 +4,48 @@ import "../css/MemberPanel.css";
 import MemberCard from "./MemberCard";
 import ProgramTeam from "./ProgramTeam";
 
-import Arjun from "../../images/team/arjun.jpeg";
-import SidharthP from "../../images/team/sidharth.jpg";
-import ardra from "../../images/team/ardra.jpg";
-import bilal from "../../images/team/bilal.JPG";
-import rameesa from "../../images/team/rameesa.jpg";
-import vaishnavi from "../../images/team/vaishnavi.jpg";
-import gokul from "../../images/team/gokul.jpeg";
-import surya from "../../images/team/surya.jpg";
-import shehin from "../../images/team/shehin.jpeg";
-import anjitha from "../../images/team/anjitha.png";
-import nandana from "../../images/team/nandana.jpeg";
-import sreenath from "../../images/team/Sreenath.jpg";
-import adithyan from "../../images/team/adithyan.jpg";
-import vishnu from "../../images/team/vishnu.jpg";
+import bilal from "../../images/team/bilal.webp";
 
-import abhijith from "../../images/team/abhijith.jpg";
-import adheena from "../../images/team/adheena.jpg";
-import afeefa from "../../images/team/afeefa.jpg";
-import aleena from "../../images/team/Aleena.jpg";
-import anoushka from "../../images/team/anoushka.jpg";
-import arya from "../../images/team/arya1.jpg";
-import ashna from "../../images/team/ashna.jpg";
-import aswajith from "../../images/team/aswajith.jpg";
-import aswathy from "../../images/team/aswathy.jpg";
-import binto from "../../images/team/binto.jpg";
-import rayen from "../../images/team/rayen.jpg";
-import savan from "../../images/team/savan.jpg";
-import shabeeba from "../../images/team/shabeeba.jpeg";
-import sreepriya from "../../images/team/sreepriya.jpg";
-import srutav from "../../images/team/srutav.jpg";
-import yadhu from "../../images/team/yadhu.jpeg";
+import akash_m_nandan from "../../images/team/Akash_M_Nandan__College of engg chengannur.webp";
+import anoushka from "../../images/team/Anoushka L Nair S3 ECE2_page-0001.webp";
+import joe_abraham from "../../images/team/Joe Abraham K CEC.webp";
+import m_a_akshaya from "../../images/team/M A Akshaya _CET.webp";
+import megha from "../../images/team/Megha.webp";
+import neha_anna from "../../images/team/Neha Anna Abraham.webp";
+import parvathy from "../../images/team/Parvathy_Gec.webp";
+import akash_regi from "../../images/team/Akash Regi.webp";
 
-import theertha_s from '../../images/program_team_24/ashkind.jpg';
-import rayyan_khan from '../../images/program_team_24/ananthalakshmi-2.jpg';
-import kashinath from '../../images/program_team_24/haeba.jpg';
-import afsal_v_n from '../../images/program_team_24/edison.jpg';
+import theertha_s from '../../images/program_team_24/THEERTHA S_CET TVM.webp';
+import rayyan_khan from '../../images/program_team_24/Rayyan Khan_CET.webp';
+import kashinath from '../../images/program_team_24/Kasinath K V_College of Engineering Trivandrum.webp';
+import afsal_v_n from '../../images/program_team_24/AFSAL V N _CET TVM.webp';
 
-import keerthana_maria from '../../images/design_team_24/Adhil.jpg';
-import malavika_k_j from '../../images/design_team_24/Adithya.jpg';
-import fathima_farhana from '../../images/design_team_24/Akash.jpg';
+import keerthana from '../../images/design_team_24/Keerthana_CET.webp';
+import malavika_k_j from '../../images/design_team_24/Malavika KJ.webp';
+import fathima_farhana from '../../images/design_team_24/Fathima Farhana.webp';
 
-import m_aswathy from '../../images/content_team_24/parvathy.png';
-import ananya_p from '../../images/content_team_24/gouri.jpg';
-import anjitha_vk from '../../images/content_team_24/deepthi.jpg';
-import devi_dekshina from '../../images/content_team_24/neha-anna.jpg';
+import m_aswathy from '../../images/content_team_24/M Aswathy, CE Chengannur.webp';
+import ananya_p from '../../images/content_team_24/Ananya P Santh, CE Chengannur_.webp';
+import anjitha_vk from '../../images/content_team_24/Anjitha VK_CET- TVM.webp';
+import devi_dekshina from '../../images/content_team_24/Devi Dekshina-SOE,CUSAT.webp';
 
-import shravan from '../../images/web_team_24/Shravan.png';
-import gopika from '../../images/web_team_24/Gopika.jpeg';
-import keerthana from '../../images/web_team_24/Keerthana.jpg';
-import suraj from '../../images/web_team_24/Suraj_P.jpg';
+import shravan from '../../images/web_team_24/Shravan.webp';
+import gopika from '../../images/web_team_24/Gopika.webp';
+import keerthana_web from '../../images/web_team_24/Keerthana.webp';
+import suraj from '../../images/web_team_24/Suraj_P.webp';
 
-/*Not mentioned*/
-import iqubal from '../../images/marketing_team_24/Iqubal.jpg'
-import revathy from '../../images/marketing_team_24/S_Revathy_Sankar_CET.jpg'
+/*Not mentioned
+import iqubal from '../../images/marketing_team_24/Iqubal.webp'
+import revathy from '../../images/marketing_team_24/S_Revathy_Sankar_CET.webp'
 import varun from '../../images/marketing_team_24/varun.png'
-import vrindha from '../../images/marketing_team_24/VrindhaVinod.jpg'
+import vrindha from '../../images/marketing_team_24/VrindhaVinod.webp'
 
-import abhijithg from '../../images/flutter_team_24/Abhijith G (CET).jpg'
-import anoop from '../../images/flutter_team_24/Anoop Prasannan(TKM College of Engineering)_.jpg'
-import sreenathkp from '../../images/flutter_team_24/K P SREENATH (CET).jpg'
-import rahuldas from '../../images/flutter_team_24/Rahul Das P(CET).jpg'
-import sivanilr from '../../images/flutter_team_24/Sivani L R _ LBSITW.jpg'
-
+import abhijithg from '../../images/flutter_team_24/Abhijith G (CET).webp'
+import anoop from '../../images/flutter_team_24/Anoop Prasannan(TKM College of Engineering)_.webp'
+import sreenathkp from '../../images/flutter_team_24/K P SREENATH (CET).webp'
+import rahuldas from '../../images/flutter_team_24/Rahul Das P(CET).webp'
+import sivanilr from '../../images/flutter_team_24/Sivani L R _ LBSITW.webp'
+*/
 
 const MemberPanel = () => {
   const [activeTab, setActiveTab] = useState("mtab2");
@@ -117,276 +96,84 @@ const MemberPanel = () => {
         </button>
       </div>
 
-      {activeTab === "mtab1" ? (
+      {activeTab === "mtab1"? <div></div> : (
         <div className="tab-content">
           <div className="member-panel-cards">
-            <MemberCard
-              name="Sidharth P"
-              position="Creative Lead"
-              image={SidharthP}
-              linkedin="sidharth-p-085255225"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Gokul G Kumar"
-              position="Public Relation Head"
-              image={gokul}
-              linkedin="gokul-g-kumar-b50877241"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Anjitha S"
-              position="Design Lead"
-              image={anjitha}
-              linkedin="anjitha-s-bb247a202"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Muhammed Shehin"
-              position="Design Lead"
-              image={shehin}
-              linkedin="muhammed-shehin-b197a9220"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Vishnu Shaji"
-              position="Publicity Head"
-              image={vishnu}
-              linkedin="vishnu-shaji-36691019a"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Suryagayatri Thangalazhi"
-              position="WIEETIF"
-              image={surya}
-              linkedin="suryagayatri-thangalazhi-16116a224"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="A R Arjun"
-              position="Social Media Head"
-              image={Arjun}
-              linkedin="a-r-arjun-104a36200"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Vaishnavi M S"
-              position="Social Media Head"
-              image={vaishnavi}
-              linkedin="vaishnavi-m-s"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Ardra S S"
-              position="Program Lead"
-              image={ardra}
-              linkedin="ardra-s-s-980670221"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Rameesa Jahan"
-              position="Documentation Head"
-              image={rameesa}
-              linkedin="rameesa-jahan-a3a971227"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Nandana J"
-              position="Content Lead"
-              image={nandana}
-              linkedin="nandana-j-b0a6b5220"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Sreenath K P"
-              position="Flutter team Lead"
-              image={sreenath}
-              linkedin="kpsreenath"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Adithyan T"
-              position="Web Master"
-              image={adithyan}
-              linkedin="adithyan-t-ba37b9220"
-              github=""
-              size="medium"
-            ></MemberCard>
-          </div>
-        </div>
-      ) : (
-        <div className="tab-content">
-          <div className="member-panel-cards">
-            <MemberCard
-              name="Yadhukrishnan S"
-              position="Student Lead"
-              image={yadhu}
-              linkedin="yadhukrishnan-s-241941201"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Arya Vijayan"
-              position="Technical Lead"
-              image={arya}
-              linkedin="arya-vijayan"
-              github=""
-              size="medium"
-            ></MemberCard>
-
             <MemberCard
               name="Anoushka L Nair"
-              position="Program Lead"
+              position="Student Lead"
               image={anoushka}
-              linkedin="anoushka-l-nair-331b73249"
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
 
             <MemberCard
-              name="Aswathy K"
-              position="Program Lead"
-              image={aswathy}
-              linkedin="aswathie"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Ashna Anna Philips"
+              name="Parvathy"
               position="Campus Community Lead"
-              image={ashna}
-              linkedin="ashna-anna-philips-aab3b0227"
+              image={parvathy}
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
 
             <MemberCard
-              name="Afeefa Ali"
-              position="Publicity Lead"
-              image={afeefa}
-              linkedin="afeefa-ali-879969276"
+              name="Joe Abraham K"
+              position="Web Lead"
+              image={joe_abraham}
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
 
             <MemberCard
-              name="Rayen M Sulphi"
+              name="Megha"
               position="Design Lead"
-              image={rayen}
-              linkedin="rayen-m-sulphi-944b62275"
+              image={megha}
+              linkedin=" " 
               github=""
               size="medium"
             ></MemberCard>
 
             <MemberCard
-              name="Abhijith K V"
+              name="Akash Reji"
               position="Design Lead"
-              image={abhijith}
-              linkedin="abhiji-kv/"
+              image={akash_regi}
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
 
             <MemberCard
-              name="Sreepriya S"
-              position="Creative Lead"
-              image={sreepriya}
-              linkedin="sreepriya-s-a02772249"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Savan J Saji"
-              position="Creative Lead"
-              image={savan}
-              linkedin="savan-j-saji"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Srutav Tarun"
-              position="Web Master"
-              image={srutav}
-              linkedin="srutav-tarun-00625a25b/"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Binto Joseph"
-              position="Web Master"
-              image={binto}
-              linkedin="binto-joseph/"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Aswajith M S"
-              position="Video Editing Lead"
-              image={aswajith}
-              linkedin="aswajith-m-s-31713a24a"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Shabeeba T P"
-              position="Media Lead"
-              image={shabeeba}
-              linkedin="shabeeba-t-p-a7b380277"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Adheena A K"
+              name="Neha Anna Abraham"
               position="Content Lead"
-              image={adheena}
-              linkedin="adheena-a-k-978939225"
+              image={neha_anna}
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
 
             <MemberCard
-              name="Aleena Johny"
-              position="Marketing Lead"
-              image={aleena}
-              linkedin="placeholder"
+              name="Akash M Nandan"
+              position="Teachnical Lead"
+              image={akash_m_nandan}
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
+
+            <MemberCard
+              name="M A Akshaya"
+              position="Program Lead"
+              image={m_a_akshaya}
+              linkedin=" "
+              github=""
+              size="medium"
+            ></MemberCard>
+
           </div>
         </div>
-      )}
+    )}
 
 
       {activeTab === "mtab1" ? <div></div> :
@@ -405,51 +192,41 @@ const MemberPanel = () => {
       <div className="tab-content">
           <div className="member-panel-cards">
             <MemberCard
-              name="Haeba Sara"
+              name="Afsal V N"
               position="Team Member"
-              image={haeba}
-              linkedin="haeba-sara-16982b244"
+              image={afsal_v_n}
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
 
             <MemberCard
-              name="Neha Manoj"
+              name="Kasinath K V"
               position="Team Member"
-              image={neha}
-              linkedin="neha-manoj-6ab292224"
+              image={kashinath}
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
 
             <MemberCard
-              name="Akshind A D"
+              name="Rayyan Khan"
               position="Team Member"
-              image={ashkind}
-              linkedin="akshind-a-d-a442b5213"
+              image={rayyan_khan}
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
 
             <MemberCard
-              name="Anantha Lakshmi"
+              name="Theertha S"
               position="Team Member"
-              image={ananthalakshmi}
-              linkedin="/"
+              image={theertha_s}
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
 
-            <MemberCard
-              name="Edison Alan"
-              position="Team Member"
-              image={edison}
-              linkedin="/"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            
           </div>
         </div>
 
@@ -468,50 +245,31 @@ const MemberPanel = () => {
       <div className="tab-content">
           <div className="member-panel-cards">
             <MemberCard
-              name="Adhil Abdulla"
+              name="Fathima Farhana"
               position="Team Member"
-              image={adhil}
-              linkedin="adhil-abdulla-4b5b62227"
+              image={fathima_farhana}
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
 
             <MemberCard
-              name="Adithya V"
+              name="Keerthana"
               position="Team Member"
-              image={adithya}
-              linkedin="adithya-viswanathan-09ba73294"
+              image={keerthana}
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
 
             <MemberCard
-              name="Akash Reji"
+              name="Malaika K J"
               position="Team Member"
-              image={akash}
-              linkedin="akash-regi-7b9311284"
+              image={malavika_k_j}
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
-
-            <MemberCard
-              name="Celma Mariya Naveen"
-              position="Team Member"
-              image={celma}
-              linkedin="celma-maria-naveen-5aa50622a"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Greeshma Jayakumar"
-              position="Team Member"
-              image={greeshma}
-              linkedin="greeshma-jayakumar-56b411295"
-              github=""
-              size="medium"
-            ></MemberCard>
-
             
           </div>
         </div>
@@ -531,37 +289,37 @@ const MemberPanel = () => {
       <div className="tab-content">
           <div className="member-panel-cards">
             <MemberCard
-              name="Parvathy Narayan H"
+              name="Ananya P Santh"
               position="Team Member"
-              image={parvathy}
-              linkedin="parvathy-narayan-h-4b2766282"
+              image={ananya_p}
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
 
             <MemberCard
-              name="Gouri KS"
+              name="Anjitha V K"
               position="Team Member"
-              image={gouri}
-              linkedin="gouri-k-s-01a31724b"
+              image={anjitha_vk}
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
 
             <MemberCard
-              name="Deepthi N"
+              name="Devi Dekshina"
               position="Team Member"
-              image={deepthi}
-              linkedin="deepthi-n-6b6029256"
+              image={devi_dekshina}
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
 
             <MemberCard
-              name="Neha Anna Abraham"
+              name="M Aswathy"
               position="Team Member"
-              image={nehanna}
-              linkedin="neha-anna-abraham"
+              image={m_aswathy}
+              linkedin=" "
               github=""
               size="medium"
             ></MemberCard>
@@ -614,7 +372,7 @@ const MemberPanel = () => {
             <MemberCard
               name="Keerthana T P"
               position="Team Member"
-              image={keerthana}
+              image={keerthana_web}
               linkedin=" "
               github=""
               size="medium"
@@ -637,6 +395,7 @@ const MemberPanel = () => {
 
       <div className="tab-content">
           <div className="member-panel-cards">
+            {/*
             <MemberCard
               name="Muhammed Iqubal"
               position="Team Member"
@@ -672,8 +431,7 @@ const MemberPanel = () => {
               github=""
               size="medium"
             ></MemberCard>
-
-            
+          */}
           </div>
         </div>
 
@@ -689,55 +447,55 @@ const MemberPanel = () => {
 
 
       <div className="tab-content">
-          <div className="member-panel-cards">
-            <MemberCard
-              name="Abhijith G"
-              position="Team Member"
-              image={abhijithg}
-              linkedin="placeholder"
-              github=""
-              size="medium"
-            ></MemberCard>
+      <div className="member-panel-cards"> 
+        {/* 
+        <MemberCard
+          name="Abhijith G"
+          position="Team Member"
+          image={abhijithg}
+          linkedin="placeholder"
+          github=""
+          size="medium"
+        ></MemberCard>
 
-            <MemberCard
-              name="Anoop Prasannan"
-              position="Team Member"
-              image={anoop}
-              linkedin="placeholder"
-              github=""
-              size="medium"
-            ></MemberCard>
+        <MemberCard
+          name="Anoop Prasannan"
+          position="Team Member"
+          image={anoop}
+          linkedin="placeholder"
+          github=""
+          size="medium"
+        ></MemberCard>
 
-            <MemberCard
-              name="K P Sreenath"
-              position="Team Member"
-              image={sreenath}
-              linkedin="placeholder"
-              github=""
-              size="medium"
-            ></MemberCard>
+        <MemberCard
+          name="K P Sreenath"
+          position="Team Member"
+          image={sreenath}
+          linkedin="placeholder"
+          github=""
+          size="medium"
+        ></MemberCard>
 
-            <MemberCard
-              name="Rahul Das P"
-              position="Team Member"
-              image={rahuldas}
-              linkedin="placeholder"
-              github=""
-              size="medium"
-            ></MemberCard>
+        <MemberCard
+          name="Rahul Das P"
+          position="Team Member"
+          image={rahuldas}
+          linkedin="placeholder"
+          github=""
+          size="medium"
+        ></MemberCard>
 
-            <MemberCard
-              name="Siavni L R"
-              position="Team Member"
-              image={sivanilr}
-              linkedin="placeholder"
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            
-          </div>
-        </div>
+        <MemberCard
+          name="Siavni L R"
+          position="Team Member"
+          image={sivanilr}
+          linkedin="placeholder"
+          github=""
+          size="medium"
+        ></MemberCard>
+        */}
+      </div>
+    </div>
 
         </div>}
 
