@@ -103,61 +103,16 @@ const MemberPanel = () => {
               name="Anoushka L Nair"
               position="Student Lead"
               image={anoushka}
-              linkedin=" "
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Parvathy"
-              position="Campus Community Lead"
-              image={parvathy}
-              linkedin=" "
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Joe Abraham K"
-              position="Web Lead"
-              image={joe_abraham}
-              linkedin=" "
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Megha"
-              position="Design Lead"
-              image={megha}
-              linkedin=" " 
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Akash Reji"
-              position="Design Lead"
-              image={akash_regi}
-              linkedin=" "
-              github=""
-              size="medium"
-            ></MemberCard>
-
-            <MemberCard
-              name="Neha Anna Abraham"
-              position="Content Lead"
-              image={neha_anna}
-              linkedin=" "
+              linkedin="anoushka-l-nair-331b73239"
               github=""
               size="medium"
             ></MemberCard>
 
             <MemberCard
               name="Akash M Nandan"
-              position="Teachnical Lead"
+              position="Technical Lead"
               image={akash_m_nandan}
-              linkedin=" "
+              linkedin="akashmnandan"
               github=""
               size="medium"
             ></MemberCard>
@@ -166,7 +121,52 @@ const MemberPanel = () => {
               name="M A Akshaya"
               position="Program Lead"
               image={m_a_akshaya}
-              linkedin=" "
+              linkedin="akshaya-m-a-056492259"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Parvathy"
+              position="Campus Community Lead"
+              image={parvathy}
+              linkedin="parvathy-krishnakumar-9448b8239"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Joe Abraham K"
+              position="Web Lead"
+              image={joe_abraham}
+              linkedin="joe-abraham-k"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Neha Anna Abraham"
+              position="Content Lead"
+              image={neha_anna}
+              linkedin="neha-anna-abraham"
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Megha"
+              position="Design Lead"
+              image={megha}
+              linkedin="megha-r-47a260227" 
+              github=""
+              size="medium"
+            ></MemberCard>
+
+            <MemberCard
+              name="Akash Reji"
+              position="Design Lead"
+              image={akash_regi}
+              linkedin="akash-regi-7b9311284"
               github=""
               size="medium"
             ></MemberCard>
@@ -195,7 +195,7 @@ const MemberPanel = () => {
               name="Afsal V N"
               position="Team Member"
               image={afsal_v_n}
-              linkedin=" "
+              linkedin="afsal-vn-5ba122290"
               github=""
               size="medium"
             ></MemberCard>
@@ -204,7 +204,7 @@ const MemberPanel = () => {
               name="Kasinath K V"
               position="Team Member"
               image={kashinath}
-              linkedin=" "
+              linkedin="kasinath-k-v-9a7140281"
               github=""
               size="medium"
             ></MemberCard>
@@ -213,7 +213,7 @@ const MemberPanel = () => {
               name="Rayyan Khan"
               position="Team Member"
               image={rayyan_khan}
-              linkedin=" "
+              linkedin="rayyan-khan-00808030a"
               github=""
               size="medium"
             ></MemberCard>
@@ -222,7 +222,7 @@ const MemberPanel = () => {
               name="Theertha S"
               position="Team Member"
               image={theertha_s}
-              linkedin=" "
+              linkedin="theertha-s-344003292"
               github=""
               size="medium"
             ></MemberCard>
@@ -248,7 +248,7 @@ const MemberPanel = () => {
               name="Fathima Farhana"
               position="Team Member"
               image={fathima_farhana}
-              linkedin=" "
+              linkedin="fathima-farhana-kp-30ab19322"
               github=""
               size="medium"
             ></MemberCard>
@@ -257,7 +257,7 @@ const MemberPanel = () => {
               name="Keerthana"
               position="Team Member"
               image={keerthana}
-              linkedin=" "
+              linkedin="keerthana-maria-bruno-ab813a292"
               github=""
               size="medium"
             ></MemberCard>
@@ -266,7 +266,7 @@ const MemberPanel = () => {
               name="Malaika K J"
               position="Team Member"
               image={malavika_k_j}
-              linkedin=" "
+              linkedin="malavika-kj-3948b7315"
               github=""
               size="medium"
             ></MemberCard>
@@ -292,7 +292,7 @@ const MemberPanel = () => {
               name="Ananya P Santh"
               position="Team Member"
               image={ananya_p}
-              linkedin=" "
+              linkedin="ananya-p-santh-854825320"
               github=""
               size="medium"
             ></MemberCard>
@@ -301,7 +301,7 @@ const MemberPanel = () => {
               name="Anjitha V K"
               position="Team Member"
               image={anjitha_vk}
-              linkedin=" "
+              linkedin="anjitha-vidyadharan-542122289"
               github=""
               size="medium"
             ></MemberCard>
@@ -310,7 +310,7 @@ const MemberPanel = () => {
               name="Devi Dekshina"
               position="Team Member"
               image={devi_dekshina}
-              linkedin=" "
+              linkedin="devi-dekshina-38a93b257"
               github=""
               size="medium"
             ></MemberCard>
@@ -319,7 +319,7 @@ const MemberPanel = () => {
               name="M Aswathy"
               position="Team Member"
               image={m_aswathy}
-              linkedin=" "
+              linkedin="m-aswathy-642196295"
               github=""
               size="medium"
             ></MemberCard>
@@ -347,7 +347,7 @@ const MemberPanel = () => {
               position="Team Member"
               image={shravan}
               linkedin="shravanpandala"
-              github="Unknown-Geek"
+              github=""
               size="medium"
             ></MemberCard>
 
@@ -355,7 +355,7 @@ const MemberPanel = () => {
               name="Suraj P"
               position="Team Member"
               image={suraj}
-              linkedin=" "
+              linkedin="suraj-p-6a4382273"
               github=""
               size="medium"
             ></MemberCard>
@@ -364,7 +364,7 @@ const MemberPanel = () => {
               name="Gopika C"
               position="Team Member"
               image={gopika}
-              linkedin=" "
+              linkedin="gopika-c-4274b0239"
               github=""
               size="medium"
             ></MemberCard>
@@ -373,7 +373,7 @@ const MemberPanel = () => {
               name="Keerthana T P"
               position="Team Member"
               image={keerthana_web}
-              linkedin=" "
+              linkedin="keerthana-t-p-248260267"
               github=""
               size="medium"
             ></MemberCard>
@@ -381,8 +381,8 @@ const MemberPanel = () => {
           </div>
         </div>
 
-
-        <div className="mtabs">
+{/*
+      <div className="mtabs">
         <button
           onClick={() => handleTabClick("mtab2")}
           className={`mtab `}
@@ -391,7 +391,7 @@ const MemberPanel = () => {
           Marketing Team '24
         </button>
       </div>
-
+*/}
 
       <div className="tab-content">
           <div className="member-panel-cards">
@@ -431,7 +431,7 @@ const MemberPanel = () => {
               github=""
               size="medium"
             ></MemberCard>
-          */}
+          
           </div>
         </div>
 
@@ -448,7 +448,7 @@ const MemberPanel = () => {
 
       <div className="tab-content">
       <div className="member-panel-cards"> 
-        {/* 
+        
         <MemberCard
           name="Abhijith G"
           position="Team Member"
