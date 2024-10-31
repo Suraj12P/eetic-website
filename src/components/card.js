@@ -75,7 +75,7 @@ function EventCard({ data }) {
           data._id != "a4e19945-9618-4019-987b-be4a105ab788" ? (
             <NavLink
               to={
-                data._id === "4ad82dcd-c415-438e-ab1e-fe8c23f59496"
+                data._id === "325744d5-14ca-4e67-9fd3-cd1e78c52f6e"
                   ? "/registerevent"
                   : data._id === "ccfcc17e-12c7-4816-b8c0-e26dba79d23c"
                   ? "/registerevent1"
@@ -116,7 +116,7 @@ function EventCard({ data }) {
         data._id != "a4e19945-9618-4019-987b-be4a105ab788" ? (
           <NavLink
             to={
-              data._id === "4ad82dcd-c415-438e-ab1e-fe8c23f59496"
+              data._id === "325744d5-14ca-4e67-9fd3-cd1e78c52f6e"
                 ? "/registerevent"
                 : data._id === "ccfcc17e-12c7-4816-b8c0-e26dba79d23c"
                 ? "/registerevent1"
