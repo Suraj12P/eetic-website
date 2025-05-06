@@ -68,7 +68,7 @@ const Testimonials = () => {
         className="mySwiper"
         spaceBetween={50}
       >
-        {/*
+        
         <SwiperSlide>
           <TestCard name="Nandana J" position={'Graduate Engineering Trainee, L&T'} image={nandana} text="During my tenure as the Content Head at EETI Foundation, I gained valuable insights into organizational workflows, project management, and content creation. This role allowed me to delve deeply into various projects, significantly enhancing my content writing skills. Collaborating within a dedicated team, I witnessed firsthand the impact of effective content strategies on engagement and outreach. Moreover, working in this organization provided me with a platform to expand my network within the college community, fostering stronger connections. The diverse activities conducted by EETI Foundation offered me exposure to a wide range of experiences, contributing to my holistic growth and development. Overall, my experience at EETI Foundation was invaluable, offering practical knowledge in content creation, leadership, teamwork dynamics, and expanded connections within the college." />
         </SwiperSlide>
@@ -81,12 +81,13 @@ const Testimonials = () => {
         <SwiperSlide>
           <TestCard name="Aanjith" position={'Software developer at Qburst'} image={aanjith} text="I have always been a tech enthusiast and the biggest problem problem i've faced is to start learning a new skill, stay updated and have a good learning path. This has been the main problem of any college student like me and i believe EETIF has completely solved the problem by giving the best classes, mentorship and providing  a learning platform free of cost. I've seen my colleagues and myself improve in our area of expertise and stay motivated and disciplined, all with the help of EETIF and i hope the NGO continues the same and provide oppurtunities and resources to all the students out there in the world" />
         </SwiperSlide>
-        <SwiperSlide>
+        {/*<SwiperSlide>
           <TestCard name='Muhammed Shehin' position={'Freelance Graphic Designer'} image={shehin} text ="Hello everyone, I'm Shehin, a student pursuing BTech at CET. Alongside my studies, I've ventured into freelance poster design. My journey began with creating posters for EETI Foundation, an organization that played a significant role in my growth as a graphic designer. I'm content with my current position and grateful to EETI Foundation for being a crucial part of my development." />
         </SwiperSlide>
         <SwiperSlide>
           <TestCard name='Suryagayathri Thangalazhi' position={'Analog intern at Texas instruments ,Wish Mentee'} image={surya} text="Working as a Jr Chief Executive Officer at EETI Foundation was an incredibly rewarding experience for me. As a non-profit organization dedicated to boosting the technical and non technical skills in students, the Foundation's mission was one that resonated deeply with me. My role was multifaceted, and I had the opportunity to work closely with a team of passionate individuals who were committed to making a positive impact in the world. I was able to hone my leadership and communication skills. Overall, my time at EETI Foundation was a valuable and fulfilling experience that has shaped my career aspirations and left a lasting impression on me." />
         </SwiperSlide>
+        */}
         <SwiperSlide>
           <TestCard name='Saranya V S' position={'ASE at Accenture'} image={saranya_v_s} text="Being in the Program Team of EETIC, we have planned and organized several events. It was a wonderful experience for me." />
         </SwiperSlide>
@@ -116,7 +117,7 @@ const Testimonials = () => {
         <SwiperSlide>
           <TestCard name='Yadhukrishnan' position={''} image={yadhukrishnan} text="My name is Yadhukrishnan,  and I am from the College of Engineering Trivandrum. I have recently secured a placement at South Indian Bank. During my time at the EETI Foundation, I served as the Student Lead for six months, where I led a team and mentored members. This role allowed me to apply my technical skills to a meaningful cause, significantly contributing to my personal and professional growth while working alongside innovative minds."	 />
         </SwiperSlide>
-        <SwiperSlide>
+        {/*<SwiperSlide>
           <TestCard name='Vaishnavi M S' position={''} image={vaishnavi} text="I am Vaishnavi M S. The Public Relations Officer of EETIF. The curiosity to know more about Arduino helped me reach here. From Arduino to different topics like IOT etc and I met some amazing people with the curiosity to know more things and to teach it to all those people out there who wanna know. That's how I stepped here and from there on we started working like a team and helped many people to know more about this changing world. It was because of Bilal and his dedication which made this NGO a big success." />
         </SwiperSlide>
         <SwiperSlide>
@@ -135,7 +136,8 @@ const Testimonials = () => {
         </SwiperSlide>
         <SwiperSlide>
           <TestCard name='Harish Babu' position={''} image={harish} text="Hi, My name is Harish Babu. I'm 3rd year in Electrical and electronics engineering, CET. I first joined the EETIF in my first year, second semester onwards. I joined because most workshops provided by other clubs at that time were paid and Arduino classes by EETIF were free. That time the community was not registered. I was able to help a little during they became a community. During my second year there was a whole Arduino series from EETIF. I was able to gain much technical idea about Arduino programming. There was many other programs." />
-        </SwiperSlide>
+        </SwiperSlide>      */}
+
         <SwiperSlide>
           <TestCard name='Ardra V V' position={''} image={ardra_v_v} text="Joining EETI Foundation transformed my professional journey—more than program management, it was a personal metamorphosis. Grateful for the enriching experience, I broadened my network, interacted with speakers, and acquired skills that are invaluable assets for my future" />
         </SwiperSlide>
@@ -156,7 +158,6 @@ const Testimonials = () => {
         </SwiperSlide>
 
 
-      */}
 
       </Swiper>
     </div>
