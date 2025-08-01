@@ -9,8 +9,25 @@ import Testimonials from "../components/testimonials";
 import Initiatives from "../components/initiatives";
 import Statistics from "../components/statistics";
 import Discord_Banner from "../components/Discord_Banner";
+ 
+import { Modal , Button } from "react-bootstrap"; 
+import { useEffect, useState } from "react";
 
 const Home = () => {
+
+   const [showModal, setShowModal] = useState(false);
+   const newCommunityUrl = "https://community.knowlumi.com";
+
+
+    useEffect(() => {
+      setShowModal(true);
+    }, []);
+
+      const handleRedirect = () => {
+        setShowModal(false); 
+        window.location.href = newCommunityUrl; 
+      };
+
   return (
     <div>
       <Helmet>
@@ -30,6 +47,31 @@ const Home = () => {
           content="A community initiative from college of engineering Trivandrum, EETI Foundation is a group of young innovators future entrepreneurs and technology enthusiasts across Kerala"
         />
       </Helmet>
+
+      <Modal show={showModal} onHide={() => setShowModal(false)} centered>
+        <Modal.Header closeButton>
+          <Modal.Title style={{ fontSize: "1.2rem" }}>
+            Important Update
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>EETI Foundation is now Lumi Community!</Modal.Body>
+        <Modal.Footer style={{ padding: "0.2rem" }}>
+          <Button style={{ fontSize: "0.8rem" }} variant="secondary" onClick={() => setShowModal(false)}>
+            Close
+          </Button>
+          <Button
+            style={{
+              fontSize: "0.8rem",
+              backgroundColor: "rgb(255, 132, 94)",
+              borderColor: "rgb(255, 132, 94)",
+              color: "white",
+            }}
+            onClick={handleRedirect}
+          >
+            Go to New Community
+          </Button>
+        </Modal.Footer>
+      </Modal>
 
       <NavBar />
       <Hero />
